@@ -1,0 +1,30 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:45:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   45 |   void ObjHistory::poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K
+      |                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/include/plan_env/obj_predictor.h:29[m[K,
+                 from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:24[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::ObjHistory::poseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:58:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::list<Eigen::Matrix<double, 4, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   58 |     if ([01;35m[Khistory_.size() > queue_size_[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:203:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  203 |   void ObjPredictor::markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K
+      |                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/include/plan_env/obj_predictor.h:33[m[K,
+                 from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_env/src/obj_predictor.cpp:24[m[K:
+[01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  365 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obj_generator.dir/build.make:76: CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/plan_env.dir/build.make:76: CMakeFiles/plan_env.dir/src/grid_map.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/plan_env.dir/build.make:104: CMakeFiles/plan_env.dir/src/obj_predictor.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obj_generator.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plan_env.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

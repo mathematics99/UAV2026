@@ -1,0 +1,68 @@
+[0.035s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/my_navigation/adaptive_planner -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/adaptive_planner
+[0.590s] -- The C compiler identification is GNU 11.4.0
+[3.205s] -- The CXX compiler identification is GNU 11.4.0
+[5.155s] -- Detecting C compiler ABI info
+[5.675s] -- Detecting C compiler ABI info - done
+[5.680s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.680s] -- Detecting C compile features
+[5.681s] -- Detecting C compile features - done
+[5.683s] -- Detecting CXX compiler ABI info
+[6.218s] -- Detecting CXX compiler ABI info - done
+[6.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.224s] -- Detecting CXX compile features
+[6.224s] -- Detecting CXX compile features - done
+[6.226s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.434s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[7.078s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.081s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.087s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.143s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.145s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[21.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[36.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[36.604s] -- Looking for pthread.h
+[37.236s] -- Looking for pthread.h - found
+[37.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[37.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[37.903s] -- Found Threads: TRUE  
+[37.956s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[38.033s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[38.033s] -- Configured cppcheck include dirs: 
+[38.033s] -- Configured cppcheck exclude dirs and/or files: 
+[38.034s] -- Added test 'lint_cmake' to check CMake code style
+[38.034s] -- Added test 'uncrustify' to check C / C++ code style
+[38.034s] -- Configured uncrustify additional arguments: 
+[38.035s] -- Added test 'xmllint' to check XML markup files
+[38.036s] -- Configuring done
+[38.045s] -- Generating done
+[38.054s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/adaptive_planner
+[38.065s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/my_navigation/adaptive_planner -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/adaptive_planner
+[38.066s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+[38.100s] [ 50%] Building CXX object CMakeFiles/adaptive_planner_node.dir/src/adaptive_planner.cpp.o
+[45.962s] [100%] Linking CXX executable adaptive_planner_node
+[46.681s] [100%] Built target adaptive_planner_node
+[46.711s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+[46.717s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner
+[46.722s] -- Install configuration: ""
+[46.723s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node
+[46.725s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node" to ""
+[46.726s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/package_run_dependencies/adaptive_planner
+[46.726s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/parent_prefix_path/adaptive_planner
+[46.727s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.sh
+[46.727s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.dsv
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.sh
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.dsv
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.bash
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.sh
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.zsh
+[46.728s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.dsv
+[46.729s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.dsv
+[46.729s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/packages/adaptive_planner
+[46.729s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig.cmake
+[46.729s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig-version.cmake
+[46.729s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.xml
+[46.732s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner

@@ -1,0 +1,29 @@
+[0.840s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/path_searching': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/path_searching -- -j24 -l24
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target path_searching[0m
+[0.881s] [100%] Built target path_searching
+[0.886s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/path_searching' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/path_searching -- -j24 -l24
+[0.888s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/path_searching': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/path_searching
+[0.891s] -- Install configuration: "Release"
+[0.892s] -- Execute custom install script
+[0.892s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/lib/libpath_searching.so
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/library_path.sh
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/library_path.dsv
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/package_run_dependencies/path_searching
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/parent_prefix_path/path_searching
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/ament_prefix_path.sh
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/ament_prefix_path.dsv
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/path.sh
+[0.893s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/path.dsv
+[0.894s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.bash
+[0.894s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.sh
+[0.894s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.zsh
+[0.894s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.dsv
+[0.894s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/package.dsv
+[0.898s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/packages/path_searching
+[0.898s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.899s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/ament_cmake_export_libraries-extras.cmake
+[0.899s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/path_searchingConfig.cmake
+[0.899s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/path_searchingConfig-version.cmake
+[0.899s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/package.xml
+[0.900s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/path_searching' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/path_searching

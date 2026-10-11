@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/plan_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/plan_env -- -j24 -l24
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target obj_generator[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target plan_env[0m
+[0.087s] [ 66%] Built target plan_env
+[0.087s] [100%] Built target obj_generator
+[0.093s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/plan_env -- -j24 -l24
+[0.094s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/plan_env': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/plan_env
+[0.098s] -- Install configuration: "Release"
+[0.099s] -- Execute custom install script
+[0.099s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/lib/libplan_env.so
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/lib/plan_env/obj_generator
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/linear_obj_model.hpp
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/raycast.h
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/library_path.sh
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/library_path.dsv
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/ament_index/resource_index/package_run_dependencies/plan_env
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/ament_index/resource_index/parent_prefix_path/plan_env
+[0.100s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/ament_prefix_path.dsv
+[0.104s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/path.sh
+[0.104s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/environment/path.dsv
+[0.104s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/local_setup.bash
+[0.104s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/local_setup.sh
+[0.105s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/local_setup.zsh
+[0.105s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/local_setup.dsv
+[0.105s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/package.dsv
+[0.109s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/ament_index/resource_index/packages/plan_env
+[0.109s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.109s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake/ament_cmake_export_libraries-extras.cmake
+[0.110s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake/plan_envConfig.cmake
+[0.110s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake/plan_envConfig-version.cmake
+[0.110s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/package.xml
+[0.111s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/plan_env

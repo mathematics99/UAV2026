@@ -1,0 +1,25 @@
+[0.618s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge -- -j24 -l24
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target bridge_node[0m
+[0.659s] [100%] Built target bridge_node
+[0.665s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge -- -j24 -l24
+[0.666s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge
+[0.670s] -- Install configuration: "Release"
+[0.672s] -- Execute custom install script
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/lib/rosmsg_tcp_bridge/bridge_node
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/launch/bridge.launch.py
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/ament_index/resource_index/package_run_dependencies/rosmsg_tcp_bridge
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/ament_index/resource_index/parent_prefix_path/rosmsg_tcp_bridge
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/ament_prefix_path.sh
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/ament_prefix_path.dsv
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/path.sh
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/path.dsv
+[0.672s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.bash
+[0.673s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.sh
+[0.673s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.zsh
+[0.673s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.dsv
+[0.673s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/package.dsv
+[0.677s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/ament_index/resource_index/packages/rosmsg_tcp_bridge
+[0.677s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/cmake/rosmsg_tcp_bridgeConfig.cmake
+[0.677s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/cmake/rosmsg_tcp_bridgeConfig-version.cmake
+[0.677s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/package.xml
+[0.678s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/rosmsg_tcp_bridge

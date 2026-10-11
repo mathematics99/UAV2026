@@ -1,0 +1,21 @@
+[0.014s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/cmake_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/cmake_utils -- -j24 -l24
+[0.160s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/cmake_utils -- -j24 -l24
+[0.169s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/cmake_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/cmake_utils
+[0.173s] -- Install configuration: "Release"
+[0.174s] -- Execute custom install script
+[0.176s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/ament_index/resource_index/package_run_dependencies/cmake_utils
+[0.177s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/ament_index/resource_index/parent_prefix_path/cmake_utils
+[0.177s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/environment/path.sh
+[0.178s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/environment/path.dsv
+[0.178s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/local_setup.bash
+[0.179s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/local_setup.sh
+[0.179s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/local_setup.zsh
+[0.179s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/local_setup.dsv
+[0.179s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/package.dsv
+[0.189s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/ament_index/resource_index/packages/cmake_utils
+[0.189s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/cmake/cmake_utilsConfig.cmake
+[0.189s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/cmake/cmake_utilsConfig-version.cmake
+[0.190s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/package.xml
+[0.191s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/cmake_utils

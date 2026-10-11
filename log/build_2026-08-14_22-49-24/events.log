@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000057] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000176] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000201] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000224] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000234] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000241] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000263] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000524] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000727] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.000761] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.000863] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000896] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000904] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000911] (-) JobUnselected: {'identifier': 'risk_evaluator'}
+[0.000917] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.000923] (-) JobUnselected: {'identifier': 'sensor_adapter'}
+[0.000930] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000936] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000942] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.000949] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000955] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000965] (adaptive_planner) JobQueued: {'identifier': 'adaptive_planner', 'dependencies': OrderedDict()}
+[0.000991] (ego_planner) JobQueued: {'identifier': 'ego_planner', 'dependencies': OrderedDict([('plan_env', '/home/ubuntu/ego-planner-swarm/install/plan_env'), ('quadrotor_msgs', '/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs'), ('traj_utils', '/home/ubuntu/ego-planner-swarm/install/traj_utils'), ('path_searching', '/home/ubuntu/ego-planner-swarm/install/path_searching'), ('bspline_opt', '/home/ubuntu/ego-planner-swarm/install/bspline_opt')])}
+[0.001031] (adaptive_planner) JobStarted: {'identifier': 'adaptive_planner'}
+[0.003738] (ego_planner) JobStarted: {'identifier': 'ego_planner'}
+[0.006391] (adaptive_planner) JobProgress: {'identifier': 'adaptive_planner', 'progress': 'cmake'}
+[0.006980] (adaptive_planner) JobProgress: {'identifier': 'adaptive_planner', 'progress': 'build'}
+[0.007423] (adaptive_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ego-planner-swarm/build/adaptive_planner', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/adaptive_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/73236_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/adaptive_planner'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034284] (adaptive_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target adaptive_planner_node\n'}
+[0.044138] (adaptive_planner) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/adaptive_planner_node.dir/src/adaptive_planner.cpp.o\n'}
+[0.099676] (-) TimerEvent: {}
+[0.199868] (-) TimerEvent: {}
+[0.300114] (-) TimerEvent: {}
+[0.400330] (-) TimerEvent: {}
+[0.500546] (-) TimerEvent: {}
+[0.600844] (-) TimerEvent: {}
+[0.701096] (-) TimerEvent: {}
+[0.803132] (-) TimerEvent: {}
+[0.903328] (-) TimerEvent: {}
+[1.003523] (-) TimerEvent: {}
+[1.104014] (-) TimerEvent: {}
+[1.204392] (-) TimerEvent: {}
+[1.304606] (-) TimerEvent: {}
+[1.404936] (-) TimerEvent: {}
+[1.505292] (-) TimerEvent: {}
+[1.605967] (-) TimerEvent: {}
+[1.706330] (-) TimerEvent: {}
+[1.806553] (-) TimerEvent: {}
+[1.906768] (-) TimerEvent: {}
+[2.007018] (-) TimerEvent: {}
+[2.107227] (-) TimerEvent: {}
+[2.207460] (-) TimerEvent: {}
+[2.307725] (-) TimerEvent: {}
+[2.407915] (-) TimerEvent: {}
+[2.508232] (-) TimerEvent: {}
+[2.608481] (-) TimerEvent: {}
+[2.708711] (-) TimerEvent: {}
+[2.808924] (-) TimerEvent: {}
+[2.909249] (-) TimerEvent: {}
+[3.009459] (-) TimerEvent: {}
+[3.109662] (-) TimerEvent: {}
+[3.210029] (-) TimerEvent: {}
+[3.310245] (-) TimerEvent: {}
+[3.410583] (-) TimerEvent: {}
+[3.510875] (-) TimerEvent: {}
+[3.611156] (-) TimerEvent: {}
+[3.711502] (-) TimerEvent: {}
+[3.811685] (-) TimerEvent: {}
+[3.911929] (-) TimerEvent: {}
+[4.012178] (-) TimerEvent: {}
+[4.112414] (-) TimerEvent: {}
+[4.212606] (-) TimerEvent: {}
+[4.312925] (-) TimerEvent: {}
+[4.413296] (-) TimerEvent: {}
+[4.513590] (-) TimerEvent: {}
+[4.569991] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'cmake'}
+[4.570876] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'build'}
+[4.570926] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ego-planner-swarm/build/ego_planner', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/ego_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/73236_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/ego_planner'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble')]), 'shell': False}
+[4.611676] (ego_planner) StdoutLine: {'line': b'[ 33%] Built target traj_server\n'}
+[4.613744] (-) TimerEvent: {}
+[4.614684] (ego_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ego_planner_node\n'}
+[4.627880] (ego_planner) StdoutLine: {'line': b'[100%] Built target ego_planner_node\n'}
+[4.634468] (ego_planner) CommandEnded: {'returncode': 0}
+[4.635174] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'install'}
+[4.640611] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ego-planner-swarm/build/ego_planner'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/ego_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/73236_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/ego_planner'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble')]), 'shell': False}
+[4.645012] (ego_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.646234] (ego_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.646622] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/ego_planner_node\n'}
+[4.646769] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/traj_server\n'}
+[4.647431] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/advanced_param.launch.py\n'}
+[4.648002] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/default.rviz\n'}
+[4.648108] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/run_in_sim.launch.py\n'}
+[4.648178] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/rviz.launch.py\n'}
+[4.648256] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/simulator.launch.py\n'}
+[4.648499] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/single_run_in_sim.launch.py\n'}
+[4.648603] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm.launch.py\n'}
+[4.648656] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm_large.launch.py\n'}
+[4.648686] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner\n'}
+[4.648715] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner\n'}
+[4.648742] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh\n'}
+[4.648769] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv\n'}
+[4.648795] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.sh\n'}
+[4.648820] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.dsv\n'}
+[4.648846] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.bash\n'}
+[4.648871] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.sh\n'}
+[4.648897] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.zsh\n'}
+[4.648922] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.dsv\n'}
+[4.648946] (ego_planner) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.dsv\n'}
+[4.655115] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/packages/ego_planner\n'}
+[4.655442] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake\n'}
+[4.655667] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake\n'}
+[4.655964] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.xml\n'}
+[4.658364] (ego_planner) CommandEnded: {'returncode': 0}
+[4.675173] (ego_planner) JobEnded: {'identifier': 'ego_planner', 'rc': 0}
+[4.714009] (-) TimerEvent: {}
+[4.814401] (-) TimerEvent: {}
+[4.914705] (-) TimerEvent: {}
+[5.014909] (-) TimerEvent: {}
+[5.115134] (-) TimerEvent: {}
+[5.215448] (-) TimerEvent: {}
+[5.315831] (-) TimerEvent: {}
+[5.404807] (adaptive_planner) StdoutLine: {'line': b'[100%] Linking CXX executable adaptive_planner_node\n'}
+[5.415932] (-) TimerEvent: {}
+[5.516198] (-) TimerEvent: {}
+[5.616401] (-) TimerEvent: {}
+[5.716713] (-) TimerEvent: {}
+[5.816915] (-) TimerEvent: {}
+[5.917100] (-) TimerEvent: {}
+[6.017313] (-) TimerEvent: {}
+[6.117717] (-) TimerEvent: {}
+[6.217949] (-) TimerEvent: {}
+[6.318439] (-) TimerEvent: {}
+[6.418691] (-) TimerEvent: {}
+[6.518910] (-) TimerEvent: {}
+[6.619201] (-) TimerEvent: {}
+[6.719451] (-) TimerEvent: {}
+[6.819710] (-) TimerEvent: {}
+[6.919925] (-) TimerEvent: {}
+[7.004569] (adaptive_planner) StdoutLine: {'line': b'[100%] Built target adaptive_planner_node\n'}
+[7.010570] (adaptive_planner) CommandEnded: {'returncode': 0}
+[7.011577] (adaptive_planner) JobProgress: {'identifier': 'adaptive_planner', 'progress': 'install'}
+[7.011707] (adaptive_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ego-planner-swarm/build/adaptive_planner'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/adaptive_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/73236_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/adaptive_planner'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.015057] (adaptive_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.015136] (adaptive_planner) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node\n'}
+[7.019632] (adaptive_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node" to ""\n'}
+[7.019738] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/package_run_dependencies/adaptive_planner\n'}
+[7.019944] (-) TimerEvent: {}
+[7.019959] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/parent_prefix_path/adaptive_planner\n'}
+[7.020025] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.sh\n'}
+[7.020076] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.dsv\n'}
+[7.020127] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.sh\n'}
+[7.020177] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.dsv\n'}
+[7.020227] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.bash\n'}
+[7.020278] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.sh\n'}
+[7.020605] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.zsh\n'}
+[7.021591] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.dsv\n'}
+[7.021758] (adaptive_planner) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.dsv\n'}
+[7.021985] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/packages/adaptive_planner\n'}
+[7.022186] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig.cmake\n'}
+[7.022476] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig-version.cmake\n'}
+[7.023373] (adaptive_planner) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.xml\n'}
+[7.023788] (adaptive_planner) CommandEnded: {'returncode': 0}
+[7.030191] (adaptive_planner) JobEnded: {'identifier': 'adaptive_planner', 'rc': 0}
+[7.030759] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target mockamap_node[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/maps.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable mockamap_node[0m
+[100%] Built target mockamap_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/lib/mockamap/mockamap_node
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/maze2d.launch.py
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/maze3d.launch.py
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/mockamap.launch.py
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/perlin3d.launch.py
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/post2d.launch.py
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/config/rviz.rviz
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/package_run_dependencies/mockamap
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/parent_prefix_path/mockamap
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/path.sh
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/path.dsv
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.bash
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.sh
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.zsh
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.dsv
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/package.dsv
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/packages/mockamap
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/mockamapConfig.cmake
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/mockamapConfig-version.cmake
+-- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/package.xml

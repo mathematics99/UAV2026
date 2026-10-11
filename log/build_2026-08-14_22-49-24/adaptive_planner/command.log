@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner
+Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner

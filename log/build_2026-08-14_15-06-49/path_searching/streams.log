@@ -1,0 +1,180 @@
+[0.528s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/path_searching': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/path_searching -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/path_searching
+[1.099s] -- The C compiler identification is GNU 11.4.0
+[3.800s] -- The CXX compiler identification is GNU 11.4.0
+[5.765s] -- Detecting C compiler ABI info
+[6.530s] -- Detecting C compiler ABI info - done
+[6.534s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.535s] -- Detecting C compile features
+[6.535s] -- Detecting C compile features - done
+[6.539s] -- Detecting CXX compiler ABI info
+[7.159s] -- Detecting CXX compiler ABI info - done
+[7.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.163s] -- Detecting CXX compile features
+[7.164s] -- Detecting CXX compile features - done
+[7.175s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.270s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.345s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[8.219s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.223s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.231s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.301s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.305s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.333s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.341s] -- Looking for pthread.h
+[8.869s] -- Looking for pthread.h - found
+[8.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.348s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.349s] -- Found Threads: TRUE  
+[9.414s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[9.415s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.474s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.493s] -- Found plan_env: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake)
+[9.495s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[9.524s] -- Checking for module 'eigen3'
+[9.532s] --   Found eigen3, version 3.4.0
+[9.549s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.551s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.569s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[19.160s] -- Checking for module 'flann'
+[19.168s] --   Found flann, version 1.9.1
+[20.903s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[20.903s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[20.932s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[21.646s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[22.557s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[22.557s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[22.560s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[26.746s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[31.268s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[31.285s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[39.422s] -- Found X11: /usr/include   
+[39.422s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[40.291s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[40.291s] -- Looking for gethostbyname
+[40.809s] -- Looking for gethostbyname - found
+[40.809s] -- Looking for connect
+[41.194s] -- Looking for connect - found
+[41.194s] -- Looking for remove
+[41.674s] -- Looking for remove - found
+[41.674s] -- Looking for shmat
+[42.337s] -- Looking for shmat - found
+[42.337s] -- Looking for IceConnectionNumber in ICE
+[42.753s] -- Looking for IceConnectionNumber in ICE - found
+[47.122s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[47.124s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[47.126s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[47.127s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[48.161s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[48.903s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[48.905s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[48.911s] -- Found utf8cpp: /usr/include/utf8cpp  
+[48.976s] -- Checking for module 'libusb-1.0'
+[48.985s] --   Found libusb-1.0, version 1.0.25
+[49.384s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[49.385s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[49.385s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[50.276s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[50.276s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[50.276s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[61.671s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[61.675s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[61.679s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[71.358s] -- Found Qhull version 8.0.2
+[81.316s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[94.523s] -- looking for PCL_COMMON
+[94.523s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[94.523s] -- looking for PCL_KDTREE
+[94.524s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[94.524s] -- looking for PCL_OCTREE
+[94.524s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[94.524s] -- looking for PCL_SEARCH
+[94.524s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[94.525s] -- looking for PCL_SAMPLE_CONSENSUS
+[94.525s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[94.525s] -- looking for PCL_FILTERS
+[94.525s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[94.525s] -- looking for PCL_2D
+[94.526s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[94.526s] -- looking for PCL_GEOMETRY
+[94.526s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[94.526s] -- looking for PCL_IO
+[94.526s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[94.526s] -- looking for PCL_FEATURES
+[94.527s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[94.527s] -- looking for PCL_ML
+[94.527s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[94.528s] -- looking for PCL_SEGMENTATION
+[94.528s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[94.528s] -- looking for PCL_VISUALIZATION
+[94.528s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[94.528s] -- looking for PCL_SURFACE
+[94.529s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[94.529s] -- looking for PCL_REGISTRATION
+[94.529s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[94.530s] -- looking for PCL_KEYPOINTS
+[94.530s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[94.530s] -- looking for PCL_TRACKING
+[94.530s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[94.531s] -- looking for PCL_RECOGNITION
+[94.531s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[94.531s] -- looking for PCL_STEREO
+[94.531s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[94.532s] -- looking for PCL_APPS
+[94.532s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[94.532s] -- looking for PCL_IN_HAND_SCANNER
+[94.532s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[94.533s] -- looking for PCL_MODELER
+[94.533s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[94.533s] -- looking for PCL_POINT_CLOUD_EDITOR
+[94.541s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[94.541s] -- looking for PCL_OUTOFCORE
+[94.542s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[94.542s] -- looking for PCL_PEOPLE
+[94.542s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[94.543s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[94.544s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[94.561s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[94.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[94.625s] -- Configured cppcheck include dirs: /home/ubuntu/ego-planner-swarm/src/planner/path_searching/include
+[94.625s] -- Configured cppcheck exclude dirs and/or files: 
+[94.626s] -- Added test 'lint_cmake' to check CMake code style
+[94.627s] -- Added test 'uncrustify' to check C / C++ code style
+[94.627s] -- Configured uncrustify additional arguments: 
+[94.628s] -- Added test 'xmllint' to check XML markup files
+[94.631s] -- Configuring done
+[94.655s] -- Generating done
+[94.661s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/path_searching
+[94.672s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/path_searching' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/path_searching -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/path_searching
+[94.674s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/path_searching': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/path_searching -- -j24 -l24
+[94.702s] [ 50%] [32mBuilding CXX object CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o[0m
+[100.840s] [100%] [32m[1mLinking CXX shared library libpath_searching.so[0m
+[101.329s] [100%] Built target path_searching
+[101.339s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/path_searching' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/path_searching -- -j24 -l24
+[101.340s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/path_searching': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/path_searching
+[101.344s] -- Install configuration: "Release"
+[101.345s] -- Execute custom install script
+[101.345s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/lib/libpath_searching.so
+[101.350s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h
+[101.355s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/library_path.sh
+[101.360s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/library_path.dsv
+[101.365s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/package_run_dependencies/path_searching
+[101.370s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/parent_prefix_path/path_searching
+[101.375s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/ament_prefix_path.sh
+[101.379s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/ament_prefix_path.dsv
+[101.383s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/path.sh
+[101.389s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/environment/path.dsv
+[101.393s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.bash
+[101.400s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.sh
+[101.406s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.zsh
+[101.409s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/local_setup.dsv
+[101.415s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/package.dsv
+[101.420s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/ament_index/resource_index/packages/path_searching
+[101.425s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.432s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/ament_cmake_export_libraries-extras.cmake
+[101.438s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/path_searchingConfig.cmake
+[101.443s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake/path_searchingConfig-version.cmake
+[101.447s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/package.xml
+[101.454s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/path_searching' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/path_searching

@@ -1,0 +1,23 @@
+[0.739s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/poscmd_2_odom': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/poscmd_2_odom -- -j24 -l24
+[0.772s] [100%] Built target poscmd_2_odom
+[0.777s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/poscmd_2_odom' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/poscmd_2_odom -- -j24 -l24
+[0.779s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/poscmd_2_odom': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/poscmd_2_odom
+[0.782s] -- Install configuration: "Release"
+[0.783s] -- Execute custom install script
+[0.783s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom
+[0.783s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/ament_index/resource_index/package_run_dependencies/poscmd_2_odom
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/ament_index/resource_index/parent_prefix_path/poscmd_2_odom
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/environment/ament_prefix_path.sh
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/environment/ament_prefix_path.dsv
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/environment/path.sh
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/environment/path.dsv
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.bash
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.sh
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.zsh
+[0.784s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.dsv
+[0.784s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/package.dsv
+[0.789s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/ament_index/resource_index/packages/poscmd_2_odom
+[0.791s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/cmake/poscmd_2_odomConfig.cmake
+[0.791s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/cmake/poscmd_2_odomConfig-version.cmake
+[0.791s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/poscmd_2_odom/share/poscmd_2_odom/package.xml
+[0.791s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/poscmd_2_odom' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/poscmd_2_odom

@@ -126,6 +126,11 @@ namespace ego_planner
     inline int getOrder(void) { return order_; }
     inline double getSwarmClearance(void) { return swarm_clearance_; }
 
+    // Risk-aware adaptive parameter injection (V4)
+    inline void setDist0(double d) { dist0_ = d; }
+    inline void setLambdaCollision(double l) { lambda2_ = l; }
+    inline void setMaxVel(double v) { max_vel_ = v; }
+
   private:
     GridMap::Ptr grid_map_;
     fast_planner::ObjPredictor::Ptr moving_objs_;

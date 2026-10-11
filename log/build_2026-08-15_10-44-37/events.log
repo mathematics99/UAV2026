@@ -1,0 +1,1311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000063] (-) JobUnselected: {'identifier': 'adaptive_planner'}
+[0.000091] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000238] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000263] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000505] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000559] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000662] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000686] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000695] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000702] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.000708] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.000714] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000736] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000743] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000750] (-) JobUnselected: {'identifier': 'risk_evaluator'}
+[0.000755] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.000762] (-) JobUnselected: {'identifier': 'sensor_adapter'}
+[0.000768] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000774] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000781] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.000787] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000793] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000802] (ego_planner) JobQueued: {'identifier': 'ego_planner', 'dependencies': OrderedDict([('plan_env', '/home/ubuntu/ego-planner-swarm/install/plan_env'), ('quadrotor_msgs', '/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs'), ('traj_utils', '/home/ubuntu/ego-planner-swarm/install/traj_utils'), ('path_searching', '/home/ubuntu/ego-planner-swarm/install/path_searching'), ('bspline_opt', '/home/ubuntu/ego-planner-swarm/install/bspline_opt')])}
+[0.000865] (ego_planner) JobStarted: {'identifier': 'ego_planner'}
+[0.099568] (-) TimerEvent: {}
+[0.199856] (-) TimerEvent: {}
+[0.300142] (-) TimerEvent: {}
+[0.400388] (-) TimerEvent: {}
+[0.500691] (-) TimerEvent: {}
+[0.600893] (-) TimerEvent: {}
+[0.701222] (-) TimerEvent: {}
+[0.801421] (-) TimerEvent: {}
+[0.901646] (-) TimerEvent: {}
+[1.001839] (-) TimerEvent: {}
+[1.102039] (-) TimerEvent: {}
+[1.202245] (-) TimerEvent: {}
+[1.302600] (-) TimerEvent: {}
+[1.402783] (-) TimerEvent: {}
+[1.502977] (-) TimerEvent: {}
+[1.603174] (-) TimerEvent: {}
+[1.703496] (-) TimerEvent: {}
+[1.803742] (-) TimerEvent: {}
+[1.903963] (-) TimerEvent: {}
+[2.004212] (-) TimerEvent: {}
+[2.038125] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'cmake'}
+[2.040878] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ego-planner-swarm/src/planner/plan_manage', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/ego_planner'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/ego_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/104910_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/ego_planner'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble')]), 'shell': False}
+[2.104361] (-) TimerEvent: {}
+[2.108356] (ego_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.198420] (ego_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.204502] (-) TimerEvent: {}
+[2.216052] (ego_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.304797] (-) TimerEvent: {}
+[2.405109] (-) TimerEvent: {}
+[2.505522] (-) TimerEvent: {}
+[2.605797] (-) TimerEvent: {}
+[2.706000] (-) TimerEvent: {}
+[2.806205] (-) TimerEvent: {}
+[2.906408] (-) TimerEvent: {}
+[3.006611] (-) TimerEvent: {}
+[3.083861] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.086930] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.095982] (ego_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.106718] (-) TimerEvent: {}
+[3.107955] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.123606] (ego_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.160884] (ego_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.163538] (ego_planner) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.204252] (ego_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.207200] (-) TimerEvent: {}
+[3.271938] (ego_planner) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.284779] (ego_planner) StdoutLine: {'line': b'-- Found quadrotor_msgs: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/share/quadrotor_msgs/cmake)\n'}
+[3.307316] (-) TimerEvent: {}
+[3.322753] (ego_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.357691] (ego_planner) StdoutLine: {'line': b'-- Found plan_env: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake)\n'}
+[3.359191] (ego_planner) StdoutLine: {'line': b'-- Found path_searching: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake)\n'}
+[3.360774] (ego_planner) StdoutLine: {'line': b'-- Found bspline_opt: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/bspline_opt/share/bspline_opt/cmake)\n'}
+[3.362277] (ego_planner) StdoutLine: {'line': b'-- Found traj_utils: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake)\n'}
+[3.377645] (ego_planner) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.398718] (ego_planner) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.407419] (-) TimerEvent: {}
+[3.507641] (-) TimerEvent: {}
+[3.607828] (-) TimerEvent: {}
+[3.708058] (-) TimerEvent: {}
+[3.808823] (-) TimerEvent: {}
+[3.909003] (-) TimerEvent: {}
+[4.009382] (-) TimerEvent: {}
+[4.109610] (-) TimerEvent: {}
+[4.211030] (-) TimerEvent: {}
+[4.311272] (-) TimerEvent: {}
+[4.411470] (-) TimerEvent: {}
+[4.511789] (-) TimerEvent: {}
+[4.612112] (-) TimerEvent: {}
+[4.712334] (-) TimerEvent: {}
+[4.812533] (-) TimerEvent: {}
+[4.912822] (-) TimerEvent: {}
+[5.013019] (-) TimerEvent: {}
+[5.113221] (-) TimerEvent: {}
+[5.213438] (-) TimerEvent: {}
+[5.313694] (-) TimerEvent: {}
+[5.413898] (-) TimerEvent: {}
+[5.514112] (-) TimerEvent: {}
+[5.614346] (-) TimerEvent: {}
+[5.714617] (-) TimerEvent: {}
+[5.814835] (-) TimerEvent: {}
+[5.915126] (-) TimerEvent: {}
+[6.015393] (-) TimerEvent: {}
+[6.115602] (-) TimerEvent: {}
+[6.215814] (-) TimerEvent: {}
+[6.316068] (-) TimerEvent: {}
+[6.416271] (-) TimerEvent: {}
+[6.516454] (-) TimerEvent: {}
+[6.616638] (-) TimerEvent: {}
+[6.716835] (-) TimerEvent: {}
+[6.817028] (-) TimerEvent: {}
+[6.917291] (-) TimerEvent: {}
+[7.017574] (-) TimerEvent: {}
+[7.117800] (-) TimerEvent: {}
+[7.218012] (-) TimerEvent: {}
+[7.318266] (-) TimerEvent: {}
+[7.418556] (-) TimerEvent: {}
+[7.518796] (-) TimerEvent: {}
+[7.618993] (-) TimerEvent: {}
+[7.719326] (-) TimerEvent: {}
+[7.819509] (-) TimerEvent: {}
+[7.919859] (-) TimerEvent: {}
+[8.020066] (-) TimerEvent: {}
+[8.120394] (-) TimerEvent: {}
+[8.220622] (-) TimerEvent: {}
+[8.321117] (-) TimerEvent: {}
+[8.421505] (-) TimerEvent: {}
+[8.521691] (-) TimerEvent: {}
+[8.622653] (-) TimerEvent: {}
+[8.722929] (-) TimerEvent: {}
+[8.823101] (-) TimerEvent: {}
+[8.923396] (-) TimerEvent: {}
+[9.023802] (-) TimerEvent: {}
+[9.124061] (-) TimerEvent: {}
+[9.224385] (-) TimerEvent: {}
+[9.324764] (-) TimerEvent: {}
+[9.425002] (-) TimerEvent: {}
+[9.525206] (-) TimerEvent: {}
+[9.625505] (-) TimerEvent: {}
+[9.725751] (-) TimerEvent: {}
+[9.825987] (-) TimerEvent: {}
+[9.926239] (-) TimerEvent: {}
+[10.026523] (-) TimerEvent: {}
+[10.126787] (-) TimerEvent: {}
+[10.227066] (-) TimerEvent: {}
+[10.327416] (-) TimerEvent: {}
+[10.427703] (-) TimerEvent: {}
+[10.527980] (-) TimerEvent: {}
+[10.628161] (-) TimerEvent: {}
+[10.728372] (-) TimerEvent: {}
+[10.828680] (-) TimerEvent: {}
+[10.928877] (-) TimerEvent: {}
+[11.029076] (-) TimerEvent: {}
+[11.129281] (-) TimerEvent: {}
+[11.229493] (-) TimerEvent: {}
+[11.329809] (-) TimerEvent: {}
+[11.430039] (-) TimerEvent: {}
+[11.530244] (-) TimerEvent: {}
+[11.630438] (-) TimerEvent: {}
+[11.730650] (-) TimerEvent: {}
+[11.830830] (-) TimerEvent: {}
+[11.931064] (-) TimerEvent: {}
+[12.031271] (-) TimerEvent: {}
+[12.131457] (-) TimerEvent: {}
+[12.233741] (-) TimerEvent: {}
+[12.333917] (-) TimerEvent: {}
+[12.434103] (-) TimerEvent: {}
+[12.534419] (-) TimerEvent: {}
+[12.634616] (-) TimerEvent: {}
+[12.734821] (-) TimerEvent: {}
+[12.835020] (-) TimerEvent: {}
+[12.935356] (-) TimerEvent: {}
+[13.035586] (-) TimerEvent: {}
+[13.135807] (-) TimerEvent: {}
+[13.187656] (ego_planner) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[13.236034] (-) TimerEvent: {}
+[13.336335] (-) TimerEvent: {}
+[13.436668] (-) TimerEvent: {}
+[13.536861] (-) TimerEvent: {}
+[13.637054] (-) TimerEvent: {}
+[13.737281] (-) TimerEvent: {}
+[13.837659] (-) TimerEvent: {}
+[13.937930] (-) TimerEvent: {}
+[14.038161] (-) TimerEvent: {}
+[14.138359] (-) TimerEvent: {}
+[14.238558] (-) TimerEvent: {}
+[14.338809] (-) TimerEvent: {}
+[14.439001] (-) TimerEvent: {}
+[14.539234] (-) TimerEvent: {}
+[14.639525] (-) TimerEvent: {}
+[14.739735] (-) TimerEvent: {}
+[14.840024] (-) TimerEvent: {}
+[14.943690] (-) TimerEvent: {}
+[15.047469] (-) TimerEvent: {}
+[15.147659] (-) TimerEvent: {}
+[15.247859] (-) TimerEvent: {}
+[15.348107] (-) TimerEvent: {}
+[15.448836] (-) TimerEvent: {}
+[15.549047] (-) TimerEvent: {}
+[15.649284] (-) TimerEvent: {}
+[15.752723] (-) TimerEvent: {}
+[15.852918] (-) TimerEvent: {}
+[15.953127] (-) TimerEvent: {}
+[16.053462] (-) TimerEvent: {}
+[16.153652] (-) TimerEvent: {}
+[16.254152] (-) TimerEvent: {}
+[16.354365] (-) TimerEvent: {}
+[16.454656] (-) TimerEvent: {}
+[16.554845] (-) TimerEvent: {}
+[16.655156] (-) TimerEvent: {}
+[16.755383] (-) TimerEvent: {}
+[16.855742] (-) TimerEvent: {}
+[16.955969] (-) TimerEvent: {}
+[17.056222] (-) TimerEvent: {}
+[17.156418] (-) TimerEvent: {}
+[17.256628] (-) TimerEvent: {}
+[17.356835] (-) TimerEvent: {}
+[17.457070] (-) TimerEvent: {}
+[17.557266] (-) TimerEvent: {}
+[17.657537] (-) TimerEvent: {}
+[17.757725] (-) TimerEvent: {}
+[17.857925] (-) TimerEvent: {}
+[17.958123] (-) TimerEvent: {}
+[18.058315] (-) TimerEvent: {}
+[18.158556] (-) TimerEvent: {}
+[18.258747] (-) TimerEvent: {}
+[18.359114] (-) TimerEvent: {}
+[18.459475] (-) TimerEvent: {}
+[18.559761] (-) TimerEvent: {}
+[18.660122] (-) TimerEvent: {}
+[18.760365] (-) TimerEvent: {}
+[18.860675] (-) TimerEvent: {}
+[18.960982] (-) TimerEvent: {}
+[19.061177] (-) TimerEvent: {}
+[19.161375] (-) TimerEvent: {}
+[19.261784] (-) TimerEvent: {}
+[19.362029] (-) TimerEvent: {}
+[19.462477] (-) TimerEvent: {}
+[19.562680] (-) TimerEvent: {}
+[19.662880] (-) TimerEvent: {}
+[19.763126] (-) TimerEvent: {}
+[19.864155] (-) TimerEvent: {}
+[19.964418] (-) TimerEvent: {}
+[20.064613] (-) TimerEvent: {}
+[20.165461] (-) TimerEvent: {}
+[20.265676] (-) TimerEvent: {}
+[20.366614] (-) TimerEvent: {}
+[20.466853] (-) TimerEvent: {}
+[20.567081] (-) TimerEvent: {}
+[20.667288] (-) TimerEvent: {}
+[20.767496] (-) TimerEvent: {}
+[20.867713] (-) TimerEvent: {}
+[20.967968] (-) TimerEvent: {}
+[21.068205] (-) TimerEvent: {}
+[21.168455] (-) TimerEvent: {}
+[21.268797] (-) TimerEvent: {}
+[21.369063] (-) TimerEvent: {}
+[21.469290] (-) TimerEvent: {}
+[21.569546] (-) TimerEvent: {}
+[21.669808] (-) TimerEvent: {}
+[21.770001] (-) TimerEvent: {}
+[21.870229] (-) TimerEvent: {}
+[21.970429] (-) TimerEvent: {}
+[22.070666] (-) TimerEvent: {}
+[22.170984] (-) TimerEvent: {}
+[22.271174] (-) TimerEvent: {}
+[22.371377] (-) TimerEvent: {}
+[22.471628] (-) TimerEvent: {}
+[22.571859] (-) TimerEvent: {}
+[22.672354] (-) TimerEvent: {}
+[22.772574] (-) TimerEvent: {}
+[22.873029] (-) TimerEvent: {}
+[22.973223] (-) TimerEvent: {}
+[23.073417] (-) TimerEvent: {}
+[23.173633] (-) TimerEvent: {}
+[23.273848] (-) TimerEvent: {}
+[23.374108] (-) TimerEvent: {}
+[23.474340] (-) TimerEvent: {}
+[23.574544] (-) TimerEvent: {}
+[23.674743] (-) TimerEvent: {}
+[23.774969] (-) TimerEvent: {}
+[23.875324] (-) TimerEvent: {}
+[23.975590] (-) TimerEvent: {}
+[24.075791] (-) TimerEvent: {}
+[24.175994] (-) TimerEvent: {}
+[24.276252] (-) TimerEvent: {}
+[24.376505] (-) TimerEvent: {}
+[24.476709] (-) TimerEvent: {}
+[24.576916] (-) TimerEvent: {}
+[24.677122] (-) TimerEvent: {}
+[24.777345] (-) TimerEvent: {}
+[24.877571] (-) TimerEvent: {}
+[24.977810] (-) TimerEvent: {}
+[25.078039] (-) TimerEvent: {}
+[25.178244] (-) TimerEvent: {}
+[25.278443] (-) TimerEvent: {}
+[25.378686] (-) TimerEvent: {}
+[25.478875] (-) TimerEvent: {}
+[25.579627] (-) TimerEvent: {}
+[25.679864] (-) TimerEvent: {}
+[25.780067] (-) TimerEvent: {}
+[25.880286] (-) TimerEvent: {}
+[25.980484] (-) TimerEvent: {}
+[26.080704] (-) TimerEvent: {}
+[26.180964] (-) TimerEvent: {}
+[26.281166] (-) TimerEvent: {}
+[26.381432] (-) TimerEvent: {}
+[26.481662] (-) TimerEvent: {}
+[26.581876] (-) TimerEvent: {}
+[26.682093] (-) TimerEvent: {}
+[26.782293] (-) TimerEvent: {}
+[26.883298] (-) TimerEvent: {}
+[26.983719] (-) TimerEvent: {}
+[27.084003] (-) TimerEvent: {}
+[27.184226] (-) TimerEvent: {}
+[27.284455] (-) TimerEvent: {}
+[27.384651] (-) TimerEvent: {}
+[27.484852] (-) TimerEvent: {}
+[27.585059] (-) TimerEvent: {}
+[27.685262] (-) TimerEvent: {}
+[27.785505] (-) TimerEvent: {}
+[27.885689] (-) TimerEvent: {}
+[27.985942] (-) TimerEvent: {}
+[28.086196] (-) TimerEvent: {}
+[28.186588] (-) TimerEvent: {}
+[28.286863] (-) TimerEvent: {}
+[28.387117] (-) TimerEvent: {}
+[28.487561] (-) TimerEvent: {}
+[28.587848] (-) TimerEvent: {}
+[28.688150] (-) TimerEvent: {}
+[28.788411] (-) TimerEvent: {}
+[28.888612] (-) TimerEvent: {}
+[28.988846] (-) TimerEvent: {}
+[29.089101] (-) TimerEvent: {}
+[29.189319] (-) TimerEvent: {}
+[29.289598] (-) TimerEvent: {}
+[29.389798] (-) TimerEvent: {}
+[29.490058] (-) TimerEvent: {}
+[29.590301] (-) TimerEvent: {}
+[29.690643] (-) TimerEvent: {}
+[29.790860] (-) TimerEvent: {}
+[29.891107] (-) TimerEvent: {}
+[29.991373] (-) TimerEvent: {}
+[30.091594] (-) TimerEvent: {}
+[30.191805] (-) TimerEvent: {}
+[30.292010] (-) TimerEvent: {}
+[30.392218] (-) TimerEvent: {}
+[30.492577] (-) TimerEvent: {}
+[30.592851] (-) TimerEvent: {}
+[30.693071] (-) TimerEvent: {}
+[30.793278] (-) TimerEvent: {}
+[30.893527] (-) TimerEvent: {}
+[30.993762] (-) TimerEvent: {}
+[31.093976] (-) TimerEvent: {}
+[31.194185] (-) TimerEvent: {}
+[31.294437] (-) TimerEvent: {}
+[31.394644] (-) TimerEvent: {}
+[31.494878] (-) TimerEvent: {}
+[31.595118] (-) TimerEvent: {}
+[31.695360] (-) TimerEvent: {}
+[31.795645] (-) TimerEvent: {}
+[31.895738] (ego_planner) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[31.895953] (-) TimerEvent: {}
+[31.901618] (ego_planner) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[31.901803] (ego_planner) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[31.996114] (-) TimerEvent: {}
+[32.096361] (-) TimerEvent: {}
+[32.196603] (-) TimerEvent: {}
+[32.297133] (-) TimerEvent: {}
+[32.397363] (-) TimerEvent: {}
+[32.497597] (-) TimerEvent: {}
+[32.597801] (-) TimerEvent: {}
+[32.698000] (-) TimerEvent: {}
+[32.798344] (-) TimerEvent: {}
+[32.898595] (-) TimerEvent: {}
+[32.998808] (-) TimerEvent: {}
+[33.099052] (-) TimerEvent: {}
+[33.199243] (-) TimerEvent: {}
+[33.299505] (-) TimerEvent: {}
+[33.399731] (-) TimerEvent: {}
+[33.499987] (-) TimerEvent: {}
+[33.600287] (-) TimerEvent: {}
+[33.700486] (-) TimerEvent: {}
+[33.800690] (-) TimerEvent: {}
+[33.900886] (-) TimerEvent: {}
+[34.001236] (-) TimerEvent: {}
+[34.101471] (-) TimerEvent: {}
+[34.201802] (-) TimerEvent: {}
+[34.302100] (-) TimerEvent: {}
+[34.402417] (-) TimerEvent: {}
+[34.502611] (-) TimerEvent: {}
+[34.602855] (-) TimerEvent: {}
+[34.703113] (-) TimerEvent: {}
+[34.803345] (-) TimerEvent: {}
+[34.903561] (-) TimerEvent: {}
+[35.003831] (-) TimerEvent: {}
+[35.104100] (-) TimerEvent: {}
+[35.204364] (-) TimerEvent: {}
+[35.306203] (-) TimerEvent: {}
+[35.406525] (-) TimerEvent: {}
+[35.506724] (-) TimerEvent: {}
+[35.606951] (-) TimerEvent: {}
+[35.707255] (-) TimerEvent: {}
+[35.807471] (-) TimerEvent: {}
+[35.907703] (-) TimerEvent: {}
+[36.007944] (-) TimerEvent: {}
+[36.108214] (-) TimerEvent: {}
+[36.208531] (-) TimerEvent: {}
+[36.308721] (-) TimerEvent: {}
+[36.408913] (-) TimerEvent: {}
+[36.509213] (-) TimerEvent: {}
+[36.609435] (-) TimerEvent: {}
+[36.709590] (-) TimerEvent: {}
+[36.810310] (-) TimerEvent: {}
+[36.910527] (-) TimerEvent: {}
+[37.010731] (-) TimerEvent: {}
+[37.110961] (-) TimerEvent: {}
+[37.211159] (-) TimerEvent: {}
+[37.311384] (-) TimerEvent: {}
+[37.411691] (-) TimerEvent: {}
+[37.511936] (-) TimerEvent: {}
+[37.612172] (-) TimerEvent: {}
+[37.712384] (-) TimerEvent: {}
+[37.812578] (-) TimerEvent: {}
+[37.912954] (-) TimerEvent: {}
+[38.013152] (-) TimerEvent: {}
+[38.113352] (-) TimerEvent: {}
+[38.215293] (-) TimerEvent: {}
+[38.315527] (-) TimerEvent: {}
+[38.415750] (-) TimerEvent: {}
+[38.515946] (-) TimerEvent: {}
+[38.616146] (-) TimerEvent: {}
+[38.716346] (-) TimerEvent: {}
+[38.816541] (-) TimerEvent: {}
+[38.916755] (-) TimerEvent: {}
+[39.016962] (-) TimerEvent: {}
+[39.117181] (-) TimerEvent: {}
+[39.217401] (-) TimerEvent: {}
+[39.317926] (-) TimerEvent: {}
+[39.418117] (-) TimerEvent: {}
+[39.518314] (-) TimerEvent: {}
+[39.618552] (-) TimerEvent: {}
+[39.718755] (-) TimerEvent: {}
+[39.819047] (-) TimerEvent: {}
+[39.919258] (-) TimerEvent: {}
+[40.019442] (-) TimerEvent: {}
+[40.119633] (-) TimerEvent: {}
+[40.220024] (-) TimerEvent: {}
+[40.320280] (-) TimerEvent: {}
+[40.420505] (-) TimerEvent: {}
+[40.520741] (-) TimerEvent: {}
+[40.620946] (-) TimerEvent: {}
+[40.721146] (-) TimerEvent: {}
+[40.821371] (-) TimerEvent: {}
+[40.921637] (-) TimerEvent: {}
+[41.021871] (-) TimerEvent: {}
+[41.122072] (-) TimerEvent: {}
+[41.222278] (-) TimerEvent: {}
+[41.322494] (-) TimerEvent: {}
+[41.422692] (-) TimerEvent: {}
+[41.523034] (-) TimerEvent: {}
+[41.574880] (ego_planner) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[41.578765] (ego_planner) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[41.582608] (ego_planner) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[41.623175] (-) TimerEvent: {}
+[41.723511] (-) TimerEvent: {}
+[41.823877] (-) TimerEvent: {}
+[41.924160] (-) TimerEvent: {}
+[42.024445] (-) TimerEvent: {}
+[42.124639] (-) TimerEvent: {}
+[42.224902] (-) TimerEvent: {}
+[42.325199] (-) TimerEvent: {}
+[42.425510] (-) TimerEvent: {}
+[42.525781] (-) TimerEvent: {}
+[42.625990] (-) TimerEvent: {}
+[42.726178] (-) TimerEvent: {}
+[42.826365] (-) TimerEvent: {}
+[42.926569] (-) TimerEvent: {}
+[43.026885] (-) TimerEvent: {}
+[43.127164] (-) TimerEvent: {}
+[43.227401] (-) TimerEvent: {}
+[43.327783] (-) TimerEvent: {}
+[43.428082] (-) TimerEvent: {}
+[43.528407] (-) TimerEvent: {}
+[43.628869] (-) TimerEvent: {}
+[43.729164] (-) TimerEvent: {}
+[43.829408] (-) TimerEvent: {}
+[43.929655] (-) TimerEvent: {}
+[44.029882] (-) TimerEvent: {}
+[44.130061] (-) TimerEvent: {}
+[44.230272] (-) TimerEvent: {}
+[44.330560] (-) TimerEvent: {}
+[44.430799] (-) TimerEvent: {}
+[44.530998] (-) TimerEvent: {}
+[44.631282] (-) TimerEvent: {}
+[44.731505] (-) TimerEvent: {}
+[44.831881] (-) TimerEvent: {}
+[44.932104] (-) TimerEvent: {}
+[45.032311] (-) TimerEvent: {}
+[45.132503] (-) TimerEvent: {}
+[45.232763] (-) TimerEvent: {}
+[45.333150] (-) TimerEvent: {}
+[45.433418] (-) TimerEvent: {}
+[45.533763] (-) TimerEvent: {}
+[45.634128] (-) TimerEvent: {}
+[45.734485] (-) TimerEvent: {}
+[45.834718] (-) TimerEvent: {}
+[45.934966] (-) TimerEvent: {}
+[46.035208] (-) TimerEvent: {}
+[46.135397] (-) TimerEvent: {}
+[46.235774] (-) TimerEvent: {}
+[46.335993] (-) TimerEvent: {}
+[46.436356] (-) TimerEvent: {}
+[46.536684] (-) TimerEvent: {}
+[46.636917] (-) TimerEvent: {}
+[46.737256] (-) TimerEvent: {}
+[46.837467] (-) TimerEvent: {}
+[46.937740] (-) TimerEvent: {}
+[47.037932] (-) TimerEvent: {}
+[47.138209] (-) TimerEvent: {}
+[47.238428] (-) TimerEvent: {}
+[47.338687] (-) TimerEvent: {}
+[47.438950] (-) TimerEvent: {}
+[47.539148] (-) TimerEvent: {}
+[47.639342] (-) TimerEvent: {}
+[47.739558] (-) TimerEvent: {}
+[47.839809] (-) TimerEvent: {}
+[47.940245] (-) TimerEvent: {}
+[48.040493] (-) TimerEvent: {}
+[48.140702] (-) TimerEvent: {}
+[48.241034] (-) TimerEvent: {}
+[48.341221] (-) TimerEvent: {}
+[48.441406] (-) TimerEvent: {}
+[48.541570] (-) TimerEvent: {}
+[48.641761] (-) TimerEvent: {}
+[48.741940] (-) TimerEvent: {}
+[48.842416] (-) TimerEvent: {}
+[48.942713] (-) TimerEvent: {}
+[49.043044] (-) TimerEvent: {}
+[49.143280] (-) TimerEvent: {}
+[49.243529] (-) TimerEvent: {}
+[49.343743] (-) TimerEvent: {}
+[49.443938] (-) TimerEvent: {}
+[49.544181] (-) TimerEvent: {}
+[49.644410] (-) TimerEvent: {}
+[49.744700] (-) TimerEvent: {}
+[49.845120] (-) TimerEvent: {}
+[49.945709] (-) TimerEvent: {}
+[50.045984] (-) TimerEvent: {}
+[50.146180] (-) TimerEvent: {}
+[50.246506] (-) TimerEvent: {}
+[50.346780] (-) TimerEvent: {}
+[50.425249] (ego_planner) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[50.447018] (-) TimerEvent: {}
+[50.548750] (-) TimerEvent: {}
+[50.648975] (-) TimerEvent: {}
+[50.749159] (-) TimerEvent: {}
+[50.849356] (-) TimerEvent: {}
+[50.949535] (-) TimerEvent: {}
+[51.049747] (-) TimerEvent: {}
+[51.149958] (-) TimerEvent: {}
+[51.250209] (-) TimerEvent: {}
+[51.350447] (-) TimerEvent: {}
+[51.450724] (-) TimerEvent: {}
+[51.551094] (-) TimerEvent: {}
+[51.651364] (-) TimerEvent: {}
+[51.751673] (-) TimerEvent: {}
+[51.851858] (-) TimerEvent: {}
+[51.952047] (-) TimerEvent: {}
+[52.052240] (-) TimerEvent: {}
+[52.152508] (-) TimerEvent: {}
+[52.252701] (-) TimerEvent: {}
+[52.352964] (-) TimerEvent: {}
+[52.453202] (-) TimerEvent: {}
+[52.553533] (-) TimerEvent: {}
+[52.653776] (-) TimerEvent: {}
+[52.753972] (-) TimerEvent: {}
+[52.854160] (-) TimerEvent: {}
+[52.954383] (-) TimerEvent: {}
+[53.054586] (-) TimerEvent: {}
+[53.154819] (-) TimerEvent: {}
+[53.255184] (-) TimerEvent: {}
+[53.355403] (-) TimerEvent: {}
+[53.455605] (-) TimerEvent: {}
+[53.556014] (-) TimerEvent: {}
+[53.656355] (-) TimerEvent: {}
+[53.756674] (-) TimerEvent: {}
+[53.856906] (-) TimerEvent: {}
+[53.957265] (-) TimerEvent: {}
+[54.057483] (-) TimerEvent: {}
+[54.157674] (-) TimerEvent: {}
+[54.257877] (-) TimerEvent: {}
+[54.358125] (-) TimerEvent: {}
+[54.458423] (-) TimerEvent: {}
+[54.558662] (-) TimerEvent: {}
+[54.658937] (-) TimerEvent: {}
+[54.759243] (-) TimerEvent: {}
+[54.859552] (-) TimerEvent: {}
+[54.959840] (-) TimerEvent: {}
+[55.060049] (-) TimerEvent: {}
+[55.160248] (-) TimerEvent: {}
+[55.260532] (-) TimerEvent: {}
+[55.360975] (-) TimerEvent: {}
+[55.461212] (-) TimerEvent: {}
+[55.561498] (-) TimerEvent: {}
+[55.661709] (-) TimerEvent: {}
+[55.761948] (-) TimerEvent: {}
+[55.862191] (-) TimerEvent: {}
+[55.962409] (-) TimerEvent: {}
+[56.062648] (-) TimerEvent: {}
+[56.162844] (-) TimerEvent: {}
+[56.263082] (-) TimerEvent: {}
+[56.363368] (-) TimerEvent: {}
+[56.463720] (-) TimerEvent: {}
+[56.563989] (-) TimerEvent: {}
+[56.664337] (-) TimerEvent: {}
+[56.764684] (-) TimerEvent: {}
+[56.865064] (-) TimerEvent: {}
+[56.965364] (-) TimerEvent: {}
+[57.065684] (-) TimerEvent: {}
+[57.165888] (-) TimerEvent: {}
+[57.266085] (-) TimerEvent: {}
+[57.366381] (-) TimerEvent: {}
+[57.466668] (-) TimerEvent: {}
+[57.566921] (-) TimerEvent: {}
+[57.667126] (-) TimerEvent: {}
+[57.767429] (-) TimerEvent: {}
+[57.867686] (-) TimerEvent: {}
+[57.967890] (-) TimerEvent: {}
+[58.068147] (-) TimerEvent: {}
+[58.168394] (-) TimerEvent: {}
+[58.268698] (-) TimerEvent: {}
+[58.368891] (-) TimerEvent: {}
+[58.469097] (-) TimerEvent: {}
+[58.569507] (-) TimerEvent: {}
+[58.669723] (-) TimerEvent: {}
+[58.769914] (-) TimerEvent: {}
+[58.870117] (-) TimerEvent: {}
+[58.970329] (-) TimerEvent: {}
+[59.034734] (ego_planner) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[59.070768] (-) TimerEvent: {}
+[59.171008] (-) TimerEvent: {}
+[59.271214] (-) TimerEvent: {}
+[59.371540] (-) TimerEvent: {}
+[59.471745] (-) TimerEvent: {}
+[59.571966] (-) TimerEvent: {}
+[59.672170] (-) TimerEvent: {}
+[59.772379] (-) TimerEvent: {}
+[59.872576] (-) TimerEvent: {}
+[59.972824] (-) TimerEvent: {}
+[60.073019] (-) TimerEvent: {}
+[60.173235] (-) TimerEvent: {}
+[60.273428] (-) TimerEvent: {}
+[60.373637] (-) TimerEvent: {}
+[60.473845] (-) TimerEvent: {}
+[60.574100] (-) TimerEvent: {}
+[60.674292] (-) TimerEvent: {}
+[60.774541] (-) TimerEvent: {}
+[60.874880] (-) TimerEvent: {}
+[60.975128] (-) TimerEvent: {}
+[61.075320] (-) TimerEvent: {}
+[61.175692] (-) TimerEvent: {}
+[61.275944] (-) TimerEvent: {}
+[61.376180] (-) TimerEvent: {}
+[61.476404] (-) TimerEvent: {}
+[61.576591] (-) TimerEvent: {}
+[61.677114] (-) TimerEvent: {}
+[61.777419] (-) TimerEvent: {}
+[61.877634] (-) TimerEvent: {}
+[61.977824] (-) TimerEvent: {}
+[62.078009] (-) TimerEvent: {}
+[62.178209] (-) TimerEvent: {}
+[62.278457] (-) TimerEvent: {}
+[62.378744] (-) TimerEvent: {}
+[62.478944] (-) TimerEvent: {}
+[62.579128] (-) TimerEvent: {}
+[62.679365] (-) TimerEvent: {}
+[62.779797] (-) TimerEvent: {}
+[62.880034] (-) TimerEvent: {}
+[62.980342] (-) TimerEvent: {}
+[63.080581] (-) TimerEvent: {}
+[63.180770] (-) TimerEvent: {}
+[63.280966] (-) TimerEvent: {}
+[63.381151] (-) TimerEvent: {}
+[63.481352] (-) TimerEvent: {}
+[63.581543] (-) TimerEvent: {}
+[63.681739] (-) TimerEvent: {}
+[63.781994] (-) TimerEvent: {}
+[63.882207] (-) TimerEvent: {}
+[63.982586] (-) TimerEvent: {}
+[64.082789] (-) TimerEvent: {}
+[64.182991] (-) TimerEvent: {}
+[64.283644] (-) TimerEvent: {}
+[64.383840] (-) TimerEvent: {}
+[64.484024] (-) TimerEvent: {}
+[64.584208] (-) TimerEvent: {}
+[64.684400] (-) TimerEvent: {}
+[64.784604] (-) TimerEvent: {}
+[64.884906] (-) TimerEvent: {}
+[64.985120] (-) TimerEvent: {}
+[65.085350] (-) TimerEvent: {}
+[65.185540] (-) TimerEvent: {}
+[65.285769] (-) TimerEvent: {}
+[65.339743] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[65.340183] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[65.340243] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[65.340359] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[65.340799] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[65.341000] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[65.341239] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[65.341433] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[65.341725] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[65.342037] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[65.342300] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[65.342530] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[65.342796] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[65.343073] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[65.343361] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[65.343666] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[65.343923] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[65.344179] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[65.344480] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[65.344696] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[65.345171] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[65.345356] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[65.345606] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[65.345723] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[65.345993] (ego_planner) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[65.348031] (ego_planner) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[65.382949] (ego_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[65.385856] (-) TimerEvent: {}
+[65.486027] (-) TimerEvent: {}
+[65.511429] (ego_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[65.511709] (ego_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include\n'}
+[65.511770] (ego_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[65.512187] (ego_planner) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[65.512710] (ego_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[65.513346] (ego_planner) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[65.514086] (ego_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[65.514183] (ego_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[65.514647] (ego_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[65.516767] (ego_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[65.586134] (-) TimerEvent: {}
+[65.600447] (ego_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[65.612364] (ego_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/ego_planner\n'}
+[65.634956] (ego_planner) CommandEnded: {'returncode': 0}
+[65.635685] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'build'}
+[65.636380] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ego-planner-swarm/build/ego_planner', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/ego_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/104910_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/ego_planner'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble')]), 'shell': False}
+[65.686260] (-) TimerEvent: {}
+[65.687884] (ego_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target traj_server\n'}
+[65.696145] (ego_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ego_planner_node\n'}
+[65.699077] (ego_planner) StdoutLine: {'line': b'[ 33%] Built target traj_server\n'}
+[65.712187] (ego_planner) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o\n'}
+[65.786413] (-) TimerEvent: {}
+[65.886723] (-) TimerEvent: {}
+[65.987056] (-) TimerEvent: {}
+[66.087254] (-) TimerEvent: {}
+[66.187604] (-) TimerEvent: {}
+[66.287843] (-) TimerEvent: {}
+[66.388084] (-) TimerEvent: {}
+[66.488290] (-) TimerEvent: {}
+[66.588533] (-) TimerEvent: {}
+[66.688739] (-) TimerEvent: {}
+[66.789004] (-) TimerEvent: {}
+[66.889335] (-) TimerEvent: {}
+[66.989557] (-) TimerEvent: {}
+[67.089779] (-) TimerEvent: {}
+[67.190055] (-) TimerEvent: {}
+[67.290337] (-) TimerEvent: {}
+[67.390572] (-) TimerEvent: {}
+[67.490883] (-) TimerEvent: {}
+[67.591149] (-) TimerEvent: {}
+[67.691422] (-) TimerEvent: {}
+[67.791722] (-) TimerEvent: {}
+[67.891954] (-) TimerEvent: {}
+[67.992224] (-) TimerEvent: {}
+[68.092459] (-) TimerEvent: {}
+[68.192767] (-) TimerEvent: {}
+[68.292999] (-) TimerEvent: {}
+[68.393240] (-) TimerEvent: {}
+[68.493510] (-) TimerEvent: {}
+[68.593746] (-) TimerEvent: {}
+[68.693962] (-) TimerEvent: {}
+[68.794160] (-) TimerEvent: {}
+[68.894413] (-) TimerEvent: {}
+[68.994656] (-) TimerEvent: {}
+[69.094930] (-) TimerEvent: {}
+[69.195170] (-) TimerEvent: {}
+[69.295415] (-) TimerEvent: {}
+[69.395659] (-) TimerEvent: {}
+[69.495987] (-) TimerEvent: {}
+[69.596202] (-) TimerEvent: {}
+[69.696491] (-) TimerEvent: {}
+[69.796760] (-) TimerEvent: {}
+[69.897108] (-) TimerEvent: {}
+[69.997357] (-) TimerEvent: {}
+[70.097573] (-) TimerEvent: {}
+[70.197834] (-) TimerEvent: {}
+[70.222875] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.223038] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.223092] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.223141] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.223191] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79: warning: \xe2\x80\x98sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.223243] (ego_planner) StderrLine: {'line': b'  208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);\n'}
+[70.223294] (ego_planner) StderrLine: {'line': b'      |                                                                               ^\n'}
+[70.223352] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,\n'}
+[70.223406] (ego_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,\n'}
+[70.223438] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6,\n'}
+[70.223466] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.223494] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.223520] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.223546] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.223572] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5: note: declared here\n'}
+[70.223597] (ego_planner) StderrLine: {'line': b'  174 |     ConstPtr;\n'}
+[70.223622] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.223648] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.223679] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.223723] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.223752] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.223779] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79: warning: \xe2\x80\x98geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.223808] (ego_planner) StderrLine: {'line': b'  208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);\n'}
+[70.223851] (ego_planner) StderrLine: {'line': b'      |                                                                               ^\n'}
+[70.223900] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23,\n'}
+[70.223951] (ego_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,\n'}
+[70.223983] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,\n'}
+[70.224011] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.224058] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5: note: declared here\n'}
+[70.224108] (ego_planner) StderrLine: {'line': b'  116 |     ConstPtr;\n'}
+[70.224138] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.224164] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.224191] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.224217] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.224243] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.224269] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:209:71: warning: \xe2\x80\x98nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.224294] (ego_planner) StderrLine: {'line': b'  209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom);\n'}
+[70.224321] (ego_planner) StderrLine: {'line': b'      |                                                                       ^\n'}
+[70.224346] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,\n'}
+[70.224372] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,\n'}
+[70.224400] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.224424] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5: note: declared here\n'}
+[70.224448] (ego_planner) StderrLine: {'line': b'  147 |     ConstPtr;\n'}
+[70.224472] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.224497] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.224522] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.224546] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.224584] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.224634] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117: warning: \xe2\x80\x98sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.224663] (ego_planner) StderrLine: {'line': b'  210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);\n'}
+[70.224690] (ego_planner) StderrLine: {'line': b'      |                                                                                                                     ^\n'}
+[70.224717] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,\n'}
+[70.224743] (ego_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,\n'}
+[70.224768] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6,\n'}
+[70.224793] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.224835] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.224884] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.224917] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.224945] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5: note: declared here\n'}
+[70.224972] (ego_planner) StderrLine: {'line': b'  174 |     ConstPtr;\n'}
+[70.224999] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.225037] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.225087] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.225118] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.225147] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.225192] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117: warning: \xe2\x80\x98nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.225242] (ego_planner) StderrLine: {'line': b'  210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);\n'}
+[70.225291] (ego_planner) StderrLine: {'line': b'      |                                                                                                                     ^\n'}
+[70.225320] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,\n'}
+[70.225365] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,\n'}
+[70.225399] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.225478] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5: note: declared here\n'}
+[70.225525] (ego_planner) StderrLine: {'line': b'  147 |     ConstPtr;\n'}
+[70.225574] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.225624] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.225676] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.225724] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.225762] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.225791] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:211:72: warning: \xe2\x80\x98sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.225819] (ego_planner) StderrLine: {'line': b'  211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img);\n'}
+[70.225847] (ego_planner) StderrLine: {'line': b'      |                                                                        ^\n'}
+[70.225873] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,\n'}
+[70.225899] (ego_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,\n'}
+[70.225924] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:18,\n'}
+[70.225950] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7,\n'}
+[70.225976] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,\n'}
+[70.226006] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.226033] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.226059] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5: note: declared here\n'}
+[70.226084] (ego_planner) StderrLine: {'line': b'  195 |     ConstPtr;\n'}
+[70.226109] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.298007] (-) TimerEvent: {}
+[70.398212] (-) TimerEvent: {}
+[70.498424] (-) TimerEvent: {}
+[70.598638] (-) TimerEvent: {}
+[70.698851] (-) TimerEvent: {}
+[70.799193] (-) TimerEvent: {}
+[70.840326] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,\n'}
+[70.840492] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.840542] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.840603] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:126:75: warning: \xe2\x80\x98geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.840660] (ego_planner) StderrLine: {'line': b'  126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg);\n'}
+[70.840721] (ego_planner) StderrLine: {'line': b'      |                                                                           ^\n'}
+[70.840773] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23,\n'}
+[70.840831] (ego_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,\n'}
+[70.840883] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,\n'}
+[70.840915] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.840940] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5: note: declared here\n'}
+[70.840969] (ego_planner) StderrLine: {'line': b'  116 |     ConstPtr;\n'}
+[70.840995] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.899307] (-) TimerEvent: {}
+[70.917340] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,\n'}
+[70.917492] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.917548] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.917599] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:163:77: warning: \xe2\x80\x98visualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[70.917655] (ego_planner) StderrLine: {'line': b'  163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg);\n'}
+[70.917688] (ego_planner) StderrLine: {'line': b'      |                                                                             ^\n'}
+[70.917736] (ego_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7,\n'}
+[70.917790] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:14,\n'}
+[70.917857] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.917889] (ego_planner) StderrLine: {'line': b'/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5: note: declared here\n'}
+[70.917918] (ego_planner) StderrLine: {'line': b'  365 |     ConstPtr;\n'}
+[70.917944] (ego_planner) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[70.921740] (ego_planner) StderrLine: {'line': b'In file included from /home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10,\n'}
+[70.921885] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:16,\n'}
+[70.921953] (ego_planner) StderrLine: {'line': b'                 from /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:\n'}
+[70.921999] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp: In function \xe2\x80\x98int lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)\xe2\x80\x99:\n'}
+[70.922042] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54: warning: unused parameter \xe2\x80\x98gp\xe2\x80\x99 [-Wunused-parameter]\n'}
+[70.922072] (ego_planner) StderrLine: {'line': b'  723 |                                        const double *gp,\n'}
+[70.922099] (ego_planner) StderrLine: {'line': b'      |                                        ~~~~~~~~~~~~~~^~\n'}
+[70.999438] (-) TimerEvent: {}
+[71.099793] (-) TimerEvent: {}
+[71.173775] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp: In member function \xe2\x80\x98void ego_planner::EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)\xe2\x80\x99:\n'}
+[71.173911] (ego_planner) StderrLine: {'line': b'/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:242:100: warning: unused parameter \xe2\x80\x98msg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[71.173945] (ego_planner) StderrLine: {'line': b'  242 |   void EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg)\n'}
+[71.173973] (ego_planner) StderrLine: {'line': b'      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[71.200025] (-) TimerEvent: {}
+[71.300329] (-) TimerEvent: {}
+[71.400548] (-) TimerEvent: {}
+[71.500794] (-) TimerEvent: {}
+[71.601694] (-) TimerEvent: {}
+[71.701994] (-) TimerEvent: {}
+[71.802347] (-) TimerEvent: {}
+[71.902529] (-) TimerEvent: {}
+[72.002712] (-) TimerEvent: {}
+[72.102913] (-) TimerEvent: {}
+[72.203107] (-) TimerEvent: {}
+[72.303307] (-) TimerEvent: {}
+[72.403634] (-) TimerEvent: {}
+[72.503860] (-) TimerEvent: {}
+[72.604108] (-) TimerEvent: {}
+[72.704454] (-) TimerEvent: {}
+[72.804715] (-) TimerEvent: {}
+[72.904909] (-) TimerEvent: {}
+[73.005138] (-) TimerEvent: {}
+[73.105565] (-) TimerEvent: {}
+[73.205758] (-) TimerEvent: {}
+[73.305977] (-) TimerEvent: {}
+[73.406161] (-) TimerEvent: {}
+[73.506371] (-) TimerEvent: {}
+[73.606630] (-) TimerEvent: {}
+[73.706915] (-) TimerEvent: {}
+[73.807128] (-) TimerEvent: {}
+[73.907333] (-) TimerEvent: {}
+[74.007530] (-) TimerEvent: {}
+[74.107736] (-) TimerEvent: {}
+[74.207945] (-) TimerEvent: {}
+[74.308149] (-) TimerEvent: {}
+[74.408340] (-) TimerEvent: {}
+[74.508536] (-) TimerEvent: {}
+[74.608753] (-) TimerEvent: {}
+[74.708977] (-) TimerEvent: {}
+[74.809182] (-) TimerEvent: {}
+[74.909403] (-) TimerEvent: {}
+[75.009624] (-) TimerEvent: {}
+[75.109823] (-) TimerEvent: {}
+[75.210053] (-) TimerEvent: {}
+[75.310313] (-) TimerEvent: {}
+[75.410560] (-) TimerEvent: {}
+[75.510769] (-) TimerEvent: {}
+[75.610966] (-) TimerEvent: {}
+[75.711169] (-) TimerEvent: {}
+[75.812017] (-) TimerEvent: {}
+[75.912215] (-) TimerEvent: {}
+[76.012421] (-) TimerEvent: {}
+[76.112616] (-) TimerEvent: {}
+[76.212817] (-) TimerEvent: {}
+[76.313115] (-) TimerEvent: {}
+[76.413402] (-) TimerEvent: {}
+[76.513619] (-) TimerEvent: {}
+[76.613819] (-) TimerEvent: {}
+[76.714085] (-) TimerEvent: {}
+[76.814370] (-) TimerEvent: {}
+[76.914568] (-) TimerEvent: {}
+[77.014770] (-) TimerEvent: {}
+[77.114960] (-) TimerEvent: {}
+[77.215153] (-) TimerEvent: {}
+[77.315344] (-) TimerEvent: {}
+[77.415648] (-) TimerEvent: {}
+[77.515840] (-) TimerEvent: {}
+[77.616040] (-) TimerEvent: {}
+[77.716248] (-) TimerEvent: {}
+[77.816495] (-) TimerEvent: {}
+[77.916726] (-) TimerEvent: {}
+[78.016958] (-) TimerEvent: {}
+[78.117157] (-) TimerEvent: {}
+[78.217360] (-) TimerEvent: {}
+[78.317605] (-) TimerEvent: {}
+[78.417869] (-) TimerEvent: {}
+[78.518091] (-) TimerEvent: {}
+[78.618287] (-) TimerEvent: {}
+[78.718597] (-) TimerEvent: {}
+[78.818983] (-) TimerEvent: {}
+[78.919360] (-) TimerEvent: {}
+[79.019634] (-) TimerEvent: {}
+[79.119938] (-) TimerEvent: {}
+[79.220141] (-) TimerEvent: {}
+[79.320409] (-) TimerEvent: {}
+[79.421954] (-) TimerEvent: {}
+[79.522282] (-) TimerEvent: {}
+[79.622514] (-) TimerEvent: {}
+[79.722748] (-) TimerEvent: {}
+[79.822973] (-) TimerEvent: {}
+[79.923222] (-) TimerEvent: {}
+[80.023601] (-) TimerEvent: {}
+[80.123796] (-) TimerEvent: {}
+[80.224132] (-) TimerEvent: {}
+[80.324353] (-) TimerEvent: {}
+[80.424666] (-) TimerEvent: {}
+[80.524880] (-) TimerEvent: {}
+[80.625202] (-) TimerEvent: {}
+[80.725419] (-) TimerEvent: {}
+[80.825618] (-) TimerEvent: {}
+[80.925822] (-) TimerEvent: {}
+[81.026142] (-) TimerEvent: {}
+[81.126342] (-) TimerEvent: {}
+[81.226594] (-) TimerEvent: {}
+[81.326814] (-) TimerEvent: {}
+[81.427028] (-) TimerEvent: {}
+[81.527288] (-) TimerEvent: {}
+[81.627494] (-) TimerEvent: {}
+[81.727698] (-) TimerEvent: {}
+[81.827931] (-) TimerEvent: {}
+[81.928261] (-) TimerEvent: {}
+[82.028473] (-) TimerEvent: {}
+[82.128679] (-) TimerEvent: {}
+[82.228890] (-) TimerEvent: {}
+[82.329080] (-) TimerEvent: {}
+[82.429290] (-) TimerEvent: {}
+[82.529656] (-) TimerEvent: {}
+[82.629851] (-) TimerEvent: {}
+[82.730049] (-) TimerEvent: {}
+[82.830262] (-) TimerEvent: {}
+[82.930483] (-) TimerEvent: {}
+[83.030697] (-) TimerEvent: {}
+[83.130926] (-) TimerEvent: {}
+[83.231207] (-) TimerEvent: {}
+[83.331488] (-) TimerEvent: {}
+[83.433503] (-) TimerEvent: {}
+[83.533716] (-) TimerEvent: {}
+[83.634160] (-) TimerEvent: {}
+[83.735280] (-) TimerEvent: {}
+[83.835480] (-) TimerEvent: {}
+[83.935887] (-) TimerEvent: {}
+[84.036099] (-) TimerEvent: {}
+[84.136356] (-) TimerEvent: {}
+[84.236758] (-) TimerEvent: {}
+[84.337126] (-) TimerEvent: {}
+[84.437318] (-) TimerEvent: {}
+[84.537525] (-) TimerEvent: {}
+[84.637713] (-) TimerEvent: {}
+[84.737913] (-) TimerEvent: {}
+[84.838101] (-) TimerEvent: {}
+[84.938362] (-) TimerEvent: {}
+[85.038623] (-) TimerEvent: {}
+[85.138860] (-) TimerEvent: {}
+[85.239068] (-) TimerEvent: {}
+[85.339322] (-) TimerEvent: {}
+[85.439539] (-) TimerEvent: {}
+[85.539963] (-) TimerEvent: {}
+[85.640281] (-) TimerEvent: {}
+[85.740559] (-) TimerEvent: {}
+[85.840860] (-) TimerEvent: {}
+[85.941106] (-) TimerEvent: {}
+[86.041331] (-) TimerEvent: {}
+[86.141548] (-) TimerEvent: {}
+[86.241737] (-) TimerEvent: {}
+[86.342051] (-) TimerEvent: {}
+[86.442395] (-) TimerEvent: {}
+[86.542576] (-) TimerEvent: {}
+[86.642782] (-) TimerEvent: {}
+[86.743000] (-) TimerEvent: {}
+[86.843282] (-) TimerEvent: {}
+[86.943462] (-) TimerEvent: {}
+[87.043696] (-) TimerEvent: {}
+[87.143900] (-) TimerEvent: {}
+[87.244153] (-) TimerEvent: {}
+[87.344371] (-) TimerEvent: {}
+[87.444729] (-) TimerEvent: {}
+[87.544929] (-) TimerEvent: {}
+[87.645111] (-) TimerEvent: {}
+[87.745309] (-) TimerEvent: {}
+[87.845564] (-) TimerEvent: {}
+[87.945834] (-) TimerEvent: {}
+[88.046039] (-) TimerEvent: {}
+[88.146382] (-) TimerEvent: {}
+[88.246585] (-) TimerEvent: {}
+[88.346899] (-) TimerEvent: {}
+[88.447259] (-) TimerEvent: {}
+[88.547501] (-) TimerEvent: {}
+[88.647720] (-) TimerEvent: {}
+[88.747947] (-) TimerEvent: {}
+[88.848167] (-) TimerEvent: {}
+[88.948539] (-) TimerEvent: {}
+[89.048728] (-) TimerEvent: {}
+[89.148934] (-) TimerEvent: {}
+[89.249268] (-) TimerEvent: {}
+[89.349512] (-) TimerEvent: {}
+[89.449819] (-) TimerEvent: {}
+[89.550066] (-) TimerEvent: {}
+[89.650399] (-) TimerEvent: {}
+[89.750661] (-) TimerEvent: {}
+[89.850900] (-) TimerEvent: {}
+[89.951246] (-) TimerEvent: {}
+[90.051435] (-) TimerEvent: {}
+[90.153406] (-) TimerEvent: {}
+[90.253665] (-) TimerEvent: {}
+[90.354533] (-) TimerEvent: {}
+[90.454730] (-) TimerEvent: {}
+[90.555093] (-) TimerEvent: {}
+[90.655403] (-) TimerEvent: {}
+[90.755761] (-) TimerEvent: {}
+[90.856012] (-) TimerEvent: {}
+[90.956208] (-) TimerEvent: {}
+[91.056414] (-) TimerEvent: {}
+[91.156605] (-) TimerEvent: {}
+[91.256910] (-) TimerEvent: {}
+[91.357199] (-) TimerEvent: {}
+[91.457521] (-) TimerEvent: {}
+[91.557785] (-) TimerEvent: {}
+[91.657993] (-) TimerEvent: {}
+[91.758294] (-) TimerEvent: {}
+[91.858671] (-) TimerEvent: {}
+[91.961334] (-) TimerEvent: {}
+[92.061607] (-) TimerEvent: {}
+[92.161788] (-) TimerEvent: {}
+[92.262207] (-) TimerEvent: {}
+[92.362514] (-) TimerEvent: {}
+[92.462721] (-) TimerEvent: {}
+[92.563008] (-) TimerEvent: {}
+[92.663242] (-) TimerEvent: {}
+[92.763449] (-) TimerEvent: {}
+[92.863764] (-) TimerEvent: {}
+[92.963992] (-) TimerEvent: {}
+[93.064188] (-) TimerEvent: {}
+[93.164451] (-) TimerEvent: {}
+[93.264689] (-) TimerEvent: {}
+[93.364990] (-) TimerEvent: {}
+[93.465211] (-) TimerEvent: {}
+[93.565516] (-) TimerEvent: {}
+[93.665752] (-) TimerEvent: {}
+[93.766076] (-) TimerEvent: {}
+[93.866399] (-) TimerEvent: {}
+[93.966918] (-) TimerEvent: {}
+[94.067271] (-) TimerEvent: {}
+[94.167566] (-) TimerEvent: {}
+[94.267767] (-) TimerEvent: {}
+[94.368195] (-) TimerEvent: {}
+[94.468413] (-) TimerEvent: {}
+[94.568698] (-) TimerEvent: {}
+[94.669079] (-) TimerEvent: {}
+[94.769346] (-) TimerEvent: {}
+[94.869608] (-) TimerEvent: {}
+[94.969914] (-) TimerEvent: {}
+[95.070131] (-) TimerEvent: {}
+[95.170401] (-) TimerEvent: {}
+[95.270745] (-) TimerEvent: {}
+[95.370980] (-) TimerEvent: {}
+[95.471283] (-) TimerEvent: {}
+[95.571662] (-) TimerEvent: {}
+[95.671919] (-) TimerEvent: {}
+[95.772505] (-) TimerEvent: {}
+[95.872753] (-) TimerEvent: {}
+[95.974100] (-) TimerEvent: {}
+[96.074359] (-) TimerEvent: {}
+[96.174563] (-) TimerEvent: {}
+[96.274851] (-) TimerEvent: {}
+[96.375104] (-) TimerEvent: {}
+[96.475351] (-) TimerEvent: {}
+[96.575599] (-) TimerEvent: {}
+[96.675798] (-) TimerEvent: {}
+[96.776069] (-) TimerEvent: {}
+[96.876298] (-) TimerEvent: {}
+[96.976556] (-) TimerEvent: {}
+[97.076863] (-) TimerEvent: {}
+[97.177230] (-) TimerEvent: {}
+[97.277551] (-) TimerEvent: {}
+[97.377757] (-) TimerEvent: {}
+[97.477963] (-) TimerEvent: {}
+[97.578187] (-) TimerEvent: {}
+[97.681083] (-) TimerEvent: {}
+[97.781315] (-) TimerEvent: {}
+[97.881567] (-) TimerEvent: {}
+[97.981907] (-) TimerEvent: {}
+[98.082105] (-) TimerEvent: {}
+[98.182306] (-) TimerEvent: {}
+[98.282539] (-) TimerEvent: {}
+[98.382772] (-) TimerEvent: {}
+[98.482981] (-) TimerEvent: {}
+[98.583280] (-) TimerEvent: {}
+[98.683635] (-) TimerEvent: {}
+[98.783928] (-) TimerEvent: {}
+[98.884232] (-) TimerEvent: {}
+[98.984603] (-) TimerEvent: {}
+[99.084987] (-) TimerEvent: {}
+[99.185595] (-) TimerEvent: {}
+[99.286046] (-) TimerEvent: {}
+[99.386378] (-) TimerEvent: {}
+[99.486567] (-) TimerEvent: {}
+[99.586969] (-) TimerEvent: {}
+[99.687221] (-) TimerEvent: {}
+[99.787642] (-) TimerEvent: {}
+[99.887938] (-) TimerEvent: {}
+[99.988185] (-) TimerEvent: {}
+[100.088394] (-) TimerEvent: {}
+[100.188780] (-) TimerEvent: {}
+[100.289046] (-) TimerEvent: {}
+[100.389410] (-) TimerEvent: {}
+[100.489700] (-) TimerEvent: {}
+[100.589895] (-) TimerEvent: {}
+[100.690104] (-) TimerEvent: {}
+[100.790338] (-) TimerEvent: {}
+[100.890584] (-) TimerEvent: {}
+[100.990925] (-) TimerEvent: {}
+[101.091435] (-) TimerEvent: {}
+[101.191637] (-) TimerEvent: {}
+[101.291868] (-) TimerEvent: {}
+[101.392091] (-) TimerEvent: {}
+[101.492416] (-) TimerEvent: {}
+[101.592670] (-) TimerEvent: {}
+[101.692942] (-) TimerEvent: {}
+[101.793187] (-) TimerEvent: {}
+[101.893408] (-) TimerEvent: {}
+[101.993714] (-) TimerEvent: {}
+[102.093927] (-) TimerEvent: {}
+[102.194272] (-) TimerEvent: {}
+[102.294596] (-) TimerEvent: {}
+[102.394893] (-) TimerEvent: {}
+[102.495297] (-) TimerEvent: {}
+[102.595580] (-) TimerEvent: {}
+[102.698920] (-) TimerEvent: {}
+[102.770008] (ego_planner) StdoutLine: {'line': b'[ 66%] Linking CXX executable ego_planner_node\n'}
+[102.799069] (-) TimerEvent: {}
+[102.899391] (-) TimerEvent: {}
+[102.999641] (-) TimerEvent: {}
+[103.099902] (-) TimerEvent: {}
+[103.200255] (-) TimerEvent: {}
+[103.300566] (-) TimerEvent: {}
+[103.400803] (-) TimerEvent: {}
+[103.501088] (-) TimerEvent: {}
+[103.601291] (-) TimerEvent: {}
+[103.701513] (-) TimerEvent: {}
+[103.801706] (-) TimerEvent: {}
+[103.901911] (-) TimerEvent: {}
+[104.002185] (-) TimerEvent: {}
+[104.102521] (-) TimerEvent: {}
+[104.202763] (-) TimerEvent: {}
+[104.303015] (-) TimerEvent: {}
+[104.403249] (-) TimerEvent: {}
+[104.503500] (-) TimerEvent: {}
+[104.603822] (-) TimerEvent: {}
+[104.704052] (-) TimerEvent: {}
+[104.804285] (-) TimerEvent: {}
+[104.904537] (-) TimerEvent: {}
+[104.973913] (ego_planner) StdoutLine: {'line': b'[100%] Built target ego_planner_node\n'}
+[104.983314] (ego_planner) CommandEnded: {'returncode': 0}
+[104.984821] (ego_planner) JobProgress: {'identifier': 'ego_planner', 'progress': 'install'}
+[104.990557] (ego_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ego-planner-swarm/build/ego_planner'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/ego_planner', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/104910_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/ego_planner'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble')]), 'shell': False}
+[104.996010] (ego_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[104.996651] (ego_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[104.996817] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/ego_planner_node\n'}
+[104.996934] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/traj_server\n'}
+[104.997228] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/advanced_param.launch.py\n'}
+[104.997507] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/default.rviz\n'}
+[104.997726] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/run_in_sim.launch.py\n'}
+[104.997858] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/rviz.launch.py\n'}
+[104.997948] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/simulator.launch.py\n'}
+[104.998067] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/single_run_in_sim.launch.py\n'}
+[104.998162] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm.launch.py\n'}
+[104.998239] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm_large.launch.py\n'}
+[104.998674] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner\n'}
+[104.998743] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner\n'}
+[104.998830] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh\n'}
+[104.998884] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv\n'}
+[104.998919] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.sh\n'}
+[104.998948] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.dsv\n'}
+[104.998975] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.bash\n'}
+[104.999001] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.sh\n'}
+[104.999031] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.zsh\n'}
+[104.999059] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.dsv\n'}
+[104.999086] (ego_planner) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.dsv\n'}
+[105.004339] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/packages/ego_planner\n'}
+[105.004648] (-) TimerEvent: {}
+[105.004678] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake\n'}
+[105.004740] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake\n'}
+[105.004799] (ego_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.xml\n'}
+[105.005419] (ego_planner) CommandEnded: {'returncode': 0}
+[105.025944] (ego_planner) JobEnded: {'identifier': 'ego_planner', 'rc': 0}
+[105.026702] (-) EventReactorShutdown: {}

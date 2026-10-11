@@ -1,0 +1,29 @@
+[0.306s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/uav_utils': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/uav_utils -- -j24 -l24
+[0.332s] [ 33%] Built target gtest_main
+[0.338s] [ 66%] Built target gtest
+[0.353s] [100%] Built target uav_utils_test
+[0.358s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/uav_utils -- -j24 -l24
+[0.360s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/uav_utils': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/uav_utils
+[0.363s] -- Install configuration: "Release"
+[0.364s] -- Execute custom install script
+[0.364s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/package_run_dependencies/uav_utils
+[0.364s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/parent_prefix_path/uav_utils
+[0.364s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/ament_prefix_path.sh
+[0.364s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/path.sh
+[0.365s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/path.dsv
+[0.365s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.bash
+[0.365s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.sh
+[0.365s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.zsh
+[0.365s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.dsv
+[0.365s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/package.dsv
+[0.369s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/packages/uav_utils
+[0.369s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.369s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake
+[0.369s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig-version.cmake
+[0.370s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/package.xml
+[0.370s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils
+[0.370s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/utils.h
+[0.370s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/converters.h
+[0.370s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/geometry_utils.h
+[0.371s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/uav_utils

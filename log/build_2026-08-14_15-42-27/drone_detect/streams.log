@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/drone_detect -- -j24 -l24
+[0.048s] [100%] Built target drone_detect
+[0.053s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/drone_detect -- -j24 -l24
+[0.055s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/drone_detect
+[0.058s] -- Install configuration: "Release"
+[0.059s] -- Execute custom install script
+[0.059s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/lib/drone_detect/drone_detect
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/doc/demo.jpg
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/doc/example.jpg
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/launch/drone_detect.launch.py
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/launch/ros_package_template_overlying_params.launch.py
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/config/camera.yaml
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/config/default.yaml
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/package_run_dependencies/drone_detect
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/parent_prefix_path/drone_detect
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/ament_prefix_path.dsv
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/path.sh
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/path.dsv
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.bash
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.sh
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.zsh
+[0.061s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.dsv
+[0.061s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/package.dsv
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/packages/drone_detect
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake
+[0.067s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake
+[0.068s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/package.xml
+[0.068s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/drone_detect/include/drone_detect
+[0.068s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/drone_detect/include/drone_detect/drone_detector.h
+[0.068s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/drone_detect

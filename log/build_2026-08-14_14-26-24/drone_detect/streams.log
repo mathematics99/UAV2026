@@ -1,0 +1,203 @@
+[0.034s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/drone_detect -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/drone_detect
+[0.704s] -- The C compiler identification is GNU 11.4.0
+[4.039s] -- The CXX compiler identification is GNU 11.4.0
+[6.894s] -- Detecting C compiler ABI info
+[7.455s] -- Detecting C compiler ABI info - done
+[7.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.461s] -- Detecting C compile features
+[7.462s] -- Detecting C compile features - done
+[7.464s] -- Detecting CXX compiler ABI info
+[7.899s] -- Detecting CXX compiler ABI info - done
+[7.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.909s] -- Detecting CXX compile features
+[7.909s] -- Detecting CXX compile features - done
+[7.909s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.043s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.097s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.114s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[8.681s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.687s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.693s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.750s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.753s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.774s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.780s] -- Looking for pthread.h
+[9.191s] -- Looking for pthread.h - found
+[9.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.657s] -- Found Threads: TRUE  
+[9.713s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.746s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.762s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[9.777s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[9.793s] -- Found OpenCV: /usr (found version "4.5.4") 
+[9.798s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[9.799s] -- Found message_filters: 4.3.19 (/opt/ros/humble/share/message_filters/cmake)
+[9.802s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.872s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.872s] -- Configured cppcheck include dirs: /home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include
+[9.872s] -- Configured cppcheck exclude dirs and/or files: 
+[9.873s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.873s] -- Added test 'lint_cmake' to check CMake code style
+[9.874s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.875s] -- Added test 'uncrustify' to check C / C++ code style
+[9.875s] -- Configured uncrustify additional arguments: 
+[9.876s] -- Added test 'xmllint' to check XML markup files
+[9.877s] -- Configuring done
+[9.892s] -- Generating done
+[9.896s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/drone_detect
+[9.905s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/drone_detect -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/drone_detect
+[9.907s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/drone_detect -- -j24 -l24
+[9.948s] [ 33%] [32mBuilding CXX object CMakeFiles/drone_detect.dir/src/drone_detect_node.cpp.o[0m
+[9.948s] [ 66%] [32mBuilding CXX object CMakeFiles/drone_detect.dir/src/drone_detector.cpp.o[0m
+[15.752s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.752s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.752s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.753s]       |                                                                     [01;35m[K^[m[K
+[15.753s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.753s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.753s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.753s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.753s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.753s]   174 |     [01;36m[KConstPtr[m[K;
+[15.753s]       |     [01;36m[K^~~~~~~~[m[K
+[15.753s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.753s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.753s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.753s]       |                                                                     [01;35m[K^[m[K
+[15.753s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.754s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.754s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.754s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.754s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.754s]   174 |     [01;36m[KConstPtr[m[K;
+[15.754s]       |     [01;36m[K^~~~~~~~[m[K
+[15.754s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.754s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.755s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.755s]       |                                                                     [01;35m[K^[m[K
+[15.755s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[15.755s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:10[m[K,
+[15.755s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.755s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.755s]   116 |     [01;36m[KConstPtr[m[K;
+[15.755s]       |     [01;36m[K^~~~~~~~[m[K
+[15.755s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.755s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:73:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.755s]    73 |         const geometry_msgs::msg::PoseStamped::ConstSharedPtr &camera_pose[01;35m[K)[m[K;
+[15.755s]       |                                                                           [01;35m[K^[m[K
+[15.755s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.755s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.755s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.755s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.755s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.755s]   174 |     [01;36m[KConstPtr[m[K;
+[15.755s]       |     [01;36m[K^~~~~~~~[m[K
+[15.755s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.755s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:76:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.755s]    76 |     void rcvDepthImgCallback(const sensor_msgs::msg::Image::ConstPtr &depth_img[01;35m[K)[m[K;
+[15.756s]       |                                                                                [01;35m[K^[m[K
+[15.756s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.756s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.756s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.756s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[15.756s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.756s]   174 |     [01;36m[KConstPtr[m[K;
+[15.756s]       |     [01;36m[K^~~~~~~~[m[K
+[15.756s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.756s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.756s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.756s]       |                                                                     [01;35m[K^[m[K
+[15.756s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.756s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.756s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.756s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.756s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.756s]   174 |     [01;36m[KConstPtr[m[K;
+[15.756s]       |     [01;36m[K^~~~~~~~[m[K
+[15.756s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.756s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.757s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.757s]       |                                                                     [01;35m[K^[m[K
+[15.757s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.757s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.757s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.757s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.757s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.757s]   174 |     [01;36m[KConstPtr[m[K;
+[15.757s]       |     [01;36m[K^~~~~~~~[m[K
+[15.757s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.757s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.757s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[15.757s]       |                                                                     [01;35m[K^[m[K
+[15.757s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[15.757s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:10[m[K,
+[15.757s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.757s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.757s]   116 |     [01;36m[KConstPtr[m[K;
+[15.757s]       |     [01;36m[K^~~~~~~~[m[K
+[15.757s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.757s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:73:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.758s]    73 |         const geometry_msgs::msg::PoseStamped::ConstSharedPtr &camera_pose[01;35m[K)[m[K;
+[15.758s]       |                                                                           [01;35m[K^[m[K
+[15.758s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.758s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.758s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.758s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.758s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.758s]   174 |     [01;36m[KConstPtr[m[K;
+[15.758s]       |     [01;36m[K^~~~~~~~[m[K
+[15.758s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.758s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:76:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.758s]    76 |     void rcvDepthImgCallback(const sensor_msgs::msg::Image::ConstPtr &depth_img[01;35m[K)[m[K;
+[15.758s]       |                                                                                [01;35m[K^[m[K
+[15.758s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[15.758s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[15.758s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[15.758s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[15.758s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.759s]   174 |     [01;36m[KConstPtr[m[K;
+[15.759s]       |     [01;36m[K^~~~~~~~[m[K
+[16.076s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:179:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[16.076s]   179 |   void DroneDetector::rcvDepthImgCallback(const sensor_msgs::msg::Image::ConstPtr &depth_img[01;35m[K)[m[K
+[16.076s]       |                                                                                             [01;35m[K^[m[K
+[16.076s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[16.076s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[16.076s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[16.077s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[16.077s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.077s]   174 |     [01;36m[KConstPtr[m[K;
+[16.077s]       |     [01;36m[K^~~~~~~~[m[K
+[45.222s] [100%] [32m[1mLinking CXX executable drone_detect[0m
+[46.750s] [100%] Built target drone_detect
+[46.763s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/drone_detect -- -j24 -l24
+[46.766s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/drone_detect
+[46.775s] -- Install configuration: "Release"
+[46.776s] -- Execute custom install script
+[46.776s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/lib/drone_detect/drone_detect
+[46.785s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/doc/demo.jpg
+[46.792s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/doc/example.jpg
+[46.800s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/launch/drone_detect.launch.py
+[46.810s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/launch/ros_package_template_overlying_params.launch.py
+[46.819s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/config/camera.yaml
+[46.830s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/config/default.yaml
+[46.838s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/package_run_dependencies/drone_detect
+[46.845s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/parent_prefix_path/drone_detect
+[46.855s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/ament_prefix_path.sh
+[46.865s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/ament_prefix_path.dsv
+[46.873s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/path.sh
+[46.882s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/environment/path.dsv
+[46.895s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.bash
+[46.902s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.sh
+[46.910s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.zsh
+[46.919s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/local_setup.dsv
+[46.926s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/package.dsv
+[46.934s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/ament_index/resource_index/packages/drone_detect
+[46.941s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake
+[46.949s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake
+[46.957s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/drone_detect/share/drone_detect/package.xml
+[46.964s] -- Installing: /home/ubuntu/ego-planner-swarm/install/drone_detect/include/drone_detect
+[46.965s] -- Installing: /home/ubuntu/ego-planner-swarm/install/drone_detect/include/drone_detect/drone_detector.h
+[46.967s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/drone_detect

@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+[0.033s] Consolidate compiler generated dependencies of target adaptive_planner_node
+[0.043s] [ 50%] Building CXX object CMakeFiles/adaptive_planner_node.dir/src/adaptive_planner.cpp.o
+[5.404s] [100%] Linking CXX executable adaptive_planner_node
+[7.004s] [100%] Built target adaptive_planner_node
+[7.010s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/adaptive_planner -- -j24 -l24
+[7.011s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner
+[7.014s] -- Install configuration: ""
+[7.014s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node
+[7.019s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/adaptive_planner/lib/adaptive_planner/adaptive_planner_node" to ""
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/package_run_dependencies/adaptive_planner
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/parent_prefix_path/adaptive_planner
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.sh
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/ament_prefix_path.dsv
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.sh
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/environment/path.dsv
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.bash
+[7.019s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.sh
+[7.020s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.zsh
+[7.021s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/local_setup.dsv
+[7.021s] -- Installing: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.dsv
+[7.021s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/ament_index/resource_index/packages/adaptive_planner
+[7.021s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig.cmake
+[7.022s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/cmake/adaptive_plannerConfig-version.cmake
+[7.022s] -- Up-to-date: /home/ubuntu/ego-planner-swarm/install/adaptive_planner/share/adaptive_planner/package.xml
+[7.023s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/adaptive_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/adaptive_planner

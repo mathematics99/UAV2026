@@ -1,0 +1,114 @@
+[0.481s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/local_sensing': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/local_sensing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/local_sensing
+[0.913s] -- The C compiler identification is GNU 11.4.0
+[4.014s] -- The CXX compiler identification is GNU 11.4.0
+[5.772s] -- Detecting C compiler ABI info
+[6.416s] -- Detecting C compiler ABI info - done
+[6.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.420s] -- Detecting C compile features
+[6.420s] -- Detecting C compile features - done
+[6.424s] -- Detecting CXX compiler ABI info
+[6.933s] -- Detecting CXX compiler ABI info - done
+[6.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.937s] -- Detecting CXX compile features
+[6.938s] -- Detecting CXX compile features - done
+[6.949s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.044s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.099s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[8.001s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.004s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.009s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.048s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.050s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.062s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.067s] -- Looking for pthread.h
+[8.764s] -- Looking for pthread.h - found
+[8.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.434s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.435s] -- Found Threads: TRUE  
+[9.467s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.521s] -- Checking for module 'eigen3'
+[9.527s] --   Found eigen3, version 3.4.0
+[9.543s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.543s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[18.488s] -- Checking for module 'flann'
+[18.495s] --   Found flann, version 1.9.1
+[21.787s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[21.787s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[48.385s] -- Checking for module 'libusb-1.0'
+[48.392s] --   Found libusb-1.0, version 1.0.25
+[49.137s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[49.138s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[50.595s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[60.195s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[60.199s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[60.203s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[69.620s] -- Found Qhull version 8.0.2
+[80.796s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[93.640s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[93.640s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[93.641s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[93.641s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[93.642s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[93.642s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[93.643s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[93.643s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[93.643s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[93.644s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[93.644s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[93.645s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[93.645s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[93.646s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[93.647s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[93.647s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[93.648s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[93.648s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[93.649s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[93.649s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[93.650s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[93.650s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[93.650s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[93.651s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[93.651s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[93.800s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[93.801s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[93.802s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[93.884s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[93.895s] -- Found quadrotor_msgs: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[93.916s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time 
+[93.961s] -- Configuring done
+[93.983s] -- Generating done
+[93.988s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/local_sensing
+[94.001s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/local_sensing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/local_sensing
+[94.001s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/local_sensing': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/local_sensing -- -j24 -l24
+[94.031s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o[0m
+[97.424s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp:[m[K In function ‘[01m[Kvoid rcvLocalPointCloudCallBack(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[97.424s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp:167:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpointcloud_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[97.424s]   167 |     [01;35m[Kconst sensor_msgs::msg::PointCloud2::SharedPtr pointcloud_map[m[K) {
+[97.424s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[105.211s] [100%] [32m[1mLinking CXX executable pcl_render_node[0m
+[106.028s] [100%] Built target pcl_render_node
+[106.034s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/local_sensing -- -j24 -l24
+[106.037s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/local_sensing': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/local_sensing
+[106.045s] -- Install configuration: "Release"
+[106.045s] -- Execute custom install script
+[106.045s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/lib/local_sensing/pcl_render_node
+[106.051s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/config/camera.yaml
+[106.057s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/package_run_dependencies/local_sensing
+[106.061s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/parent_prefix_path/local_sensing
+[106.066s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/ament_prefix_path.sh
+[106.070s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/ament_prefix_path.dsv
+[106.075s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/path.sh
+[106.079s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/path.dsv
+[106.084s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.bash
+[106.088s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.sh
+[106.094s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.zsh
+[106.097s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.dsv
+[106.102s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/package.dsv
+[106.106s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/packages/local_sensing
+[106.115s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/cmake/local_sensingConfig.cmake
+[106.118s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/cmake/local_sensingConfig-version.cmake
+[106.124s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/package.xml
+[106.128s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/local_sensing

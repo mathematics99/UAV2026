@@ -1,0 +1,434 @@
+[0.000000] (-) TimerEvent: {}
+[0.000054] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000088] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000305] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000330] (-) JobUnselected: {'identifier': 'ego_planner'}
+[0.000438] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000461] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000710] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000743] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000830] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000866] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.000875] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.000896] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000904] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000910] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000917] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.000938] (-) JobUnselected: {'identifier': 'sensor_adapter'}
+[0.000946] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000952] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000973] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.000983] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000989] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000997] (risk_evaluator) JobQueued: {'identifier': 'risk_evaluator', 'dependencies': OrderedDict()}
+[0.001006] (risk_evaluator) JobStarted: {'identifier': 'risk_evaluator'}
+[0.008442] (risk_evaluator) JobProgress: {'identifier': 'risk_evaluator', 'progress': 'cmake'}
+[0.009669] (risk_evaluator) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ego-planner-swarm/src/my_navigation/risk_evaluator', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/risk_evaluator'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/risk_evaluator', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/35314_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/risk_evaluator'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099760] (-) TimerEvent: {}
+[0.199965] (-) TimerEvent: {}
+[0.302213] (-) TimerEvent: {}
+[0.378037] (risk_evaluator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402326] (-) TimerEvent: {}
+[0.502616] (-) TimerEvent: {}
+[0.602827] (-) TimerEvent: {}
+[0.702998] (-) TimerEvent: {}
+[0.803172] (-) TimerEvent: {}
+[0.903354] (-) TimerEvent: {}
+[1.003538] (-) TimerEvent: {}
+[1.103941] (-) TimerEvent: {}
+[1.204325] (-) TimerEvent: {}
+[1.304575] (-) TimerEvent: {}
+[1.404921] (-) TimerEvent: {}
+[1.505121] (-) TimerEvent: {}
+[1.605333] (-) TimerEvent: {}
+[1.705632] (-) TimerEvent: {}
+[1.805808] (-) TimerEvent: {}
+[1.856533] (risk_evaluator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.905903] (-) TimerEvent: {}
+[2.007717] (-) TimerEvent: {}
+[2.107899] (-) TimerEvent: {}
+[2.208076] (-) TimerEvent: {}
+[2.308556] (-) TimerEvent: {}
+[2.408745] (-) TimerEvent: {}
+[2.508950] (-) TimerEvent: {}
+[2.609189] (-) TimerEvent: {}
+[2.709373] (-) TimerEvent: {}
+[2.809713] (-) TimerEvent: {}
+[2.909904] (-) TimerEvent: {}
+[2.977160] (risk_evaluator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.010037] (-) TimerEvent: {}
+[3.110322] (-) TimerEvent: {}
+[3.210531] (-) TimerEvent: {}
+[3.310843] (-) TimerEvent: {}
+[3.317784] (risk_evaluator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.321929] (risk_evaluator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.323272] (risk_evaluator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.323792] (risk_evaluator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.326360] (risk_evaluator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.410958] (-) TimerEvent: {}
+[3.511257] (-) TimerEvent: {}
+[3.611490] (-) TimerEvent: {}
+[3.717913] (-) TimerEvent: {}
+[3.818103] (-) TimerEvent: {}
+[3.918348] (-) TimerEvent: {}
+[3.968096] (risk_evaluator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.972338] (risk_evaluator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.972530] (risk_evaluator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.972842] (risk_evaluator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.987963] (risk_evaluator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.018745] (-) TimerEvent: {}
+[4.115175] (risk_evaluator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.118834] (-) TimerEvent: {}
+[4.172581] (risk_evaluator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.209814] (risk_evaluator) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.218963] (-) TimerEvent: {}
+[4.319181] (-) TimerEvent: {}
+[4.419390] (-) TimerEvent: {}
+[4.519589] (-) TimerEvent: {}
+[4.619780] (-) TimerEvent: {}
+[4.632932] (risk_evaluator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.636652] (risk_evaluator) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.644439] (risk_evaluator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.663481] (risk_evaluator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.678262] (risk_evaluator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.719906] (-) TimerEvent: {}
+[4.720332] (risk_evaluator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.724729] (risk_evaluator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.820112] (-) TimerEvent: {}
+[4.923000] (-) TimerEvent: {}
+[5.023230] (-) TimerEvent: {}
+[5.123506] (-) TimerEvent: {}
+[5.223700] (-) TimerEvent: {}
+[5.323971] (-) TimerEvent: {}
+[5.424322] (-) TimerEvent: {}
+[5.524527] (-) TimerEvent: {}
+[5.625509] (-) TimerEvent: {}
+[5.725714] (-) TimerEvent: {}
+[5.825906] (-) TimerEvent: {}
+[5.926085] (-) TimerEvent: {}
+[6.026263] (-) TimerEvent: {}
+[6.126715] (-) TimerEvent: {}
+[6.226903] (-) TimerEvent: {}
+[6.327102] (-) TimerEvent: {}
+[6.427283] (-) TimerEvent: {}
+[6.528226] (-) TimerEvent: {}
+[6.628450] (-) TimerEvent: {}
+[6.728828] (-) TimerEvent: {}
+[6.829032] (-) TimerEvent: {}
+[6.929258] (-) TimerEvent: {}
+[7.029489] (-) TimerEvent: {}
+[7.129767] (-) TimerEvent: {}
+[7.229947] (-) TimerEvent: {}
+[7.330211] (-) TimerEvent: {}
+[7.430410] (-) TimerEvent: {}
+[7.530599] (-) TimerEvent: {}
+[7.630813] (-) TimerEvent: {}
+[7.731749] (-) TimerEvent: {}
+[7.831927] (-) TimerEvent: {}
+[7.932164] (-) TimerEvent: {}
+[8.032477] (-) TimerEvent: {}
+[8.132661] (-) TimerEvent: {}
+[8.232843] (-) TimerEvent: {}
+[8.333133] (-) TimerEvent: {}
+[8.433672] (-) TimerEvent: {}
+[8.538535] (-) TimerEvent: {}
+[8.638821] (-) TimerEvent: {}
+[8.738997] (-) TimerEvent: {}
+[8.839205] (-) TimerEvent: {}
+[8.939393] (-) TimerEvent: {}
+[9.039684] (-) TimerEvent: {}
+[9.140026] (-) TimerEvent: {}
+[9.240411] (-) TimerEvent: {}
+[9.340747] (-) TimerEvent: {}
+[9.440947] (-) TimerEvent: {}
+[9.541442] (-) TimerEvent: {}
+[9.641717] (-) TimerEvent: {}
+[9.741889] (-) TimerEvent: {}
+[9.842490] (-) TimerEvent: {}
+[9.942917] (-) TimerEvent: {}
+[10.043165] (-) TimerEvent: {}
+[10.062491] (risk_evaluator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.143275] (-) TimerEvent: {}
+[10.243513] (-) TimerEvent: {}
+[10.343728] (-) TimerEvent: {}
+[10.443937] (-) TimerEvent: {}
+[10.544263] (-) TimerEvent: {}
+[10.644560] (-) TimerEvent: {}
+[10.744844] (-) TimerEvent: {}
+[10.845130] (-) TimerEvent: {}
+[10.945368] (-) TimerEvent: {}
+[11.045553] (-) TimerEvent: {}
+[11.145765] (-) TimerEvent: {}
+[11.245949] (-) TimerEvent: {}
+[11.346258] (-) TimerEvent: {}
+[11.446466] (-) TimerEvent: {}
+[11.546778] (-) TimerEvent: {}
+[11.646961] (-) TimerEvent: {}
+[11.747252] (-) TimerEvent: {}
+[11.847554] (-) TimerEvent: {}
+[11.947733] (-) TimerEvent: {}
+[12.047935] (-) TimerEvent: {}
+[12.148293] (-) TimerEvent: {}
+[12.248648] (-) TimerEvent: {}
+[12.348816] (-) TimerEvent: {}
+[12.448992] (-) TimerEvent: {}
+[12.549166] (-) TimerEvent: {}
+[12.649428] (-) TimerEvent: {}
+[12.749661] (-) TimerEvent: {}
+[12.849900] (-) TimerEvent: {}
+[12.950101] (-) TimerEvent: {}
+[13.050319] (-) TimerEvent: {}
+[13.150599] (-) TimerEvent: {}
+[13.250821] (-) TimerEvent: {}
+[13.351011] (-) TimerEvent: {}
+[13.451261] (-) TimerEvent: {}
+[13.551455] (-) TimerEvent: {}
+[13.651676] (-) TimerEvent: {}
+[13.751845] (-) TimerEvent: {}
+[13.852013] (-) TimerEvent: {}
+[13.953064] (-) TimerEvent: {}
+[14.053476] (-) TimerEvent: {}
+[14.153693] (-) TimerEvent: {}
+[14.253903] (-) TimerEvent: {}
+[14.354123] (-) TimerEvent: {}
+[14.454307] (-) TimerEvent: {}
+[14.554593] (-) TimerEvent: {}
+[14.654870] (-) TimerEvent: {}
+[14.755132] (-) TimerEvent: {}
+[14.855345] (-) TimerEvent: {}
+[14.955718] (-) TimerEvent: {}
+[15.055938] (-) TimerEvent: {}
+[15.156177] (-) TimerEvent: {}
+[15.256355] (-) TimerEvent: {}
+[15.356589] (-) TimerEvent: {}
+[15.456756] (-) TimerEvent: {}
+[15.556938] (-) TimerEvent: {}
+[15.657147] (-) TimerEvent: {}
+[15.757425] (-) TimerEvent: {}
+[15.857654] (-) TimerEvent: {}
+[15.959618] (-) TimerEvent: {}
+[16.059926] (-) TimerEvent: {}
+[16.160118] (-) TimerEvent: {}
+[16.260304] (-) TimerEvent: {}
+[16.360621] (-) TimerEvent: {}
+[16.460831] (-) TimerEvent: {}
+[16.561120] (-) TimerEvent: {}
+[16.661309] (-) TimerEvent: {}
+[16.761543] (-) TimerEvent: {}
+[16.861720] (-) TimerEvent: {}
+[16.961937] (-) TimerEvent: {}
+[17.062164] (-) TimerEvent: {}
+[17.162487] (-) TimerEvent: {}
+[17.248218] (risk_evaluator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[17.262597] (-) TimerEvent: {}
+[17.363173] (-) TimerEvent: {}
+[17.463367] (-) TimerEvent: {}
+[17.563592] (-) TimerEvent: {}
+[17.663768] (-) TimerEvent: {}
+[17.764132] (-) TimerEvent: {}
+[17.864411] (-) TimerEvent: {}
+[17.964643] (-) TimerEvent: {}
+[18.065020] (-) TimerEvent: {}
+[18.165443] (-) TimerEvent: {}
+[18.265713] (-) TimerEvent: {}
+[18.365975] (-) TimerEvent: {}
+[18.466303] (-) TimerEvent: {}
+[18.566564] (-) TimerEvent: {}
+[18.666768] (-) TimerEvent: {}
+[18.768202] (-) TimerEvent: {}
+[18.868419] (-) TimerEvent: {}
+[18.968597] (-) TimerEvent: {}
+[19.068930] (-) TimerEvent: {}
+[19.169106] (-) TimerEvent: {}
+[19.269302] (-) TimerEvent: {}
+[19.369474] (-) TimerEvent: {}
+[19.469650] (-) TimerEvent: {}
+[19.569826] (-) TimerEvent: {}
+[19.670074] (-) TimerEvent: {}
+[19.770296] (-) TimerEvent: {}
+[19.870705] (-) TimerEvent: {}
+[19.970896] (-) TimerEvent: {}
+[20.071098] (-) TimerEvent: {}
+[20.171489] (-) TimerEvent: {}
+[20.271671] (-) TimerEvent: {}
+[20.371839] (-) TimerEvent: {}
+[20.472196] (-) TimerEvent: {}
+[20.572429] (-) TimerEvent: {}
+[20.672669] (-) TimerEvent: {}
+[20.772904] (-) TimerEvent: {}
+[20.873085] (-) TimerEvent: {}
+[20.973278] (-) TimerEvent: {}
+[21.073466] (-) TimerEvent: {}
+[21.173644] (-) TimerEvent: {}
+[21.273871] (-) TimerEvent: {}
+[21.374180] (-) TimerEvent: {}
+[21.474436] (-) TimerEvent: {}
+[21.574632] (-) TimerEvent: {}
+[21.674823] (-) TimerEvent: {}
+[21.775038] (-) TimerEvent: {}
+[21.875359] (-) TimerEvent: {}
+[21.975624] (-) TimerEvent: {}
+[22.075813] (-) TimerEvent: {}
+[22.176064] (-) TimerEvent: {}
+[22.276309] (-) TimerEvent: {}
+[22.377154] (-) TimerEvent: {}
+[22.477409] (-) TimerEvent: {}
+[22.577764] (-) TimerEvent: {}
+[22.677981] (-) TimerEvent: {}
+[22.784293] (-) TimerEvent: {}
+[22.884468] (-) TimerEvent: {}
+[22.984712] (-) TimerEvent: {}
+[23.084893] (-) TimerEvent: {}
+[23.185272] (-) TimerEvent: {}
+[23.285541] (-) TimerEvent: {}
+[23.385752] (-) TimerEvent: {}
+[23.485984] (-) TimerEvent: {}
+[23.586160] (-) TimerEvent: {}
+[23.686331] (-) TimerEvent: {}
+[23.786507] (-) TimerEvent: {}
+[23.887092] (-) TimerEvent: {}
+[23.987282] (-) TimerEvent: {}
+[24.087474] (-) TimerEvent: {}
+[24.187648] (-) TimerEvent: {}
+[24.287839] (-) TimerEvent: {}
+[24.388021] (-) TimerEvent: {}
+[24.488202] (-) TimerEvent: {}
+[24.588528] (-) TimerEvent: {}
+[24.688731] (-) TimerEvent: {}
+[24.788934] (-) TimerEvent: {}
+[24.852616] (risk_evaluator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.868900] (risk_evaluator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[24.889060] (-) TimerEvent: {}
+[24.989218] (-) TimerEvent: {}
+[25.089404] (-) TimerEvent: {}
+[25.099160] (risk_evaluator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[25.099389] (risk_evaluator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[25.189508] (-) TimerEvent: {}
+[25.289731] (-) TimerEvent: {}
+[25.390627] (-) TimerEvent: {}
+[25.490870] (-) TimerEvent: {}
+[25.591125] (-) TimerEvent: {}
+[25.691300] (-) TimerEvent: {}
+[25.748100] (risk_evaluator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[25.748819] (risk_evaluator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[25.791403] (-) TimerEvent: {}
+[25.812174] (risk_evaluator) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[25.841026] (risk_evaluator) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[25.856194] (risk_evaluator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[25.891596] (-) TimerEvent: {}
+[25.916763] (risk_evaluator) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[25.916898] (risk_evaluator) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[25.916973] (risk_evaluator) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[25.917798] (risk_evaluator) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.918621] (risk_evaluator) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[25.918764] (risk_evaluator) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[25.919320] (risk_evaluator) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.920655] (risk_evaluator) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.927425] (risk_evaluator) StdoutLine: {'line': b'-- Generating done\n'}
+[25.929716] (risk_evaluator) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/risk_evaluator\n'}
+[25.935202] (risk_evaluator) CommandEnded: {'returncode': 0}
+[25.936307] (risk_evaluator) JobProgress: {'identifier': 'risk_evaluator', 'progress': 'build'}
+[25.936716] (risk_evaluator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ego-planner-swarm/build/risk_evaluator', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/risk_evaluator', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/35314_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/risk_evaluator'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.962548] (risk_evaluator) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/risk_evaluator_node.dir/src/risk_evaluator.cpp.o\n'}
+[25.991692] (-) TimerEvent: {}
+[26.091895] (-) TimerEvent: {}
+[26.192097] (-) TimerEvent: {}
+[26.292396] (-) TimerEvent: {}
+[26.392721] (-) TimerEvent: {}
+[26.493114] (-) TimerEvent: {}
+[26.593399] (-) TimerEvent: {}
+[26.693589] (-) TimerEvent: {}
+[26.793780] (-) TimerEvent: {}
+[26.894061] (-) TimerEvent: {}
+[26.994391] (-) TimerEvent: {}
+[27.094715] (-) TimerEvent: {}
+[27.194902] (-) TimerEvent: {}
+[27.295089] (-) TimerEvent: {}
+[27.395289] (-) TimerEvent: {}
+[27.495580] (-) TimerEvent: {}
+[27.595821] (-) TimerEvent: {}
+[27.696173] (-) TimerEvent: {}
+[27.796523] (-) TimerEvent: {}
+[27.896868] (-) TimerEvent: {}
+[27.997543] (-) TimerEvent: {}
+[28.097898] (-) TimerEvent: {}
+[28.198268] (-) TimerEvent: {}
+[28.298506] (-) TimerEvent: {}
+[28.398724] (-) TimerEvent: {}
+[28.498931] (-) TimerEvent: {}
+[28.599370] (-) TimerEvent: {}
+[28.699626] (-) TimerEvent: {}
+[28.799907] (-) TimerEvent: {}
+[28.900182] (-) TimerEvent: {}
+[29.000405] (-) TimerEvent: {}
+[29.100610] (-) TimerEvent: {}
+[29.200914] (-) TimerEvent: {}
+[29.301133] (-) TimerEvent: {}
+[29.401606] (-) TimerEvent: {}
+[29.501909] (-) TimerEvent: {}
+[29.602135] (-) TimerEvent: {}
+[29.702370] (-) TimerEvent: {}
+[29.802739] (-) TimerEvent: {}
+[29.902940] (-) TimerEvent: {}
+[30.003130] (-) TimerEvent: {}
+[30.103461] (-) TimerEvent: {}
+[30.203719] (-) TimerEvent: {}
+[30.304297] (-) TimerEvent: {}
+[30.404636] (-) TimerEvent: {}
+[30.504896] (-) TimerEvent: {}
+[30.605243] (-) TimerEvent: {}
+[30.705473] (-) TimerEvent: {}
+[30.805674] (-) TimerEvent: {}
+[30.905898] (-) TimerEvent: {}
+[31.006177] (-) TimerEvent: {}
+[31.106361] (-) TimerEvent: {}
+[31.206684] (-) TimerEvent: {}
+[31.306901] (-) TimerEvent: {}
+[31.407157] (-) TimerEvent: {}
+[31.507463] (-) TimerEvent: {}
+[31.607680] (-) TimerEvent: {}
+[31.708059] (-) TimerEvent: {}
+[31.808243] (-) TimerEvent: {}
+[31.908455] (-) TimerEvent: {}
+[32.008736] (-) TimerEvent: {}
+[32.108951] (-) TimerEvent: {}
+[32.209301] (-) TimerEvent: {}
+[32.309472] (-) TimerEvent: {}
+[32.409684] (-) TimerEvent: {}
+[32.509863] (-) TimerEvent: {}
+[32.610065] (-) TimerEvent: {}
+[32.710292] (-) TimerEvent: {}
+[32.810611] (-) TimerEvent: {}
+[32.907575] (risk_evaluator) StdoutLine: {'line': b'[100%] Linking CXX executable risk_evaluator_node\n'}
+[32.910803] (-) TimerEvent: {}
+[33.010967] (-) TimerEvent: {}
+[33.111715] (-) TimerEvent: {}
+[33.212073] (-) TimerEvent: {}
+[33.312296] (-) TimerEvent: {}
+[33.412478] (-) TimerEvent: {}
+[33.423345] (risk_evaluator) StdoutLine: {'line': b'[100%] Built target risk_evaluator_node\n'}
+[33.428986] (risk_evaluator) CommandEnded: {'returncode': 0}
+[33.429802] (risk_evaluator) JobProgress: {'identifier': 'risk_evaluator', 'progress': 'install'}
+[33.434094] (risk_evaluator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ego-planner-swarm/build/risk_evaluator'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/risk_evaluator', 'env': OrderedDict([('USER', 'ubuntu'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/35314_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/local/bin:/mnt/e/git/usr/bin:/mnt/e/git/usr/bin:/mnt/e/git/mingw64/bin:/mnt/e/git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/e/git/cmd:/mnt/e/node:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/usr/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/mnt/e/git/usr/bin/vendor_perl:/mnt/e/git/usr/bin/core_perl:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/code-review/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown/bin:/mnt/c/Users/lenovo/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_TAR', '/mnt/c/Users/lenovo/vscode-remote-wsl/stable/a5b500951314efd502d07465bd138dfbd714a960/vscode-server-stable-linux-x64.tar.gz'), ('PWD', '/home/ubuntu/ego-planner-swarm/build/risk_evaluator'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[33.437671] (risk_evaluator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.437934] (risk_evaluator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.438426] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/lib/risk_evaluator/risk_evaluator_node\n'}
+[33.443388] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/package_run_dependencies/risk_evaluator\n'}
+[33.447871] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/parent_prefix_path/risk_evaluator\n'}
+[33.452491] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.sh\n'}
+[33.456788] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.dsv\n'}
+[33.460906] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.sh\n'}
+[33.464902] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.dsv\n'}
+[33.468855] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.bash\n'}
+[33.473013] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.sh\n'}
+[33.476984] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.zsh\n'}
+[33.481378] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.dsv\n'}
+[33.485611] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.dsv\n'}
+[33.490030] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/packages/risk_evaluator\n'}
+[33.494228] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig.cmake\n'}
+[33.498370] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig-version.cmake\n'}
+[33.502427] (risk_evaluator) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.xml\n'}
+[33.507255] (risk_evaluator) CommandEnded: {'returncode': 0}
+[33.512551] (-) TimerEvent: {}
+[33.526568] (risk_evaluator) JobEnded: {'identifier': 'risk_evaluator', 'rc': 0}
+[33.527062] (-) EventReactorShutdown: {}

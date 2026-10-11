@@ -44,6 +44,15 @@ namespace ego_planner
 
     double getSwarmClearance(void) { return bspline_optimizer_->getSwarmClearance(); }
 
+    // Risk-aware adaptive parameter injection (V4)
+    void setAdaptiveSafeDistance(double d) { bspline_optimizer_->setDist0(d); }
+    void setAdaptiveCollisionWeight(double w) { bspline_optimizer_->setLambdaCollision(w); }
+    void setAdaptiveMaxVel(double v)
+    {
+      pp_.max_vel_ = v;
+      bspline_optimizer_->setMaxVel(v);
+    }
+
     bool checkCollision(int drone_id);
     
 

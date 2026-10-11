@@ -1,0 +1,31 @@
+[0.004s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/mockamap -- -j24 -l24
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target mockamap_node[0m
+[0.053s] [100%] Built target mockamap_node
+[0.058s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/mockamap -- -j24 -l24
+[0.060s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/mockamap
+[0.064s] -- Install configuration: "Release"
+[0.064s] -- Execute custom install script
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/lib/mockamap/mockamap_node
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/maze2d.launch.py
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/maze3d.launch.py
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/mockamap.launch.py
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/perlin3d.launch.py
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/launch/post2d.launch.py
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/config/rviz.rviz
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/package_run_dependencies/mockamap
+[0.065s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/parent_prefix_path/mockamap
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/path.sh
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/environment/path.dsv
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.bash
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.sh
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.zsh
+[0.066s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/local_setup.dsv
+[0.066s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/package.dsv
+[0.071s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/ament_index/resource_index/packages/mockamap
+[0.071s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.071s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/mockamapConfig.cmake
+[0.071s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/cmake/mockamapConfig-version.cmake
+[0.071s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/mockamap/share/mockamap/package.xml
+[0.072s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/mockamap

@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/mockamap_node.dir/build.make:90: CMakeFiles/mockamap_node.dir/src/maps.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/mockamap_node.dir/build.make:76: CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/mockamap_node.dir/build.make:104: CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mockamap_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

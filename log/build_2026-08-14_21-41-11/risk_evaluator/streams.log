@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/risk_evaluator -- -j24 -l24
+[0.047s] Consolidate compiler generated dependencies of target risk_evaluator_node
+[0.057s] [ 50%] Building CXX object CMakeFiles/risk_evaluator_node.dir/src/risk_evaluator.cpp.o
+[10.289s] [100%] Linking CXX executable risk_evaluator_node
+[11.365s] [100%] Built target risk_evaluator_node
+[11.374s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/risk_evaluator -- -j24 -l24
+[11.380s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/risk_evaluator
+[11.387s] -- Install configuration: ""
+[11.388s] -- Execute custom install script
+[11.388s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/lib/risk_evaluator/risk_evaluator_node
+[11.390s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/package_run_dependencies/risk_evaluator
+[11.390s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/parent_prefix_path/risk_evaluator
+[11.390s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.sh
+[11.390s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.dsv
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.sh
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.dsv
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.bash
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.sh
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.zsh
+[11.391s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.dsv
+[11.391s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.dsv
+[11.396s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/packages/risk_evaluator
+[11.396s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig.cmake
+[11.397s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig-version.cmake
+[11.397s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.xml
+[11.400s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/risk_evaluator

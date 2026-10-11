@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000794] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000879] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000934] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000954] (-) JobUnselected: {'identifier': 'ego_planner'}
+[0.000973] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000990] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.001008] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.001025] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.001040] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.001061] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.001110] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.001164] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.001795] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.001839] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.001849] (-) JobUnselected: {'identifier': 'risk_evaluator'}
+[0.001857] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.001864] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.001871] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.001878] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.001885] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.001892] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.001901] (sensor_adapter) JobQueued: {'identifier': 'sensor_adapter', 'dependencies': OrderedDict()}
+[0.001985] (sensor_adapter) JobStarted: {'identifier': 'sensor_adapter'}
+[0.018313] (sensor_adapter) JobProgress: {'identifier': 'sensor_adapter', 'progress': 'cmake'}
+[0.019515] (sensor_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ego-planner-swarm/src/my_navigation/sensor_adapter', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/sensor_adapter'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/sensor_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/so3_control/lib:/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm/src/my_navigation'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-932c8e27-c139-450f-983a-5b84c7c18f5b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/1196_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '11640'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/git/cmd:/mnt/e/node/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-be95fbf37b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ego-planner-swarm/build/sensor_adapter'), ('COPILOT_DEBUG_NONCE', '9161085b4834370cf4361806e5f55c55'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.099729] (-) TimerEvent: {}
+[0.200032] (-) TimerEvent: {}
+[0.300396] (-) TimerEvent: {}
+[0.400739] (-) TimerEvent: {}
+[0.435239] (sensor_adapter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500888] (-) TimerEvent: {}
+[0.601195] (-) TimerEvent: {}
+[0.701507] (-) TimerEvent: {}
+[0.801823] (-) TimerEvent: {}
+[0.902111] (-) TimerEvent: {}
+[1.002397] (-) TimerEvent: {}
+[1.102978] (-) TimerEvent: {}
+[1.203285] (-) TimerEvent: {}
+[1.303809] (-) TimerEvent: {}
+[1.388920] (sensor_adapter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.403907] (-) TimerEvent: {}
+[1.504225] (-) TimerEvent: {}
+[1.604588] (-) TimerEvent: {}
+[1.704884] (-) TimerEvent: {}
+[1.805187] (-) TimerEvent: {}
+[1.905487] (-) TimerEvent: {}
+[2.005770] (-) TimerEvent: {}
+[2.106078] (-) TimerEvent: {}
+[2.158366] (sensor_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.206227] (-) TimerEvent: {}
+[2.291003] (sensor_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.295311] (sensor_adapter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.295778] (sensor_adapter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.296304] (sensor_adapter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.299339] (sensor_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.306373] (-) TimerEvent: {}
+[2.406648] (-) TimerEvent: {}
+[2.506943] (-) TimerEvent: {}
+[2.607399] (-) TimerEvent: {}
+[2.611742] (sensor_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.616111] (sensor_adapter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.616317] (sensor_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.616601] (sensor_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.629281] (sensor_adapter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.707547] (-) TimerEvent: {}
+[2.730283] (sensor_adapter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.777791] (sensor_adapter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.807673] (-) TimerEvent: {}
+[2.815280] (sensor_adapter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.908317] (-) TimerEvent: {}
+[3.008638] (-) TimerEvent: {}
+[3.108954] (-) TimerEvent: {}
+[3.179321] (sensor_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.185830] (sensor_adapter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.195419] (sensor_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.209059] (-) TimerEvent: {}
+[3.210728] (sensor_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.228651] (sensor_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.283884] (sensor_adapter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.287885] (sensor_adapter) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.309158] (-) TimerEvent: {}
+[3.316707] (sensor_adapter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.327975] (sensor_adapter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.409297] (-) TimerEvent: {}
+[3.509612] (-) TimerEvent: {}
+[3.583698] (sensor_adapter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.583900] (sensor_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.609840] (-) TimerEvent: {}
+[3.710155] (-) TimerEvent: {}
+[3.810524] (-) TimerEvent: {}
+[3.836985] (sensor_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.837530] (sensor_adapter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.896545] (sensor_adapter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.910676] (-) TimerEvent: {}
+[3.929912] (sensor_adapter) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.947513] (sensor_adapter) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.010788] (-) TimerEvent: {}
+[4.065368] (sensor_adapter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.110911] (-) TimerEvent: {}
+[4.132137] (sensor_adapter) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.132286] (sensor_adapter) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.132346] (sensor_adapter) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.133196] (sensor_adapter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.134883] (sensor_adapter) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.134973] (sensor_adapter) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.135182] (sensor_adapter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.137820] (sensor_adapter) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.145283] (sensor_adapter) StdoutLine: {'line': b'-- Generating done\n'}
+[4.148007] (sensor_adapter) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/sensor_adapter\n'}
+[4.153590] (sensor_adapter) CommandEnded: {'returncode': 0}
+[4.153998] (sensor_adapter) JobProgress: {'identifier': 'sensor_adapter', 'progress': 'build'}
+[4.154991] (sensor_adapter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ego-planner-swarm/build/sensor_adapter', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/sensor_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/so3_control/lib:/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm/src/my_navigation'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-932c8e27-c139-450f-983a-5b84c7c18f5b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/1196_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '11640'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/git/cmd:/mnt/e/node/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-be95fbf37b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ego-planner-swarm/build/sensor_adapter'), ('COPILOT_DEBUG_NONCE', '9161085b4834370cf4361806e5f55c55'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[4.185239] (sensor_adapter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_adapter_node.dir/src/sensor_adapter.cpp.o\x1b[0m\n'}
+[4.211083] (-) TimerEvent: {}
+[4.311376] (-) TimerEvent: {}
+[4.411699] (-) TimerEvent: {}
+[4.512080] (-) TimerEvent: {}
+[4.612406] (-) TimerEvent: {}
+[4.712704] (-) TimerEvent: {}
+[4.813026] (-) TimerEvent: {}
+[4.913476] (-) TimerEvent: {}
+[5.013832] (-) TimerEvent: {}
+[5.114185] (-) TimerEvent: {}
+[5.214666] (-) TimerEvent: {}
+[5.315001] (-) TimerEvent: {}
+[5.415330] (-) TimerEvent: {}
+[5.515668] (-) TimerEvent: {}
+[5.616036] (-) TimerEvent: {}
+[5.716518] (-) TimerEvent: {}
+[5.816832] (-) TimerEvent: {}
+[5.917281] (-) TimerEvent: {}
+[6.017612] (-) TimerEvent: {}
+[6.117937] (-) TimerEvent: {}
+[6.218303] (-) TimerEvent: {}
+[6.318641] (-) TimerEvent: {}
+[6.418934] (-) TimerEvent: {}
+[6.519293] (-) TimerEvent: {}
+[6.619686] (-) TimerEvent: {}
+[6.720073] (-) TimerEvent: {}
+[6.820542] (-) TimerEvent: {}
+[6.920856] (-) TimerEvent: {}
+[7.021250] (-) TimerEvent: {}
+[7.121557] (-) TimerEvent: {}
+[7.222009] (-) TimerEvent: {}
+[7.322491] (-) TimerEvent: {}
+[7.423102] (-) TimerEvent: {}
+[7.523440] (-) TimerEvent: {}
+[7.623738] (-) TimerEvent: {}
+[7.724108] (-) TimerEvent: {}
+[7.824390] (-) TimerEvent: {}
+[7.924726] (-) TimerEvent: {}
+[8.025028] (-) TimerEvent: {}
+[8.125364] (-) TimerEvent: {}
+[8.225683] (-) TimerEvent: {}
+[8.326149] (-) TimerEvent: {}
+[8.426546] (-) TimerEvent: {}
+[8.526954] (-) TimerEvent: {}
+[8.627329] (-) TimerEvent: {}
+[8.727776] (-) TimerEvent: {}
+[8.828405] (-) TimerEvent: {}
+[8.928919] (-) TimerEvent: {}
+[9.029215] (-) TimerEvent: {}
+[9.129539] (-) TimerEvent: {}
+[9.229862] (-) TimerEvent: {}
+[9.330180] (-) TimerEvent: {}
+[9.430531] (-) TimerEvent: {}
+[9.530972] (-) TimerEvent: {}
+[9.631493] (-) TimerEvent: {}
+[9.731993] (-) TimerEvent: {}
+[9.832306] (-) TimerEvent: {}
+[9.932636] (-) TimerEvent: {}
+[10.032986] (-) TimerEvent: {}
+[10.133307] (-) TimerEvent: {}
+[10.233596] (-) TimerEvent: {}
+[10.334006] (-) TimerEvent: {}
+[10.434407] (-) TimerEvent: {}
+[10.534738] (-) TimerEvent: {}
+[10.635169] (-) TimerEvent: {}
+[10.735624] (-) TimerEvent: {}
+[10.836085] (-) TimerEvent: {}
+[10.936394] (-) TimerEvent: {}
+[11.036715] (-) TimerEvent: {}
+[11.137071] (-) TimerEvent: {}
+[11.237760] (-) TimerEvent: {}
+[11.327653] (sensor_adapter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_adapter_node\x1b[0m\n'}
+[11.338018] (-) TimerEvent: {}
+[11.438873] (-) TimerEvent: {}
+[11.539235] (-) TimerEvent: {}
+[11.639588] (-) TimerEvent: {}
+[11.739937] (-) TimerEvent: {}
+[11.840236] (-) TimerEvent: {}
+[11.940567] (-) TimerEvent: {}
+[11.967497] (sensor_adapter) StdoutLine: {'line': b'[100%] Built target sensor_adapter_node\n'}
+[11.974816] (sensor_adapter) CommandEnded: {'returncode': 0}
+[11.975557] (sensor_adapter) JobProgress: {'identifier': 'sensor_adapter', 'progress': 'install'}
+[11.980314] (sensor_adapter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ego-planner-swarm/build/sensor_adapter'], 'cwd': '/home/ubuntu/ego-planner-swarm/build/sensor_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/so3_control/lib:/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ego-planner-swarm/src/my_navigation'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-932c8e27-c139-450f-983a-5b84c7c18f5b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-5H6731JB'), ('WSL_INTEROP', '/run/WSL/1196_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '11640'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/IDM Computer Solutions/UltraEdit:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/cmake/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.1/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/git/cmd:/mnt/e/node/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/Go/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/JetBrains Rider 2025.1/bin:/mnt/d/pycharm/PyCharm 2025.1.3.1/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/node/node_global:/mnt/e/git/bin:/mnt/e/git/cmd:/mnt/d/VS studio/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-be95fbf37b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ego-planner-swarm/build/sensor_adapter'), ('COPILOT_DEBUG_NONCE', '9161085b4834370cf4361806e5f55c55'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ego-planner-swarm/install/waypoint_generator:/home/ubuntu/ego-planner-swarm/install/so3_quadrotor_simulator:/home/ubuntu/ego-planner-swarm/install/uav_utils:/home/ubuntu/ego-planner-swarm/install/rosmsg_tcp_bridge:/home/ubuntu/ego-planner-swarm/install/ego_planner:/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/so3_control:/home/ubuntu/ego-planner-swarm/install/poscmd_2_odom:/home/ubuntu/ego-planner-swarm/install/odom_visualization:/home/ubuntu/ego-planner-swarm/install/multi_map_server:/home/ubuntu/ego-planner-swarm/install/local_sensing:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/plan_env:/home/ubuntu/ego-planner-swarm/install/mockamap:/home/ubuntu/ego-planner-swarm/install/map_generator:/home/ubuntu/ego-planner-swarm/install/drone_detect:/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[11.984452] (sensor_adapter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.984661] (sensor_adapter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.985267] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/lib/sensor_adapter/sensor_adapter_node\n'}
+[11.990111] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/ament_index/resource_index/package_run_dependencies/sensor_adapter\n'}
+[11.994727] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/ament_index/resource_index/parent_prefix_path/sensor_adapter\n'}
+[11.999325] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/environment/ament_prefix_path.sh\n'}
+[12.003645] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/environment/ament_prefix_path.dsv\n'}
+[12.008118] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/environment/path.sh\n'}
+[12.012820] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/environment/path.dsv\n'}
+[12.017113] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/local_setup.bash\n'}
+[12.021666] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/local_setup.sh\n'}
+[12.026279] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/local_setup.zsh\n'}
+[12.030509] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/local_setup.dsv\n'}
+[12.034905] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/package.dsv\n'}
+[12.039664] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/ament_index/resource_index/packages/sensor_adapter\n'}
+[12.040793] (-) TimerEvent: {}
+[12.044421] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/cmake/sensor_adapterConfig.cmake\n'}
+[12.049893] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/cmake/sensor_adapterConfig-version.cmake\n'}
+[12.054442] (sensor_adapter) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ego-planner-swarm/install/sensor_adapter/share/sensor_adapter/package.xml\n'}
+[12.061427] (sensor_adapter) CommandEnded: {'returncode': 0}
+[12.078924] (sensor_adapter) JobEnded: {'identifier': 'sensor_adapter', 'rc': 0}
+[12.079641] (-) EventReactorShutdown: {}

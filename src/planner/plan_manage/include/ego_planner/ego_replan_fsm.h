@@ -9,6 +9,7 @@
 #include "sensor_msgs/msg/imu.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/empty.hpp"
+#include "std_msgs/msg/float64.hpp"
 #include <vector>
 #include "visualization_msgs/msg/marker.hpp"
 
@@ -18,6 +19,7 @@
 #include "traj_utils/msg/multi_bsplines.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "traj_utils/msg/data_disp.hpp"
+#include "traj_utils/msg/replan_event.hpp"
 #include "ego_planner/planner_manager.h"
 #include "traj_utils/planning_visualization.h"
 
@@ -90,6 +92,11 @@ namespace ego_planner
     rclcpp::Subscription<traj_utils::msg::Bspline>::SharedPtr broadcast_bspline_sub_;
     rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr trigger_sub_;
 
+    /* risk-aware adaptive parameter subscriptions (V4) */
+    rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr adaptive_safe_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr adaptive_vel_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr adaptive_weight_sub_;
+
     // rclcpp::Publisher<std_msgs::msg::Empty>::SharedPtr replan_pub_;
     // rclcpp::Publisher<std_msgs::msg::Empty>::SharedPtr new_pub_;
     rclcpp::Publisher<traj_utils::msg::Bspline>::SharedPtr bspline_pub_;
@@ -97,11 +104,16 @@ namespace ego_planner
     rclcpp::Publisher<traj_utils::msg::MultiBsplines>::SharedPtr swarm_trajs_pub_;
     rclcpp::Publisher<traj_utils::msg::Bspline>::SharedPtr broadcast_bspline_pub_;
 
+    /* replan event publisher (data collection) */
+    rclcpp::Publisher<traj_utils::msg::ReplanEvent>::SharedPtr replan_event_pub_;
+    uint32_t replan_count_ = 0;
+
     /* helper functions */
     bool callReboundReplan(bool flag_use_poly_init, bool flag_randomPolyTraj); // front-end and back-end method
     bool callEmergencyStop(Eigen::Vector3d stop_pos);                          // front-end and back-end method
     bool planFromGlobalTraj(const int trial_times = 1);
     bool planFromCurrentTraj(const int trial_times = 1);
+    void publishReplanEvent(double planning_time_ms, bool success);
 
     /* return value: std::pair< Times of the same state be continuously called, current continuously called state > */
     void changeFSMExecState(FSM_EXEC_STATE new_state, string pos_call);
@@ -118,6 +130,9 @@ namespace ego_planner
     void waypointCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg);
     void triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg);
     void odometryCallback(const std::shared_ptr<const nav_msgs::msg::Odometry> &msg);
+    void adaptiveSafeDistanceCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg);
+    void adaptiveVelCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg);
+    void adaptiveWeightCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg);
     void swarmTrajsCallback(const std::shared_ptr<const traj_utils::msg::MultiBsplines> &msg);
     void BroadcastBsplineCallback(const std::shared_ptr<const traj_utils::msg::Bspline> &msg);
 

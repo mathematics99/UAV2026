@@ -74,6 +74,20 @@ namespace ego_planner
         });
     // std::bind(&EGOReplanFSM::odometryCallback, this, std::placeholders::_1));
 
+    // Risk-aware adaptive parameter subscriptions (V4): EGO-Swarm 只订阅这三个参数
+    adaptive_safe_sub_ = node_->create_subscription<std_msgs::msg::Float64>(
+        "/adaptive/safe_distance", 10,
+        [this](const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+        { this->adaptiveSafeDistanceCallback(msg); });
+    adaptive_vel_sub_ = node_->create_subscription<std_msgs::msg::Float64>(
+        "/adaptive/max_velocity", 10,
+        [this](const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+        { this->adaptiveVelCallback(msg); });
+    adaptive_weight_sub_ = node_->create_subscription<std_msgs::msg::Float64>(
+        "/adaptive/collision_weight", 10,
+        [this](const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+        { this->adaptiveWeightCallback(msg); });
+
     if (planner_manager_->pp_.drone_id >= 1)
     {
       string sub_topic_name = string("/drone_") + std::to_string(planner_manager_->pp_.drone_id - 1) + string("_planning/swarm_trajs");
@@ -111,6 +125,7 @@ namespace ego_planner
 
     bspline_pub_ = node_->create_publisher<traj_utils::msg::Bspline>("planning/bspline", 10);
     data_disp_pub_ = node_->create_publisher<traj_utils::msg::DataDisp>("planning/data_display", 100);
+    replan_event_pub_ = node_->create_publisher<traj_utils::msg::ReplanEvent>("planner/replan_event", 10);
 
     if (target_type_ == TARGET_TYPE::MANUAL_TARGET)
     {
@@ -186,7 +201,11 @@ namespace ego_planner
   void EGOReplanFSM::planNextWaypoint(const Eigen::Vector3d next_wp)
   {
     bool success = false;
+    auto t_plan_start = std::chrono::steady_clock::now();
     success = planner_manager_->planGlobalTraj(odom_pos_, odom_vel_, Eigen::Vector3d::Zero(), next_wp, Eigen::Vector3d::Zero(), Eigen::Vector3d::Zero());
+    auto t_plan_end = std::chrono::steady_clock::now();
+    double plan_ms = std::chrono::duration<double, std::milli>(t_plan_end - t_plan_start).count();
+    publishReplanEvent(plan_ms, success);
 
     if (success)
     {
@@ -264,6 +283,27 @@ namespace ego_planner
     odom_orient_.z() = msg->pose.pose.orientation.z;
 
     have_odom_ = true;
+  }
+
+  void EGOReplanFSM::adaptiveSafeDistanceCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+  {
+    planner_manager_->setAdaptiveSafeDistance(msg->data);
+    RCLCPP_INFO_THROTTLE(node_->get_logger(), *node_->get_clock(), 2000,
+                         "[adaptive] safe_distance=%.3f", msg->data);
+  }
+
+  void EGOReplanFSM::adaptiveVelCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+  {
+    planner_manager_->setAdaptiveMaxVel(msg->data);
+    RCLCPP_INFO_THROTTLE(node_->get_logger(), *node_->get_clock(), 2000,
+                         "[adaptive] max_vel=%.3f", msg->data);
+  }
+
+  void EGOReplanFSM::adaptiveWeightCallback(const std::shared_ptr<const std_msgs::msg::Float64> &msg)
+  {
+    planner_manager_->setAdaptiveCollisionWeight(msg->data);
+    RCLCPP_INFO_THROTTLE(node_->get_logger(), *node_->get_clock(), 2000,
+                         "[adaptive] collision_weight=%.3f", msg->data);
   }
 
   void EGOReplanFSM::BroadcastBsplineCallback(const std::shared_ptr<const traj_utils::msg::Bspline> &msg)
@@ -780,14 +820,30 @@ namespace ego_planner
     }
   }
 
+  void EGOReplanFSM::publishReplanEvent(double planning_time_ms, bool success)
+  {
+    traj_utils::msg::ReplanEvent ev;
+    ev.stamp = node_->get_clock()->now();
+    ev.count = ++replan_count_;
+    ev.planning_time_ms = planning_time_ms;
+    ev.success = success;
+    replan_event_pub_->publish(ev);
+  }
+
   bool EGOReplanFSM::callReboundReplan(bool flag_use_poly_init, bool flag_randomPolyTraj)
   {
 
     getLocalTarget();
 
+    auto t_plan_start = std::chrono::steady_clock::now();
     bool plan_and_refine_success =
         planner_manager_->reboundReplan(start_pt_, start_vel_, start_acc_, local_target_pt_, local_target_vel_, (have_new_target_ || flag_use_poly_init), flag_randomPolyTraj);
+    auto t_plan_end = std::chrono::steady_clock::now();
+    double plan_ms = std::chrono::duration<double, std::milli>(t_plan_end - t_plan_start).count();
+    RCLCPP_INFO(node_->get_logger(), "[planning_time] %.3f ms", plan_ms);
     have_new_target_ = false;
+
+    publishReplanEvent(plan_ms, plan_and_refine_success);
 
     cout << "refine_success=" << plan_and_refine_success << endl;
 

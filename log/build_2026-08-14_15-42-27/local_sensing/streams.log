@@ -1,0 +1,25 @@
+[0.685s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/local_sensing': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/local_sensing -- -j24 -l24
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target pcl_render_node[0m
+[0.724s] [100%] Built target pcl_render_node
+[0.731s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/local_sensing -- -j24 -l24
+[0.733s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/local_sensing': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/local_sensing
+[0.736s] -- Install configuration: "Release"
+[0.737s] -- Execute custom install script
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/lib/local_sensing/pcl_render_node
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/config/camera.yaml
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/package_run_dependencies/local_sensing
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/parent_prefix_path/local_sensing
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/ament_prefix_path.sh
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/ament_prefix_path.dsv
+[0.738s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/path.sh
+[0.739s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/environment/path.dsv
+[0.739s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.bash
+[0.739s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.sh
+[0.739s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.zsh
+[0.739s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/local_setup.dsv
+[0.739s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/package.dsv
+[0.744s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/ament_index/resource_index/packages/local_sensing
+[0.744s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/cmake/local_sensingConfig.cmake
+[0.744s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/cmake/local_sensingConfig-version.cmake
+[0.744s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/local_sensing/share/local_sensing/package.xml
+[0.745s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/local_sensing

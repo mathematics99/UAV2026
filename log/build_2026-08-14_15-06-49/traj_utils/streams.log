@@ -1,0 +1,202 @@
+[0.007s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/traj_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/traj_utils -- -j24 -l24
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_generator_c[0m
+[0.052s] [  1%] Built target traj_utils__cpp
+[0.053s] [  3%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/polynomial_traj.cpp.o[0m
+[0.054s] [  5%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/planning_visualization.cpp.o[0m
+[0.055s] [  7%] Built target traj_utils__rs
+[0.057s] [ 17%] Built target traj_utils__rosidl_generator_c
+[0.059s] [ 17%] Built target ament_cmake_python_symlink_traj_utils
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_cpp[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_cpp[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_cpp[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_c[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_c[0m
+[0.079s] [ 27%] Built target traj_utils__rosidl_typesupport_fastrtps_cpp
+[0.082s] [ 37%] Built target traj_utils__rosidl_typesupport_introspection_cpp
+[0.082s] [ 47%] Built target traj_utils__rosidl_typesupport_c
+[0.084s] [ 56%] Built target traj_utils__rosidl_typesupport_cpp
+[0.086s] [ 66%] Built target traj_utils__rosidl_typesupport_fastrtps_c
+[0.088s] [ 76%] Built target traj_utils__rosidl_typesupport_introspection_c
+[0.106s] [ 76%] Built target traj_utils
+[0.130s] [ 78%] Built target traj_utils__py
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_generator_py[0m
+[0.153s] [ 86%] Built target traj_utils__rosidl_generator_py
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_c__pyext[0m
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_c__pyext[0m
+[0.177s] [ 90%] Built target traj_utils__rosidl_typesupport_c__pyext
+[0.178s] [ 94%] Built target traj_utils__rosidl_typesupport_fastrtps_c__pyext
+[0.182s] [ 98%] Built target traj_utils__rosidl_typesupport_introspection_c__pyext
+[0.266s] running egg_info
+[0.266s] writing traj_utils.egg-info/PKG-INFO
+[0.267s] writing dependency_links to traj_utils.egg-info/dependency_links.txt
+[0.267s] writing top-level names to traj_utils.egg-info/top_level.txt
+[0.269s] reading manifest file 'traj_utils.egg-info/SOURCES.txt'
+[0.269s] writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+[0.291s] [ 98%] Built target ament_cmake_python_build_traj_utils_egg
+[3.080s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMarkerList(rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >::SharedPtr&, const std::vector<Eigen::Matrix<double, 3, 1> >&, double, Eigen::Vector4d, int, bool)[m[K’:
+[3.080s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:11:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_sphere[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.080s]    11 |                                                 Eigen::Vector4d color, int id, [01;35m[Kbool show_sphere[m[K /* = true */)
+[3.080s]       |                                                                                [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[3.088s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMultiInitPathList(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >, double)[m[K’:
+[3.089s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:177:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.089s]   177 |     for (int id = 0; [01;35m[Kid < init_trajs.size()[m[K; id++)
+[3.089s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~[m[K
+[17.821s] [100%] [32m[1mLinking CXX shared library libtraj_utils_lib.so[0m
+[18.565s] [100%] Built target traj_utils_lib
+[18.573s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/traj_utils -- -j24 -l24
+[18.577s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/traj_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/traj_utils
+[18.582s] -- Install configuration: "Release"
+[18.583s] -- Execute custom install script
+[18.584s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/ament_index/resource_index/rosidl_interfaces/traj_utils
+[18.622s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.h
+[18.628s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.h
+[18.637s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__functions.h
+[18.643s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.h
+[18.676s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.h
+[18.687s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__functions.h
+[18.700s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.h
+[18.705s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.h
+[18.711s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__functions.h
+[18.716s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.h
+[18.721s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.h
+[18.727s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.h
+[18.733s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_c__visibility_control.h
+[18.739s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/library_path.sh
+[18.745s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/library_path.dsv
+[18.750s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_c.h
+[18.756s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_c.h
+[18.761s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_c.h
+[18.766s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.775s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.hpp
+[18.781s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.hpp
+[18.788s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__builder.hpp
+[18.794s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp
+[18.799s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__traits.hpp
+[18.805s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.hpp
+[18.811s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__builder.hpp
+[18.816s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.hpp
+[18.826s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__traits.hpp
+[18.831s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.hpp
+[18.837s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__builder.hpp
+[18.842s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.hpp
+[18.851s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__traits.hpp
+[18.861s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.hpp
+[18.867s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.hpp
+[18.872s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.879s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_cpp.hpp
+[18.886s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_cpp.hpp
+[18.894s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_cpp.hpp
+[18.903s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.909s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_c.h
+[18.914s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_c.h
+[18.919s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_c.h
+[18.923s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.928s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_cpp.hpp
+[18.933s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_cpp.hpp
+[18.938s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_cpp.hpp
+[18.944s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/pythonpath.sh
+[18.951s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/pythonpath.dsv
+[18.958s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[18.966s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.972s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.977s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/top_level.txt
+[18.982s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py
+[18.987s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c
+[18.994s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.000s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c
+[19.006s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/libtraj_utils__rosidl_generator_py.so
+[19.012s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py
+[19.018s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py
+[19.024s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline_s.c
+[19.029s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py
+[19.034s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp_s.c
+[19.042s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py
+[19.049s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines_s.c
+[19.055s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.063s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.068s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.074s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.075s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.075s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.075s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/ament_index/resource_index/rust_packages/traj_utils
+[19.084s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/rust/Cargo.toml
+[19.089s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/rust/build.rs
+[19.097s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/rust/src/lib.rs
+[19.105s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/rust/src/msg.rs
+[19.110s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/rust/src/msg/rmw.rs
+[19.115s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/Bspline.idl
+[19.122s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/DataDisp.idl
+[19.130s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/MultiBsplines.idl
+[19.133s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/Bspline.msg
+[19.138s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/DataDisp.msg
+[19.143s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/msg/MultiBsplines.msg
+[19.149s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils_lib.so
+[19.154s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/plan_container.hpp
+[19.159s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/planning_visualization.h
+[19.164s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/polynomial_traj.h
+[19.170s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/ament_index/resource_index/package_run_dependencies/traj_utils
+[19.176s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/ament_index/resource_index/parent_prefix_path/traj_utils
+[19.181s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/ament_prefix_path.sh
+[19.187s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/ament_prefix_path.dsv
+[19.193s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/path.sh
+[19.199s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/environment/path.dsv
+[19.206s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/local_setup.bash
+[19.212s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/local_setup.sh
+[19.218s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/local_setup.zsh
+[19.224s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/local_setup.dsv
+[19.230s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/package.dsv
+[19.236s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/ament_index/resource_index/packages/traj_utils
+[19.242s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/rosidl_cmake-extras.cmake
+[19.248s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.259s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.264s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[19.270s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_targets-extras.cmake
+[19.281s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.287s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.292s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[19.297s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig.cmake
+[19.302s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig-version.cmake
+[19.308s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/package.xml
+[19.314s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_generator_c.so
+[19.315s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_generator_c.so" to ""
+[19.315s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so
+[19.316s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so" to ""
+[19.316s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so
+[19.317s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.317s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_c.so
+[19.318s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_c.so" to ""
+[19.318s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_c.so
+[19.318s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_c.so" to ""
+[19.318s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so
+[19.319s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so" to ""
+[19.319s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_cpp.so
+[19.321s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_cpp.so" to ""
+[19.350s] Listing '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils'...
+[19.350s] Compiling '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py'...
+[19.350s] Listing '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg'...
+[19.350s] Compiling '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py'...
+[19.350s] Compiling '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py'...
+[19.350s] Compiling '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py'...
+[19.350s] Compiling '/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py'...
+[19.353s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_generator_py.so
+[19.354s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/traj_utils/lib/libtraj_utils__rosidl_generator_py.so" to ""
+[19.355s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport.cmake
+[19.355s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport-release.cmake
+[19.356s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport.cmake
+[19.356s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport-release.cmake
+[19.357s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cppExport.cmake
+[19.358s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.358s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[19.359s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport.cmake
+[19.359s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport-release.cmake
+[19.359s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport.cmake
+[19.360s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport-release.cmake
+[19.360s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport.cmake
+[19.360s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport-release.cmake
+[19.361s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport.cmake
+[19.361s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport-release.cmake
+[19.361s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport.cmake
+[19.361s] -- Installing: /home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport-release.cmake
+[19.367s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/traj_utils

@@ -1,0 +1,153 @@
+[0.031s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/map_generator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/map_generator
+[0.696s] -- The C compiler identification is GNU 11.4.0
+[4.477s] -- The CXX compiler identification is GNU 11.4.0
+[6.951s] -- Detecting C compiler ABI info
+[7.397s] -- Detecting C compiler ABI info - done
+[7.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.403s] -- Detecting C compile features
+[7.403s] -- Detecting C compile features - done
+[7.406s] -- Detecting CXX compiler ABI info
+[7.769s] -- Detecting CXX compiler ABI info - done
+[7.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.780s] -- Detecting CXX compile features
+[7.781s] -- Detecting CXX compile features - done
+[7.783s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.927s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.006s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[8.534s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.538s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.546s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.612s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.615s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.632s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.638s] -- Looking for pthread.h
+[8.975s] -- Looking for pthread.h - found
+[8.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.490s] -- Found Threads: TRUE  
+[9.538s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[9.539s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.564s] -- Checking for module 'eigen3'
+[9.582s] --   Found eigen3, version 3.4.0
+[9.612s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.612s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.633s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[12.237s] -- Checking for module 'flann'
+[12.251s] --   Found flann, version 1.9.1
+[13.481s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[13.481s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[13.561s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[13.865s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[14.461s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[14.461s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[14.464s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[16.874s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[19.185s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[19.200s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[24.446s] -- Found X11: /usr/include   
+[24.446s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[24.838s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[24.838s] -- Looking for gethostbyname
+[25.391s] -- Looking for gethostbyname - found
+[25.392s] -- Looking for connect
+[25.782s] -- Looking for connect - found
+[25.782s] -- Looking for remove
+[26.348s] -- Looking for remove - found
+[26.348s] -- Looking for shmat
+[26.895s] -- Looking for shmat - found
+[26.895s] -- Looking for IceConnectionNumber in ICE
+[27.387s] -- Looking for IceConnectionNumber in ICE - found
+[31.919s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[31.923s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[31.927s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[31.930s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[32.609s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[33.185s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[33.189s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[33.195s] -- Found utf8cpp: /usr/include/utf8cpp  
+[33.277s] -- Checking for module 'libusb-1.0'
+[33.294s] --   Found libusb-1.0, version 1.0.25
+[33.566s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[33.567s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[33.567s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[34.261s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[34.261s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[34.262s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[41.905s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[41.913s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[41.921s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[48.513s] -- Found Qhull version 8.0.2
+[54.514s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[60.995s] -- looking for PCL_COMMON
+[60.995s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[60.996s] -- looking for PCL_KDTREE
+[61.000s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[61.001s] -- looking for PCL_OCTREE
+[61.001s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[61.002s] -- looking for PCL_SEARCH
+[61.003s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[61.003s] -- looking for PCL_SAMPLE_CONSENSUS
+[61.006s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[61.006s] -- looking for PCL_FILTERS
+[61.006s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[61.007s] -- looking for PCL_2D
+[61.007s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[61.007s] -- looking for PCL_GEOMETRY
+[61.008s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[61.008s] -- looking for PCL_IO
+[61.008s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[61.008s] -- looking for PCL_FEATURES
+[61.009s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[61.009s] -- looking for PCL_ML
+[61.010s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[61.010s] -- looking for PCL_SEGMENTATION
+[61.011s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[61.011s] -- looking for PCL_VISUALIZATION
+[61.012s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[61.012s] -- looking for PCL_SURFACE
+[61.013s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[61.013s] -- looking for PCL_REGISTRATION
+[61.013s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[61.014s] -- looking for PCL_KEYPOINTS
+[61.015s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[61.015s] -- looking for PCL_TRACKING
+[61.015s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[61.016s] -- looking for PCL_RECOGNITION
+[61.016s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[61.016s] -- looking for PCL_STEREO
+[61.017s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[61.018s] -- looking for PCL_APPS
+[61.018s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[61.019s] -- looking for PCL_IN_HAND_SCANNER
+[61.019s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[61.019s] -- looking for PCL_MODELER
+[61.019s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[61.020s] -- looking for PCL_POINT_CLOUD_EDITOR
+[61.020s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[61.020s] -- looking for PCL_OUTOFCORE
+[61.021s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[61.021s] -- looking for PCL_PEOPLE
+[61.021s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[61.022s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[61.024s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[61.093s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[61.116s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[61.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[61.209s] -- Configured cppcheck include dirs: 
+[61.209s] -- Configured cppcheck exclude dirs and/or files: 
+[61.209s] -- Added test 'lint_cmake' to check CMake code style
+[61.210s] -- Added test 'uncrustify' to check C / C++ code style
+[61.210s] -- Configured uncrustify additional arguments: 
+[61.211s] -- Added test 'xmllint' to check XML markup files
+[61.212s] -- Configuring done
+[61.331s] -- Generating done
+[61.340s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/map_generator
+[61.359s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/map_generator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/map_generator
+[61.362s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/map_generator -- -j24 -l24
+[61.411s] [ 50%] [32mBuilding CXX object CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o[0m
+[2365.541s] gmake[2]: *** [CMakeFiles/random_forest.dir/build.make:76: CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o] Interrupt
+[2365.542s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/random_forest.dir/all] Interrupt
+[2365.542s] gmake: *** [Makefile:146: all] Interrupt

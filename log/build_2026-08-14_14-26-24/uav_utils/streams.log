@@ -1,0 +1,108 @@
+[0.224s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/uav_utils': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/uav_utils
+[0.700s] -- The C compiler identification is GNU 11.4.0
+[3.036s] -- The CXX compiler identification is GNU 11.4.0
+[4.601s] -- Detecting C compiler ABI info
+[5.148s] -- Detecting C compiler ABI info - done
+[5.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.155s] -- Detecting C compile features
+[5.155s] -- Detecting C compile features - done
+[5.158s] -- Detecting CXX compiler ABI info
+[5.799s] -- Detecting CXX compiler ABI info - done
+[5.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.807s] -- Detecting CXX compile features
+[5.807s] -- Detecting CXX compile features - done
+[5.809s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.977s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.049s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.073s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[6.761s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.768s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.782s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.901s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.907s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[6.939s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.950s] -- Looking for pthread.h
+[8.741s] -- Looking for pthread.h - found
+[8.741s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.176s] -- Found Threads: TRUE  
+[9.247s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[9.248s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.278s] -- Found cmake_utils: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/cmake_utils/share/cmake_utils/cmake)
+[9.279s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.286s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.364s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.375s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.375s] -- Configured cppcheck include dirs: /home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include
+[9.375s] -- Configured cppcheck exclude dirs and/or files: 
+[9.376s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.379s] -- Added test 'lint_cmake' to check CMake code style
+[9.379s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.379s] -- Added test 'uncrustify' to check C / C++ code style
+[9.379s] -- Configured uncrustify additional arguments: 
+[9.379s] -- Added test 'xmllint' to check XML markup files
+[9.382s] -- Configuring done
+[9.396s] -- Generating done
+[9.400s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/uav_utils
+[9.413s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/uav_utils
+[9.415s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/uav_utils': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/uav_utils -- -j24 -l24
+[9.468s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.471s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.477s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.510s] [ 50%] Built target gtest_main
+[20.923s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[20.996s] [ 66%] Built target gtest
+[21.014s] [ 83%] [32mBuilding CXX object CMakeFiles/uav_utils_test.dir/src/uav_utils_test.cpp.o[0m
+[25.992s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/utils.h:6[m[K,
+[25.993s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp:2[m[K:
+[25.993s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/converters.h:16:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.993s]    16 |                         Eigen::Vector3d& v, Eigen::Quaterniond& q[01;35m[K)[m[K
+[25.993s]       |                                                                  [01;35m[K^[m[K
+[25.993s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[25.993s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/converters.h:4[m[K,
+[25.993s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/utils.h:6[m[K,
+[25.993s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp:2[m[K:
+[25.993s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.993s]   147 |     [01;36m[KConstPtr[m[K;
+[25.993s]       |     [01;36m[K^~~~~~~~[m[K
+[26.015s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/utils.h:6[m[K,
+[26.015s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp:2[m[K:
+[26.015s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/converters.h:33:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[26.015s]    33 |                       Eigen::Vector3d& v, Eigen::Quaterniond& q, Eigen::Vector3d& w[01;35m[K)[m[K
+[26.015s]       |                                                                                    [01;35m[K^[m[K
+[26.015s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[26.015s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/converters.h:4[m[K,
+[26.015s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/uav_utils/utils.h:6[m[K,
+[26.015s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp:2[m[K:
+[26.015s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[26.015s]   147 |     [01;36m[KConstPtr[m[K;
+[26.015s]       |     [01;36m[K^~~~~~~~[m[K
+[50.988s] [100%] [32m[1mLinking CXX executable uav_utils_test[0m
+[51.526s] [100%] Built target uav_utils_test
+[51.538s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/uav_utils -- -j24 -l24
+[51.541s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/uav_utils': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/uav_utils
+[51.550s] -- Install configuration: "Release"
+[51.551s] -- Execute custom install script
+[51.552s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/package_run_dependencies/uav_utils
+[51.560s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/parent_prefix_path/uav_utils
+[51.568s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/ament_prefix_path.sh
+[51.578s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/ament_prefix_path.dsv
+[51.585s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/path.sh
+[51.594s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/environment/path.dsv
+[51.601s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.bash
+[51.609s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.sh
+[51.617s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.zsh
+[51.626s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/local_setup.dsv
+[51.633s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/package.dsv
+[51.643s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/ament_index/resource_index/packages/uav_utils
+[51.653s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.661s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake
+[51.669s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig-version.cmake
+[51.677s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/uav_utils/share/uav_utils/package.xml
+[51.686s] -- Installing: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils
+[51.687s] -- Installing: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/utils.h
+[51.687s] -- Installing: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/converters.h
+[51.687s] -- Installing: /home/ubuntu/ego-planner-swarm/install/uav_utils/include/uav_utils/geometry_utils.h
+[51.689s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/cmake_utils:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/uav_utils

@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/map_generator -- -j24 -l24
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o[0m
+[13.939s] [100%] [32m[1mLinking CXX executable random_forest[0m
+[14.805s] [100%] Built target random_forest
+[14.812s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/map_generator -- -j24 -l24
+[14.817s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/map_generator
+[14.821s] -- Install configuration: "Release"
+[14.822s] -- Execute custom install script
+[14.823s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/lib/map_generator/random_forest
+[14.831s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/ament_index/resource_index/package_run_dependencies/map_generator
+[14.836s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/ament_index/resource_index/parent_prefix_path/map_generator
+[14.842s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/environment/ament_prefix_path.sh
+[14.847s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/environment/ament_prefix_path.dsv
+[14.853s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/environment/path.sh
+[14.858s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/environment/path.dsv
+[14.863s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/local_setup.bash
+[14.868s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/local_setup.sh
+[14.874s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/local_setup.zsh
+[14.879s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/local_setup.dsv
+[14.884s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/package.dsv
+[14.889s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/ament_index/resource_index/packages/map_generator
+[14.895s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/cmake/map_generatorConfig.cmake
+[14.901s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/cmake/map_generatorConfig-version.cmake
+[14.905s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/map_generator/share/map_generator/package.xml
+[14.911s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/map_generator

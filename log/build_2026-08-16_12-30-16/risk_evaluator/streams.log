@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/my_navigation/risk_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/risk_evaluator
+[0.086s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.182s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.205s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.715s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.718s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.727s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.786s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.789s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[24.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.903s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[24.934s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[24.949s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[24.994s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[24.994s] -- Configured cppcheck include dirs: 
+[24.994s] -- Configured cppcheck exclude dirs and/or files: 
+[24.994s] -- Added test 'lint_cmake' to check CMake code style
+[24.994s] -- Added test 'uncrustify' to check C / C++ code style
+[24.994s] -- Configured uncrustify additional arguments: 
+[24.994s] -- Added test 'xmllint' to check XML markup files
+[24.996s] -- Configuring done
+[25.006s] -- Generating done
+[25.009s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/risk_evaluator
+[25.014s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/my_navigation/risk_evaluator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/risk_evaluator
+[25.015s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/risk_evaluator -- -j24 -l24
+[25.038s] Consolidate compiler generated dependencies of target risk_evaluator_node
+[25.049s] [ 50%] Building CXX object CMakeFiles/risk_evaluator_node.dir/src/risk_evaluator.cpp.o
+[34.738s] [100%] Linking CXX executable risk_evaluator_node
+[35.671s] [100%] Built target risk_evaluator_node
+[35.678s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/risk_evaluator -- -j24 -l24
+[35.679s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/risk_evaluator
+[35.683s] -- Install configuration: "Release"
+[35.683s] -- Execute custom install script
+[35.684s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/lib/risk_evaluator/risk_evaluator_node
+[35.684s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/package_run_dependencies/risk_evaluator
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/parent_prefix_path/risk_evaluator
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.sh
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/ament_prefix_path.dsv
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.sh
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/environment/path.dsv
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.bash
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.sh
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.zsh
+[35.685s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/local_setup.dsv
+[35.685s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.dsv
+[35.690s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/ament_index/resource_index/packages/risk_evaluator
+[35.690s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig.cmake
+[35.690s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/cmake/risk_evaluatorConfig-version.cmake
+[35.690s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/risk_evaluator/share/risk_evaluator/package.xml
+[35.691s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/risk_evaluator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/risk_evaluator

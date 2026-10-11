@@ -1,0 +1,589 @@
+[1.735s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/plan_manage -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/ego_planner
+[2.211s] -- The C compiler identification is GNU 11.4.0
+[3.778s] -- The CXX compiler identification is GNU 11.4.0
+[5.104s] -- Detecting C compiler ABI info
+[5.338s] -- Detecting C compiler ABI info - done
+[5.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.342s] -- Detecting C compile features
+[5.342s] -- Detecting C compile features - done
+[5.344s] -- Detecting CXX compiler ABI info
+[5.593s] -- Detecting CXX compiler ABI info - done
+[5.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.597s] -- Detecting CXX compile features
+[5.597s] -- Detecting CXX compile features - done
+[5.599s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.687s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.731s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.747s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[6.115s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.118s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.123s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.164s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.166s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[6.179s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.183s] -- Looking for pthread.h
+[6.848s] -- Looking for pthread.h - found
+[6.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.219s] -- Found Threads: TRUE  
+[7.251s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.259s] -- Found quadrotor_msgs: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[7.289s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.311s] -- Found plan_env: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/plan_env/share/plan_env/cmake)
+[7.312s] -- Found path_searching: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/path_searching/share/path_searching/cmake)
+[7.313s] -- Found bspline_opt: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/bspline_opt/share/bspline_opt/cmake)
+[7.314s] -- Found traj_utils: 0.0.0 (/home/ubuntu/ego-planner-swarm/install/traj_utils/share/traj_utils/cmake)
+[7.327s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.344s] -- Checking for module 'eigen3'
+[7.351s] --   Found eigen3, version 3.4.0
+[7.369s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.369s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[13.049s] -- Checking for module 'flann'
+[13.056s] --   Found flann, version 1.9.1
+[14.624s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[14.624s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[14.647s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[14.951s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[15.390s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[15.390s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[15.391s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[16.603s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[19.260s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[19.267s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[23.860s] -- Found X11: /usr/include   
+[23.860s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[24.346s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[24.347s] -- Looking for gethostbyname
+[24.915s] -- Looking for gethostbyname - found
+[24.915s] -- Looking for connect
+[25.223s] -- Looking for connect - found
+[25.223s] -- Looking for remove
+[25.577s] -- Looking for remove - found
+[25.577s] -- Looking for shmat
+[25.935s] -- Looking for shmat - found
+[25.935s] -- Looking for IceConnectionNumber in ICE
+[26.377s] -- Looking for IceConnectionNumber in ICE - found
+[29.635s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[29.636s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[29.637s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[29.638s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[30.845s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[31.211s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[31.213s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[31.217s] -- Found utf8cpp: /usr/include/utf8cpp  
+[31.262s] -- Checking for module 'libusb-1.0'
+[31.269s] --   Found libusb-1.0, version 1.0.25
+[31.413s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[31.414s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[31.414s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[31.700s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[31.700s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[31.700s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[37.402s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[37.406s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[37.410s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[46.708s] -- Found Qhull version 8.0.2
+[54.416s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[62.645s] -- looking for PCL_COMMON
+[62.645s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[62.646s] -- looking for PCL_KDTREE
+[62.646s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[62.646s] -- looking for PCL_OCTREE
+[62.646s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[62.649s] -- looking for PCL_SEARCH
+[62.650s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[62.650s] -- looking for PCL_SAMPLE_CONSENSUS
+[62.650s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[62.650s] -- looking for PCL_FILTERS
+[62.651s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[62.651s] -- looking for PCL_2D
+[62.651s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[62.651s] -- looking for PCL_GEOMETRY
+[62.652s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[62.652s] -- looking for PCL_IO
+[62.652s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[62.652s] -- looking for PCL_FEATURES
+[62.653s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[62.653s] -- looking for PCL_ML
+[62.653s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[62.653s] -- looking for PCL_SEGMENTATION
+[62.654s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[62.654s] -- looking for PCL_VISUALIZATION
+[62.655s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[62.655s] -- looking for PCL_SURFACE
+[62.656s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[62.656s] -- looking for PCL_REGISTRATION
+[62.656s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[62.656s] -- looking for PCL_KEYPOINTS
+[62.656s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[62.657s] -- looking for PCL_TRACKING
+[62.657s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[62.657s] -- looking for PCL_RECOGNITION
+[62.657s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[62.658s] -- looking for PCL_STEREO
+[62.658s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[62.658s] -- looking for PCL_APPS
+[62.659s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[62.659s] -- looking for PCL_IN_HAND_SCANNER
+[62.659s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[62.659s] -- looking for PCL_MODELER
+[62.659s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[62.659s] -- looking for PCL_POINT_CLOUD_EDITOR
+[62.660s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[62.660s] -- looking for PCL_OUTOFCORE
+[62.660s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[62.660s] -- looking for PCL_PEOPLE
+[62.661s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[62.661s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[62.662s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[62.690s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[62.780s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[62.781s] -- Configured cppcheck include dirs: /home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include
+[62.781s] -- Configured cppcheck exclude dirs and/or files: 
+[62.783s] -- Added test 'flake8' to check Python code syntax and style conventions
+[62.783s] -- Added test 'lint_cmake' to check CMake code style
+[62.784s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[62.784s] -- Added test 'uncrustify' to check C / C++ code style
+[62.784s] -- Configured uncrustify additional arguments: 
+[62.785s] -- Added test 'xmllint' to check XML markup files
+[62.786s] -- Configuring done
+[62.838s] -- Generating done
+[62.850s] -- Build files have been written to: /home/ubuntu/ego-planner-swarm/build/ego_planner
+[62.862s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ego-planner-swarm/src/planner/plan_manage -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ego-planner-swarm/install/ego_planner
+[62.864s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/ego_planner -- -j24 -l24
+[62.911s] [ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o[0m
+[62.911s] [ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o[0m
+[62.911s] [ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o[0m
+[62.923s] [ 66%] [32mBuilding CXX object CMakeFiles/traj_server.dir/src/traj_server.cpp.o[0m
+[65.348s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/traj_server.cpp:27:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktraj_utils::msg::Bspline_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[65.348s]    27 | void bsplineCallback(traj_utils::msg::Bspline::ConstPtr msg[01;35m[K)[m[K
+[65.348s]       |                                                            [01;35m[K^[m[K
+[65.348s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.hpp:7[m[K,
+[65.349s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/traj_server.cpp:3[m[K:
+[65.349s] [01m[K/home/ubuntu/ego-planner-swarm/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp:182:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[65.349s]   182 |     [01;36m[KConstPtr[m[K;
+[65.349s]       |     [01;36m[K^~~~~~~~[m[K
+[66.980s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.981s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.981s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[66.981s]       |                                                                               [01;35m[K^[m[K
+[66.981s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[66.981s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.981s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.981s]   174 |     [01;36m[KConstPtr[m[K;
+[66.981s]       |     [01;36m[K^~~~~~~~[m[K
+[66.981s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.981s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.981s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[66.981s]       |                                                                               [01;35m[K^[m[K
+[66.981s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.981s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.981s]   116 |     [01;36m[KConstPtr[m[K;
+[66.981s]       |     [01;36m[K^~~~~~~~[m[K
+[66.981s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.981s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.982s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.982s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[66.982s]       |                                                                       [01;35m[K^[m[K
+[66.982s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:10[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.982s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.982s]   147 |     [01;36m[KConstPtr[m[K;
+[66.982s]       |     [01;36m[K^~~~~~~~[m[K
+[66.982s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.982s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.982s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[66.982s]       |                                                                                                                     [01;35m[K^[m[K
+[66.982s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[66.982s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.982s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.982s]   174 |     [01;36m[KConstPtr[m[K;
+[66.982s]       |     [01;36m[K^~~~~~~~[m[K
+[66.982s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.982s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.982s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.982s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[66.983s]       |                                                                                                                     [01;35m[K^[m[K
+[66.983s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:10[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.983s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.983s]   147 |     [01;36m[KConstPtr[m[K;
+[66.983s]       |     [01;36m[K^~~~~~~~[m[K
+[66.983s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.983s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.983s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[66.983s]       |                                                                        [01;35m[K^[m[K
+[66.983s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[66.983s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[66.983s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[66.983s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.983s]   195 |     [01;36m[KConstPtr[m[K;
+[66.983s]       |     [01;36m[K^~~~~~~~[m[K
+[67.106s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.106s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.106s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.106s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.107s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.107s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[67.107s]       |                                                                               [01;35m[K^[m[K
+[67.107s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[67.107s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.107s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.107s]   174 |     [01;36m[KConstPtr[m[K;
+[67.107s]       |     [01;36m[K^~~~~~~~[m[K
+[67.107s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.107s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.108s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[67.108s]       |                                                                               [01;35m[K^[m[K
+[67.108s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[67.108s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.108s]   116 |     [01;36m[KConstPtr[m[K;
+[67.108s]       |     [01;36m[K^~~~~~~~[m[K
+[67.108s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.108s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.108s]       |                                                                       [01;35m[K^[m[K
+[67.108s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.108s]   147 |     [01;36m[KConstPtr[m[K;
+[67.108s]       |     [01;36m[K^~~~~~~~[m[K
+[67.108s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.108s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.108s]       |                                                                                                                     [01;35m[K^[m[K
+[67.108s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[67.108s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.108s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.108s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.109s]   174 |     [01;36m[KConstPtr[m[K;
+[67.109s]       |     [01;36m[K^~~~~~~~[m[K
+[67.109s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.109s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.109s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.109s]       |                                                                                                                     [01;35m[K^[m[K
+[67.109s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.109s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.109s]   147 |     [01;36m[KConstPtr[m[K;
+[67.109s]       |     [01;36m[K^~~~~~~~[m[K
+[67.109s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.109s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.109s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[67.109s]       |                                                                        [01;35m[K^[m[K
+[67.109s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[67.109s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.109s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.109s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.109s]   195 |     [01;36m[KConstPtr[m[K;
+[67.109s]       |     [01;36m[K^~~~~~~~[m[K
+[67.190s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.190s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.190s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.190s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.190s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.190s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[67.190s]       |                                                                               [01;35m[K^[m[K
+[67.191s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[67.191s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.191s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.191s]   174 |     [01;36m[KConstPtr[m[K;
+[67.191s]       |     [01;36m[K^~~~~~~~[m[K
+[67.191s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.191s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.191s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[67.191s]       |                                                                               [01;35m[K^[m[K
+[67.191s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[67.191s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.191s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.191s]   116 |     [01;36m[KConstPtr[m[K;
+[67.191s]       |     [01;36m[K^~~~~~~~[m[K
+[67.191s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.191s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.191s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.191s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.192s]       |                                                                       [01;35m[K^[m[K
+[67.192s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.192s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.192s]   147 |     [01;36m[KConstPtr[m[K;
+[67.192s]       |     [01;36m[K^~~~~~~~[m[K
+[67.192s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.192s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.192s]   210 | depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.192s]       |                                                                                                              [01;35m[K^[m[K
+[67.192s] 
+[67.192s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[67.192s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.192s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.192s]   174 |     [01;36m[KConstPtr[m[K;
+[67.192s]       |     [01;36m[K^~~~~~~~[m[K
+[67.192s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.192s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.192s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.192s]   210 | depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[67.192s]       |                                                                                                              [01;35m[K^[m[K
+[67.192s] 
+[67.193s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.193s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.193s]   147 |     [01;36m[KConstPtr[m[K;
+[67.193s]       |     [01;36m[K^~~~~~~~[m[K
+[67.193s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.193s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.193s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[67.193s]       |                                                                        [01;35m[K^[m[K
+[67.193s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[67.193s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.193s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.193s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.193s]   195 |     [01;36m[KConstPtr[m[K;
+[67.193s]       |     [01;36m[K^~~~~~~~[m[K
+[67.828s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[67.829s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.829s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[67.829s]       |                                                                           [01;35m[K^[m[K
+[67.829s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:7[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[67.829s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[67.829s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.829s]   116 |     [01;36m[KConstPtr[m[K;
+[67.829s]       |     [01;36m[K^~~~~~~~[m[K
+[67.873s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[67.873s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.873s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.873s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.873s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[67.873s]       |                                                                           [01;35m[K^[m[K
+[67.873s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[67.873s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[67.873s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[67.873s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[67.873s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.873s]   116 |     [01;36m[KConstPtr[m[K;
+[67.873s]       |     [01;36m[K^~~~~~~~[m[K
+[67.910s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[67.910s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[67.910s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[67.911s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.911s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[67.911s]       |                                                                             [01;35m[K^[m[K
+[67.911s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[67.911s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/grid_map.h:14[m[K,
+[67.911s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[67.911s]                  from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[67.911s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[67.911s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[67.911s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.911s]   365 |     [01;36m[KConstPtr[m[K;
+[67.911s]       |     [01;36m[K^~~~~~~~[m[K
+[67.916s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[67.916s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[67.916s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[67.916s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[67.916s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[67.916s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[67.916s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[67.926s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[67.926s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[67.926s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.926s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[67.926s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[67.926s]       |                                                                           [01;35m[K^[m[K
+[67.926s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[67.926s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[67.926s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[67.926s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[67.926s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[67.926s]   116 |     [01;36m[KConstPtr[m[K;
+[67.926s]       |     [01;36m[K^~~~~~~~[m[K
+[68.002s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[68.002s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[68.002s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[68.002s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.002s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[68.002s]       |                                                                             [01;35m[K^[m[K
+[68.002s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[68.002s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:13[m[K,
+[68.002s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[68.002s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.002s]   365 |     [01;36m[KConstPtr[m[K;
+[68.002s]       |     [01;36m[K^~~~~~~~[m[K
+[68.007s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[68.007s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[68.007s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[68.007s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[68.007s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[68.007s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[68.007s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[68.072s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[68.072s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[68.072s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[68.072s] [01m[K/home/ubuntu/ego-planner-swarm/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.072s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[68.072s]       |                                                                             [01;35m[K^[m[K
+[68.072s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[68.072s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:2[m[K:
+[68.072s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.072s]   365 |     [01;36m[KConstPtr[m[K;
+[68.072s]       |     [01;36m[K^~~~~~~~[m[K
+[68.077s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[68.077s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[68.077s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[68.077s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[68.078s] [01m[K/home/ubuntu/ego-planner-swarm/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[68.078s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[68.078s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[68.397s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)[m[K’:
+[68.397s] [01m[K/home/ubuntu/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:228:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[68.397s]   228 |   void EGOReplanFSM::triggerCallback([01;35m[Kconst std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg[m[K)
+[68.398s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[75.375s] [ 83%] [32m[1mLinking CXX executable traj_server[0m
+[76.245s] [ 83%] Built target traj_server
+[92.195s] [100%] [32m[1mLinking CXX executable ego_planner_node[0m
+[93.928s] [100%] Built target ego_planner_node
+[93.945s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/ego_planner -- -j24 -l24
+[93.947s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/ego_planner
+[93.951s] -- Install configuration: "Release"
+[93.951s] -- Execute custom install script
+[93.952s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/ego_planner_node
+[93.956s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/lib/ego_planner/traj_server
+[93.962s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/advanced_param.launch.py
+[93.966s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/default.rviz
+[93.971s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/run_in_sim.launch.py
+[93.977s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/rviz.launch.py
+[93.982s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/simulator.launch.py
+[93.986s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/single_run_in_sim.launch.py
+[93.990s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm.launch.py
+[93.995s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/launch/swarm_large.launch.py
+[94.000s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner
+[94.006s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner
+[94.011s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh
+[94.015s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv
+[94.020s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.sh
+[94.025s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/environment/path.dsv
+[94.029s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.bash
+[94.034s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.sh
+[94.038s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.zsh
+[94.043s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/local_setup.dsv
+[94.047s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.dsv
+[94.051s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ament_index/resource_index/packages/ego_planner
+[94.056s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake
+[94.062s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake
+[94.066s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/ego_planner/share/ego_planner/package.xml
+[94.073s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt:/home/ubuntu/ego-planner-swarm/install/path_searching:/home/ubuntu/ego-planner-swarm/install/traj_utils:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/plan_env:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/bspline_opt/lib:/home/ubuntu/ego-planner-swarm/install/path_searching/lib:/home/ubuntu/ego-planner-swarm/install/traj_utils/lib:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/traj_utils/local/lib/python3.10/dist-packages:/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/ego_planner

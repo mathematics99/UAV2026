@@ -1,0 +1,224 @@
+[0.531s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/multi_map_server': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/multi_map_server -- -j24 -l24
+[0.569s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_generator_c[0m
+[0.572s] [  1%] Built target multi_map_server__rs
+[0.572s] [  3%] Built target multi_map_server__cpp
+[0.576s] [  3%] Built target ament_cmake_python_symlink_multi_map_server
+[0.576s] [ 13%] Built target multi_map_server__rosidl_generator_c
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_cpp[0m
+[0.586s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_c[0m
+[0.586s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_c[0m
+[0.586s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_c[0m
+[0.588s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_cpp[0m
+[0.588s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_cpp[0m
+[0.594s] [ 24%] Built target multi_map_server__rosidl_typesupport_c
+[0.594s] [ 44%] Built target multi_map_server__rosidl_typesupport_fastrtps_c
+[0.594s] [ 43%] Built target multi_map_server__rosidl_typesupport_introspection_c
+[0.599s] [ 55%] Built target multi_map_server__rosidl_typesupport_fastrtps_cpp
+[0.601s] [ 65%] Built target multi_map_server__rosidl_typesupport_cpp
+[0.601s] [ 75%] Built target multi_map_server__rosidl_typesupport_introspection_cpp
+[0.614s] [ 77%] [32mBuilding CXX object CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o[0m
+[0.614s] [ 77%] Built target multi_map_server
+[0.630s] [ 79%] Built target multi_map_server__py
+[0.640s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_generator_py[0m
+[0.648s] [ 87%] Built target multi_map_server__rosidl_generator_py
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_c__pyext[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.657s] [35m[1mConsolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_c__pyext[0m
+[0.663s] [ 94%] Built target multi_map_server__rosidl_typesupport_fastrtps_c__pyext
+[0.663s] [ 93%] Built target multi_map_server__rosidl_typesupport_c__pyext
+[0.663s] [ 98%] Built target multi_map_server__rosidl_typesupport_introspection_c__pyext
+[0.712s] running egg_info
+[0.712s] writing multi_map_server.egg-info/PKG-INFO
+[0.713s] writing dependency_links to multi_map_server.egg-info/dependency_links.txt
+[0.713s] writing top-level names to multi_map_server.egg-info/top_level.txt
+[0.714s] reading manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[0.714s] writing manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[0.730s] [ 98%] Built target ament_cmake_python_build_multi_map_server_egg
+[3.568s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:18:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmulti_map_server::msg::MultiOccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.568s]    18 | void maps2d_callback(const multi_map_server::msg::MultiOccupancyGrid::ConstPtr &msg[01;35m[K)[m[K
+[3.568s]       |                                                                                    [01;35m[K^[m[K
+[3.568s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_occupancy_grid.hpp:7[m[K,
+[3.568s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:5[m[K:
+[3.568s] [01m[K/home/ubuntu/ego-planner-swarm/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp:113:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.568s]   113 |     [01;36m[KConstPtr[m[K;
+[3.568s]       |     [01;36m[K^~~~~~~~[m[K
+[3.572s] [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:37:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmulti_map_server::msg::MultiSparseMap3D_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.572s]    37 | void maps3d_callback(const multi_map_server::msg::MultiSparseMap3D::ConstPtr &msg[01;35m[K)[m[K
+[3.572s]       |                                                                                  [01;35m[K^[m[K
+[3.572s] In file included from [01m[K/home/ubuntu/ego-planner-swarm/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_sparse_map3_d.hpp:7[m[K,
+[3.572s]                  from [01m[K/home/ubuntu/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:6[m[K:
+[3.572s] [01m[K/home/ubuntu/ego-planner-swarm/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp:113:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.572s]   113 |     [01;36m[KConstPtr[m[K;
+[3.572s]       |     [01;36m[K^~~~~~~~[m[K
+[18.090s] [100%] [32m[1mLinking CXX executable multi_map_visualization[0m
+[18.529s] [100%] Built target multi_map_visualization
+[18.536s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/multi_map_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ego-planner-swarm/build/multi_map_server -- -j24 -l24
+[18.538s] Invoking command in '/home/ubuntu/ego-planner-swarm/build/multi_map_server': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/multi_map_server
+[18.543s] -- Install configuration: "Release"
+[18.544s] -- Execute custom install script
+[18.544s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/ament_index/resource_index/rosidl_interfaces/multi_map_server
+[18.550s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__functions.h
+[18.554s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.h
+[18.562s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.h
+[18.567s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__functions.h
+[18.572s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.h
+[18.578s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.h
+[18.580s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__functions.h
+[18.587s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.h
+[18.593s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.h
+[18.597s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.h
+[18.602s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.h
+[18.606s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.h
+[18.610s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.h
+[18.614s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.h
+[18.618s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_c__visibility_control.h
+[18.623s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.h
+[18.628s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.h
+[18.633s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/library_path.sh
+[18.637s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/library_path.dsv
+[18.642s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[18.646s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[18.651s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[18.655s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_c.h
+[18.659s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.665s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__builder.hpp
+[18.669s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp
+[18.674s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__traits.hpp
+[18.678s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.hpp
+[18.682s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__builder.hpp
+[18.686s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp
+[18.690s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__traits.hpp
+[18.697s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.hpp
+[18.702s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__builder.hpp
+[18.708s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.hpp
+[18.713s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__traits.hpp
+[18.719s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.hpp
+[18.723s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__builder.hpp
+[18.728s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.hpp
+[18.733s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__traits.hpp
+[18.737s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.hpp
+[18.742s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.hpp
+[18.747s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.hpp
+[18.750s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.755s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.hpp
+[18.759s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.hpp
+[18.764s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[18.768s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.773s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.777s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_cpp.hpp
+[18.781s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.787s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_c.h
+[18.794s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_c.h
+[18.799s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_c.h
+[18.803s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_c.h
+[18.807s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.812s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[18.816s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[18.820s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[18.827s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_cpp.hpp
+[18.829s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/pythonpath.sh
+[18.833s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/pythonpath.dsv
+[18.838s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/PKG-INFO
+[18.842s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.847s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.852s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/top_level.txt
+[18.857s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py
+[18.862s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_c.c
+[18.867s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.876s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_introspection_c.c
+[18.882s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/libmulti_map_server__rosidl_generator_py.so
+[18.887s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py
+[18.891s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py
+[18.896s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid_s.c
+[18.900s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py
+[18.905s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d_s.c
+[18.909s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py
+[18.914s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d_s.c
+[18.918s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py
+[18.923s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list_s.c
+[18.927s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.931s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.935s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.941s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.941s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.942s] -- Up-to-date symlink: /home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.942s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/ament_index/resource_index/rust_packages/multi_map_server
+[18.946s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/rust/Cargo.toml
+[18.951s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/rust/build.rs
+[18.955s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/rust/src/lib.rs
+[18.959s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/rust/src/msg.rs
+[18.964s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/rust/src/msg/rmw.rs
+[18.968s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.idl
+[18.972s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.idl
+[18.977s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.idl
+[18.981s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.idl
+[18.985s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.msg
+[18.990s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.msg
+[18.994s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.msg
+[18.998s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.msg
+[19.003s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/multi_map_server/multi_map_visualization
+[19.008s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/ament_index/resource_index/package_run_dependencies/multi_map_server
+[19.012s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/ament_index/resource_index/parent_prefix_path/multi_map_server
+[19.018s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.sh
+[19.022s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.dsv
+[19.026s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/path.sh
+[19.031s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/environment/path.dsv
+[19.035s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/local_setup.bash
+[19.040s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/local_setup.sh
+[19.044s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/local_setup.zsh
+[19.048s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/local_setup.dsv
+[19.055s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/package.dsv
+[19.059s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/ament_index/resource_index/packages/multi_map_server
+[19.063s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake-extras.cmake
+[19.067s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.072s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.076s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[19.080s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[19.084s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.089s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.094s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[19.100s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig.cmake
+[19.105s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig-version.cmake
+[19.110s] -- Symlinking: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/package.xml
+[19.114s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so
+[19.116s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so" to ""
+[19.116s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so
+[19.116s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so" to ""
+[19.116s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so
+[19.117s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.117s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so
+[19.118s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so" to ""
+[19.118s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so
+[19.118s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so" to ""
+[19.118s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so
+[19.119s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so" to ""
+[19.119s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so
+[19.120s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so" to ""
+[19.144s] Listing '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py'...
+[19.144s] Listing '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py'...
+[19.144s] Compiling '/home/ubuntu/ego-planner-swarm/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py'...
+[19.146s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so
+[19.147s] -- Set runtime path of "/home/ubuntu/ego-planner-swarm/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so" to ""
+[19.147s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport.cmake
+[19.148s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport-release.cmake
+[19.148s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport.cmake
+[19.148s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport-release.cmake
+[19.148s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cppExport.cmake
+[19.148s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.149s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[19.149s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport.cmake
+[19.149s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport-release.cmake
+[19.150s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport.cmake
+[19.150s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport-release.cmake
+[19.150s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport.cmake
+[19.150s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport-release.cmake
+[19.151s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport.cmake
+[19.151s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport-release.cmake
+[19.151s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport.cmake
+[19.151s] -- Installing: /home/ubuntu/ego-planner-swarm/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport-release.cmake
+[19.154s] Invoked command in '/home/ubuntu/ego-planner-swarm/build/multi_map_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs:/home/ubuntu/ego-planner-swarm/install/pose_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/lib:/home/ubuntu/ego-planner-swarm/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ego-planner-swarm/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ego-planner-swarm/build/multi_map_server
