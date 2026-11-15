@@ -1,0 +1,1359 @@
+{
+  "original_archive_sha256": {
+    "flight_results.csv": "1b230086e740c10273b2d79207c7c16ee3a8a0199eed02d0728c132259b69f90",
+    "frozen_matrix.json": "67af6423269388998d5e336dda671b99e651c1432eafb34d87e7b4e10d7e68bc"
+  },
+  "order_seed": 5430625,
+  "rounds": [
+    {
+      "scene_id": 46,
+      "replicate": 1,
+      "order": [
+        "fixed_ego_swarm",
+        "risk_decoupled",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 46,
+        "width_m": 1.329,
+        "contraction_m": 6.724,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "speed_only",
+          "risk_decoupled",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 588000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1488000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+        "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+        "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+      }
+    },
+    {
+      "scene_id": 46,
+      "replicate": 2,
+      "order": [
+        "speed_only",
+        "fixed_ego_swarm",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 46,
+        "width_m": 1.329,
+        "contraction_m": 6.724,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "speed_only",
+          "risk_decoupled",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 588000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1488000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+        "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+        "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+      }
+    },
+    {
+      "scene_id": 46,
+      "replicate": 3,
+      "order": [
+        "fixed_ego_swarm",
+        "speed_only",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 46,
+        "width_m": 1.329,
+        "contraction_m": 6.724,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "speed_only",
+          "risk_decoupled",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 588000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1488000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+        "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+        "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+      }
+    },
+    {
+      "scene_id": 46,
+      "replicate": 4,
+      "order": [
+        "speed_only",
+        "risk_decoupled",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 46,
+        "width_m": 1.329,
+        "contraction_m": 6.724,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "speed_only",
+          "risk_decoupled",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 588000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1488000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+        "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+        "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+      }
+    },
+    {
+      "scene_id": 46,
+      "replicate": 5,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 46,
+        "width_m": 1.329,
+        "contraction_m": 6.724,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "speed_only",
+          "risk_decoupled",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 588000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1488000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+        "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+        "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+      }
+    },
+    {
+      "scene_id": 22,
+      "replicate": 1,
+      "order": [
+        "speed_only",
+        "risk_decoupled",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 22,
+        "width_m": 1.372,
+        "contraction_m": 4.285,
+        "initial_vx_m_s": 0.0,
+        "noise": "low",
+        "order": [
+          "fixed_ego_swarm",
+          "speed_only",
+          "risk_decoupled"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 564000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1464000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+        "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+        "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+      }
+    },
+    {
+      "scene_id": 22,
+      "replicate": 2,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 22,
+        "width_m": 1.372,
+        "contraction_m": 4.285,
+        "initial_vx_m_s": 0.0,
+        "noise": "low",
+        "order": [
+          "fixed_ego_swarm",
+          "speed_only",
+          "risk_decoupled"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 564000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1464000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+        "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+        "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+      }
+    },
+    {
+      "scene_id": 22,
+      "replicate": 3,
+      "order": [
+        "fixed_ego_swarm",
+        "speed_only",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 22,
+        "width_m": 1.372,
+        "contraction_m": 4.285,
+        "initial_vx_m_s": 0.0,
+        "noise": "low",
+        "order": [
+          "fixed_ego_swarm",
+          "speed_only",
+          "risk_decoupled"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 564000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1464000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+        "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+        "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+      }
+    },
+    {
+      "scene_id": 22,
+      "replicate": 4,
+      "order": [
+        "fixed_ego_swarm",
+        "risk_decoupled",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 22,
+        "width_m": 1.372,
+        "contraction_m": 4.285,
+        "initial_vx_m_s": 0.0,
+        "noise": "low",
+        "order": [
+          "fixed_ego_swarm",
+          "speed_only",
+          "risk_decoupled"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 564000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1464000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+        "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+        "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+      }
+    },
+    {
+      "scene_id": 22,
+      "replicate": 5,
+      "order": [
+        "speed_only",
+        "fixed_ego_swarm",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 22,
+        "width_m": 1.372,
+        "contraction_m": 4.285,
+        "initial_vx_m_s": 0.0,
+        "noise": "low",
+        "order": [
+          "fixed_ego_swarm",
+          "speed_only",
+          "risk_decoupled"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 564000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1464000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+        "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+        "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+      }
+    },
+    {
+      "scene_id": 32,
+      "replicate": 1,
+      "order": [
+        "risk_decoupled",
+        "speed_only",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 32,
+        "width_m": 1.518,
+        "contraction_m": 4.599,
+        "initial_vx_m_s": 0.0,
+        "noise": "medium",
+        "order": [
+          "fixed_ego_swarm",
+          "risk_decoupled",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 574000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1474000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+        "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+        "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+      }
+    },
+    {
+      "scene_id": 32,
+      "replicate": 2,
+      "order": [
+        "speed_only",
+        "fixed_ego_swarm",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 32,
+        "width_m": 1.518,
+        "contraction_m": 4.599,
+        "initial_vx_m_s": 0.0,
+        "noise": "medium",
+        "order": [
+          "fixed_ego_swarm",
+          "risk_decoupled",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 574000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1474000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+        "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+        "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+      }
+    },
+    {
+      "scene_id": 32,
+      "replicate": 3,
+      "order": [
+        "fixed_ego_swarm",
+        "risk_decoupled",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 32,
+        "width_m": 1.518,
+        "contraction_m": 4.599,
+        "initial_vx_m_s": 0.0,
+        "noise": "medium",
+        "order": [
+          "fixed_ego_swarm",
+          "risk_decoupled",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 574000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1474000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+        "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+        "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+      }
+    },
+    {
+      "scene_id": 32,
+      "replicate": 4,
+      "order": [
+        "fixed_ego_swarm",
+        "speed_only",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 32,
+        "width_m": 1.518,
+        "contraction_m": 4.599,
+        "initial_vx_m_s": 0.0,
+        "noise": "medium",
+        "order": [
+          "fixed_ego_swarm",
+          "risk_decoupled",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 574000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1474000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+        "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+        "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+      }
+    },
+    {
+      "scene_id": 32,
+      "replicate": 5,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 32,
+        "width_m": 1.518,
+        "contraction_m": 4.599,
+        "initial_vx_m_s": 0.0,
+        "noise": "medium",
+        "order": [
+          "fixed_ego_swarm",
+          "risk_decoupled",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 574000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1474000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+        "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+        "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+      }
+    },
+    {
+      "scene_id": 50,
+      "replicate": 1,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 50,
+        "width_m": 1.086,
+        "contraction_m": 6.558,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "risk_decoupled",
+          "speed_only",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 592000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1492000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+        "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+        "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+      }
+    },
+    {
+      "scene_id": 50,
+      "replicate": 2,
+      "order": [
+        "speed_only",
+        "risk_decoupled",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 50,
+        "width_m": 1.086,
+        "contraction_m": 6.558,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "risk_decoupled",
+          "speed_only",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 592000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1492000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+        "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+        "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+      }
+    },
+    {
+      "scene_id": 50,
+      "replicate": 3,
+      "order": [
+        "fixed_ego_swarm",
+        "speed_only",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 50,
+        "width_m": 1.086,
+        "contraction_m": 6.558,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "risk_decoupled",
+          "speed_only",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 592000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1492000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+        "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+        "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+      }
+    },
+    {
+      "scene_id": 50,
+      "replicate": 4,
+      "order": [
+        "risk_decoupled",
+        "speed_only",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 50,
+        "width_m": 1.086,
+        "contraction_m": 6.558,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "risk_decoupled",
+          "speed_only",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 592000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1492000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+        "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+        "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+      }
+    },
+    {
+      "scene_id": 50,
+      "replicate": 5,
+      "order": [
+        "fixed_ego_swarm",
+        "risk_decoupled",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 50,
+        "width_m": 1.086,
+        "contraction_m": 6.558,
+        "initial_vx_m_s": 1.0,
+        "noise": "low",
+        "order": [
+          "risk_decoupled",
+          "speed_only",
+          "fixed_ego_swarm"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 592000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.015,
+        "velocity_sigma_m_s": 0.025,
+        "noise_seed": 1492000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+        "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+        "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+      }
+    },
+    {
+      "scene_id": 23,
+      "replicate": 1,
+      "order": [
+        "speed_only",
+        "fixed_ego_swarm",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 23,
+        "width_m": 1.347,
+        "contraction_m": 4.088,
+        "initial_vx_m_s": 1.0,
+        "noise": "none",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 565000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.0,
+        "velocity_sigma_m_s": 0.0,
+        "noise_seed": 1465000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+        "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+        "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+      }
+    },
+    {
+      "scene_id": 23,
+      "replicate": 2,
+      "order": [
+        "speed_only",
+        "risk_decoupled",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 23,
+        "width_m": 1.347,
+        "contraction_m": 4.088,
+        "initial_vx_m_s": 1.0,
+        "noise": "none",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 565000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.0,
+        "velocity_sigma_m_s": 0.0,
+        "noise_seed": 1465000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+        "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+        "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+      }
+    },
+    {
+      "scene_id": 23,
+      "replicate": 3,
+      "order": [
+        "risk_decoupled",
+        "speed_only",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 23,
+        "width_m": 1.347,
+        "contraction_m": 4.088,
+        "initial_vx_m_s": 1.0,
+        "noise": "none",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 565000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.0,
+        "velocity_sigma_m_s": 0.0,
+        "noise_seed": 1465000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+        "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+        "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+      }
+    },
+    {
+      "scene_id": 23,
+      "replicate": 4,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 23,
+        "width_m": 1.347,
+        "contraction_m": 4.088,
+        "initial_vx_m_s": 1.0,
+        "noise": "none",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 565000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.0,
+        "velocity_sigma_m_s": 0.0,
+        "noise_seed": 1465000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+        "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+        "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+      }
+    },
+    {
+      "scene_id": 23,
+      "replicate": 5,
+      "order": [
+        "fixed_ego_swarm",
+        "speed_only",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 23,
+        "width_m": 1.347,
+        "contraction_m": 4.088,
+        "initial_vx_m_s": 1.0,
+        "noise": "none",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 565000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.0,
+        "velocity_sigma_m_s": 0.0,
+        "noise_seed": 1465000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+        "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+        "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+      }
+    },
+    {
+      "scene_id": 31,
+      "replicate": 1,
+      "order": [
+        "speed_only",
+        "risk_decoupled",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 31,
+        "width_m": 1.183,
+        "contraction_m": 4.865,
+        "initial_vx_m_s": 1.0,
+        "noise": "medium",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 573000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1473000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+        "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+        "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+      }
+    },
+    {
+      "scene_id": 31,
+      "replicate": 2,
+      "order": [
+        "speed_only",
+        "fixed_ego_swarm",
+        "risk_decoupled"
+      ],
+      "config": {
+        "scene_id": 31,
+        "width_m": 1.183,
+        "contraction_m": 4.865,
+        "initial_vx_m_s": 1.0,
+        "noise": "medium",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 573000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1473000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+        "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+        "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+      }
+    },
+    {
+      "scene_id": 31,
+      "replicate": 3,
+      "order": [
+        "risk_decoupled",
+        "fixed_ego_swarm",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 31,
+        "width_m": 1.183,
+        "contraction_m": 4.865,
+        "initial_vx_m_s": 1.0,
+        "noise": "medium",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 573000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1473000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+        "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+        "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+      }
+    },
+    {
+      "scene_id": 31,
+      "replicate": 4,
+      "order": [
+        "fixed_ego_swarm",
+        "risk_decoupled",
+        "speed_only"
+      ],
+      "config": {
+        "scene_id": 31,
+        "width_m": 1.183,
+        "contraction_m": 4.865,
+        "initial_vx_m_s": 1.0,
+        "noise": "medium",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 573000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1473000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+        "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+        "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+      }
+    },
+    {
+      "scene_id": 31,
+      "replicate": 5,
+      "order": [
+        "risk_decoupled",
+        "speed_only",
+        "fixed_ego_swarm"
+      ],
+      "config": {
+        "scene_id": 31,
+        "width_m": 1.183,
+        "contraction_m": 4.865,
+        "initial_vx_m_s": 1.0,
+        "noise": "medium",
+        "order": [
+          "risk_decoupled",
+          "fixed_ego_swarm",
+          "speed_only"
+        ],
+        "forest_gap_m": 1.2,
+        "route_margin_m": 0.1,
+        "forest_density": 20,
+        "seed": 573000,
+        "rejected_map_seeds": {
+          "20": []
+        },
+        "start": [
+          -15.0,
+          0.0,
+          0.1
+        ],
+        "goal": [
+          15.0,
+          0.0,
+          1.0
+        ],
+        "position_sigma_m": 0.035,
+        "velocity_sigma_m_s": 0.06,
+        "noise_seed": 1473000,
+        "noise_dt_s": 0.01,
+        "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+        "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+        "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+      }
+    }
+  ]
+}

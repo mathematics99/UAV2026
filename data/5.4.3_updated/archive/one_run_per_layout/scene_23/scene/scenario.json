@@ -1,0 +1,36 @@
+{
+  "scene_id": 23,
+  "width_m": 1.347,
+  "contraction_m": 4.088,
+  "initial_vx_m_s": 1.0,
+  "noise": "none",
+  "order": [
+    "risk_decoupled",
+    "fixed_ego_swarm",
+    "speed_only"
+  ],
+  "forest_gap_m": 1.2,
+  "route_margin_m": 0.1,
+  "forest_density": 20,
+  "seed": 565000,
+  "rejected_map_seeds": {
+    "20": []
+  },
+  "start": [
+    -15.0,
+    0.0,
+    0.1
+  ],
+  "goal": [
+    15.0,
+    0.0,
+    1.0
+  ],
+  "position_sigma_m": 0.0,
+  "velocity_sigma_m_s": 0.0,
+  "noise_seed": 1465000,
+  "noise_dt_s": 0.01,
+  "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+  "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+  "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+}

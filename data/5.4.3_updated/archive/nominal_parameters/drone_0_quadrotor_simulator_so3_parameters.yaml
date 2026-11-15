@@ -1,0 +1,16 @@
+/drone_0_quadrotor_simulator_so3:
+  ros__parameters:
+    experiment/initial_vx: 0.0
+    experiment/noise_file: "/mnt/d/0A\u5927\u5B66\u8D44\u6599/\u5927\u4E09/\u65E0\u4EBA\
+      \u673A\u8BBA\u6587/ego-planner-swarm/experiments/section54_v2/formal/scene_13/scene/noise.txt"
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    quadrotor_name: quadrotor
+    rate/odom: 100.0
+    rate/simulation: 1000.0
+    simulator/init_state_x: -15.0
+    simulator/init_state_y: 0.0
+    simulator/init_state_z: 0.1
+    use_sim_time: false

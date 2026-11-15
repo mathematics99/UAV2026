@@ -1,0 +1,28 @@
+/drone_0_so3_control_component:
+  ros__parameters:
+    corrections/p: 0.0
+    corrections/r: 0.0
+    corrections/z: 0.0
+    gains/ang/x: 0.13
+    gains/ang/y: 0.13
+    gains/ang/z: 0.1
+    gains/kv/x: 3.4
+    gains/kv/y: 3.4
+    gains/kv/z: 4.0
+    gains/kx/x: 5.7
+    gains/kx/y: 5.7
+    gains/kx/z: 6.2
+    gains/rot/x: 1.5
+    gains/rot/y: 1.5
+    gains/rot/z: 1.0
+    mass: 0.98
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    quadrotor_name: quadrotor
+    so3_control/init_state_x: -15.0
+    so3_control/init_state_y: 0.0
+    so3_control/init_state_z: 0.1
+    use_external_yaw: false
+    use_sim_time: false

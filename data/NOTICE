@@ -1,0 +1,13 @@
+Risk-Adaptive EGO-Swarm
+
+This project is derived from EGO-Swarm:
+  https://github.com/ZJU-FAST-Lab/ego-planner-swarm
+  Copyright (C) 2019 Boyu Zhou, Aerial Robotics Group,
+  Hong Kong University of Science and Technology.
+
+Modifications and added packages:
+  sensor_adapter, risk_evaluator, adaptive_planner, data_logger
+  Copyright (C) 2026 mathematics99
+
+This combined work is distributed under the GNU General Public License
+version 3. See the LICENSE file for the full license text.

@@ -1,0 +1,27 @@
+/risk_evaluator:
+  ros__parameters:
+    braking/a_b: 2.0
+    braking/d0: 0.3
+    braking/epsilon: 0.1
+    braking/tau: 0.3
+    braking/use_d0: true
+    contraction/epsilon: 0.1
+    contraction/eta: 0.6
+    contraction/slices: 10
+    input_cloud_topic: /uav/pointcloud
+    input_odom_topic: /uav/odom
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    roi/x_max: 5.0
+    roi/x_min: 0.0
+    roi/y_half: 2.0
+    roi/z_half: 1.5
+    safe/max: 1.5
+    safe/min: 0.5
+    use_sim_time: false
+    voxel_size: 0.2
+    weight/braking: 0.55
+    weight/contraction: 0.25
+    weight/density: 0.2

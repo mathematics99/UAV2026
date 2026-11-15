@@ -1,0 +1,37 @@
+{
+  "order": 8,
+  "trial": 1,
+  "algorithm": "risk_decoupled",
+  "width_m": 1.0,
+  "seed": 1,
+  "start": [
+    -15.0,
+    0.0,
+    0.1
+  ],
+  "goal": [
+    15.0,
+    0.0,
+    1.0
+  ],
+  "map_size_m": [
+    50.0,
+    25.0,
+    2.0
+  ],
+  "max_velocity": 2.0,
+  "max_acceleration": 6.0,
+  "body_collision_radius_m": 0.322,
+  "goal_tolerance_m": 0.2,
+  "goal_speed_tolerance_m_s": 0.2,
+  "settle_s": 1.0,
+  "timeout_s": 80.0,
+  "domain_id": 176,
+  "braking_tau": 0.3,
+  "braking_a_b": 2.0,
+  "braking_d0_m": 0.3,
+  "braking_d0_enabled": false,
+  "planner_rng": "unchanged glibc default rand seed 1, fresh process; same deterministic map",
+  "repeat_scope": "conditional repeatability under OS/ROS scheduling; not independent maps",
+  "protocol": "original section53 first command to first goal entry; success additionally requires 1 s settling; no shared-preflight adapter"
+}

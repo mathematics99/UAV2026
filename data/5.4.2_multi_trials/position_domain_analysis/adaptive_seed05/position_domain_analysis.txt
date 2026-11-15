@@ -1,0 +1,52 @@
+POSITION-DOMAIN MECHANISM ANALYSIS
+============================================================================
+Rows: 1814, valid risk/adaptive rows: 1746
+Flight: x=-15.0000 -> 15.0092 m, T=36.3802 s
+
+KEY POSITIONS
+max Rc=0.2222 at x=13.6401 m (about -18.640 m before x=-5 boundary)
+max rc_bar=0.1719 at x=3.8055 m
+bottleneck min v_max=1.5064 m/s at x=0.1202 m
+bottleneck max Rb=0.7362 at x=-0.2497 m
+
+IMPLEMENTATION CONSISTENCY
+max |v_max - [2.0 - 1.2*r_bar]| = 1.000e-06
+max |gate - (1-rc_bar)| = 1.110e-16
+
+REGION SUMMARY
+ scene_region   n    x_min   x_max  mean_speed  max_speed  mean_vmax  min_vmax  max_vmax  mean_speed_limit_reduction  adaptive_active_ratio_0p95  mean_Rc  max_Rc  mean_Rb  p95_Rb  max_Rb  mean_Rg  p95_Rg  max_Rg  min_dmin  mean_gate  mean_dsafe
+forest_before 658 -15.0000 -5.0109      1.0727     1.8175     1.5304    1.3185    1.9400                      0.2348                      0.9514   0.0942  0.1927   0.6358  1.0000  1.0000   0.4011  0.6068  0.6137    0.2810     0.9043      0.6777
+  contraction 181  -4.9927 -1.0051      1.1522     1.2017     1.6832    1.5752    1.7439                      0.1584                      1.0000   0.1130  0.1597   0.4131  0.6169  0.6332   0.2909  0.3971  0.4016    0.8818     0.8759      0.6160
+       throat  96  -0.9834  0.9830      1.0930     1.1269     1.5341    1.5064    1.5752                      0.2329                      1.0000   0.0702  0.0851   0.6332  0.7308  0.7362   0.3908  0.4514  0.4518    0.7879     0.9230      0.6792
+    expansion 200   1.0042  4.9928      1.1877     1.3187     1.6274    1.5414    1.6770                      0.1863                      1.0000   0.1457  0.2196   0.4512  0.7348  0.8703   0.3138  0.4605  0.5412    0.7027     0.8632      0.6343
+ forest_after 611   5.0164 15.0092      0.8920     1.4126     1.5526    1.2977    1.8926                      0.2237                      1.0000   0.1143  0.2222   0.5538  1.0000  1.0000   0.3571  0.6208  0.6296    0.1838     0.8865      0.6674
+
+MEAN RAW-RISK CONTRIBUTION SHARES (%)
+               rho_contrib  Rb_contrib  Rc_contrib
+scene_region                                      
+forest_before          6.9        87.2         5.9
+contraction           12.2        78.1         9.7
+throat                 6.4        89.1         4.5
+expansion              9.3        79.1        11.6
+forest_after           6.7        85.3         8.0
+
+REPLAN SUMMARY
+               events  success_rate  mean_planning_ms  p95_planning_ms  max_planning_ms
+scene_region                                                                           
+forest_before      25        0.9600            0.4415           1.0624            1.816
+contraction         3        1.0000            0.1447           0.1493            0.150
+throat              5        1.0000            0.3038           0.4748            0.517
+expansion           3        1.0000            0.3913           0.6189            0.654
+forest_after       14        0.9286            0.3148           1.0512            1.137
+
+All planning events: n=50, mean=0.3714 ms, P95=1.0616 ms, max=1.8160 ms
+Failed events: 2
+First failure count=18, x≈-10.501 m; next planning event after 1.5 ms
+
+INTERPRETATION
+1) Rc is not dead: the global raw Rc maximum appears at x≈-5.30 m, before the contraction-analysis boundary x=-5 m.
+2) Rc is a forward contraction/change indicator, not an absolute narrowness indicator; therefore its value can fall inside the bottleneck.
+3) The bottleneck speed-limit reduction is real, but the first forest is also strongly constrained by braking risk. Therefore this run does NOT support the claim that the whole forest-before region is almost unrestricted.
+4) Rb dominates the raw combined-risk budget in every region; Rc contributes less, but can act earlier around the corridor entrance.
+5) Expansion/forest also produce Rc responses. In a cluttered environment, the present Rc has limited specificity because local forest-density changes can also alter forward openness.
+6) adaptive_active_ratio with v_max<0.95*v_high is nearly saturated. Use continuous speed-limit reduction A_v=1-v_max/v_high instead.

@@ -1,0 +1,1802 @@
+[
+  {
+    "scene_id": 1,
+    "width_m": 1.084,
+    "contraction_m": 4.215,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 543000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1443000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "785f280425b588e792623a5b00ec02b4fc74f0c427c90253d07adca3d154937a",
+    "noise_sha256": "a10e10ff7335eb690db6f856e52fd9d42d933f9af956daf2b4f2a341f17a7de3",
+    "geometry_sha256": "ab7c52e6eddb6efdd4daadaa4b9767bcc41db1cf56ee95a3857d8aff3738901c"
+  },
+  {
+    "scene_id": 2,
+    "width_m": 1.024,
+    "contraction_m": 6.134,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 544000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1444000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "dd85a29aea3edf1dab036ed3c5d8dd1647d684c50ea42d176829c1c1ded4b047",
+    "noise_sha256": "3955cd961fa8615709ae0a49459c4fb87c42f8c8f55fe26ebed291969db926fc",
+    "geometry_sha256": "fa44f1cbac579f8c1e58e3115028705979128f73f4e72ac765187a402ec90e4e"
+  },
+  {
+    "scene_id": 3,
+    "width_m": 1.31,
+    "contraction_m": 6.294,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 545000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1445000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "28fdefcdac5f47c6b61520730d96e2cc89be0fe7c62fd116b5a816179543d0d6",
+    "noise_sha256": "0f17511d5917b884cbeeb636ca62a1ce718b92807dd3be3bed2e9cb2c3b06cf6",
+    "geometry_sha256": "d3a54ab268d2d6d05162487dd56d44c11404d5d029e5284e7e458ca968636327"
+  },
+  {
+    "scene_id": 4,
+    "width_m": 1.561,
+    "contraction_m": 6.635,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 546000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1446000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "09097cc366f1251f2cf6cb9395a98070f9d2ca1de598e8f84518803d5a801a73",
+    "noise_sha256": "003728498f2fefe0fbac4efdb634e8c6b1057c012fa599538108cb9abaca1f48",
+    "geometry_sha256": "5f190d32c595ea58d5408a605b48dba2a7c9a56fab889cfb76dfa9900bc10feb"
+  },
+  {
+    "scene_id": 5,
+    "width_m": 1.235,
+    "contraction_m": 5.184,
+    "initial_vx_m_s": 0.5,
+    "noise": "none",
+    "order": [
+      "speed_only",
+      "risk_decoupled",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 547000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1447000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "0b4731c981b9638fadf5e236128b97496c16fcc786e66e31da023f2b6c7d4cf0",
+    "noise_sha256": "ec6cfa539bc2f64949a0ab82e9343319121ee4b718352858ac126bd26477dfa6",
+    "geometry_sha256": "a1cdfaf6330b1187aeebf08b5aa4da5039ffb77889b084c487c795edcd2cbe9f"
+  },
+  {
+    "scene_id": 6,
+    "width_m": 1.342,
+    "contraction_m": 4.34,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 548000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1448000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "1e818624541185012df2466c2ec3bb22c9bae9b6447a5fd65b29135a77ab06de",
+    "noise_sha256": "83dd91176bc21029b8d6a22e206325bf1d37e5ecf8808e197ba0864a2b5039d3",
+    "geometry_sha256": "d0e43929f4d8ed400af2812b85bab5dba597114326f2fb6422444de22ed97e44"
+  },
+  {
+    "scene_id": 7,
+    "width_m": 1.589,
+    "contraction_m": 6.457,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 549000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1449000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "c011137dd180967bd6bb3a9522e37eaafba3a85c10dd073067aea57c138546d4",
+    "noise_sha256": "a0457520c48825408be931bc185b2028a49cee3b747bb1a94f56f27be36723cd",
+    "geometry_sha256": "3e615a204cbdc0f061c5f049b2addab2c4da7c643e17c8def3c9085d59b56e7e"
+  },
+  {
+    "scene_id": 8,
+    "width_m": 1.171,
+    "contraction_m": 5.261,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "fixed_ego_swarm",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 550000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1450000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "d8bb85e7cb7ac6f94d4c4a2c777ef94b7b52397a685944f6c077891f67bcf796",
+    "noise_sha256": "c677715f3f8266b86563d7b954c63acfeee12647a0351a78ece09251c9d52581",
+    "geometry_sha256": "8f8bdbb3928f356b934813b1f3aa2a211a159f80666d0b0fce764a316dfc3efe"
+  },
+  {
+    "scene_id": 9,
+    "width_m": 1.127,
+    "contraction_m": 4.669,
+    "initial_vx_m_s": 0.5,
+    "noise": "none",
+    "order": [
+      "speed_only",
+      "fixed_ego_swarm",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 551000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1451000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "a72d7777f01b79cd3a4bfca8f586e17a73e242e3c84fe632d2f93a25bd52a4eb",
+    "noise_sha256": "c916a88f4cf4f16453b2b33902fe341640a58f342eaab6c52016d3098f131f8a",
+    "geometry_sha256": "a7181826d24610efe76f6bcec2b0b3ac163bc5543958681f155efe6db33fb820"
+  },
+  {
+    "scene_id": 10,
+    "width_m": 1.36,
+    "contraction_m": 4.876,
+    "initial_vx_m_s": 1.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 552000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1452000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "4b28ebc8b2bd3bcc32f69ef5ea5824106f2f874982547b0bdf8b16717374e157",
+    "noise_sha256": "33c0e63c254784ede2ff46b21451fd1ad493a3b79ebdea89774df6be1d9ddae2",
+    "geometry_sha256": "40e23c433063800dd3d02766e31cb644c7a155dabfbca147bc3c6e672b5291ff"
+  },
+  {
+    "scene_id": 11,
+    "width_m": 1.06,
+    "contraction_m": 6.001,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 553000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1453000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "1529fd66ba3b7ab9827dc4b7991dd0fa0e2929a64d4d46df28b5aa7c5de8410a",
+    "noise_sha256": "7fa9dd73ecec65945ceb679afe0a024ff48464c98440a16a2b64b209ddb59147",
+    "geometry_sha256": "b68d141d30df21ddaac5401887847b5730aac9ce7f138ac6b9641f7467230188"
+  },
+  {
+    "scene_id": 12,
+    "width_m": 1.467,
+    "contraction_m": 4.1,
+    "initial_vx_m_s": 1.0,
+    "noise": "medium",
+    "order": [
+      "speed_only",
+      "fixed_ego_swarm",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 554000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1454000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "6ecf698117e7b92e40e2709be96e8a578bedadaaa75bde31e02f82682b719b92",
+    "noise_sha256": "4512c5346184407be8139dd49cd2d58536c01d5c8a8c4dbffc4bd5bd35ea1196",
+    "geometry_sha256": "47405de3e464c597a80017e583f02ad586edaf1bf15c44b6d25c5200a1842630"
+  },
+  {
+    "scene_id": 13,
+    "width_m": 1.285,
+    "contraction_m": 5.579,
+    "initial_vx_m_s": 0.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 555000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1455000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "cee7804b12054ebf5bb7cb5f55fa8a4a9fb6afbaf50304ef04fa6679911e9b53",
+    "noise_sha256": "a1a3a4f40fb582c431edc3db41dc04b0feecb261663c9770efb3a0583e0903c2",
+    "geometry_sha256": "f9801582ddc8861ead25d4319e67b4ced97df0338a23d94b585fa330341ca18f"
+  },
+  {
+    "scene_id": 14,
+    "width_m": 1.402,
+    "contraction_m": 4.505,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 556000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1456000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "c3695a509cf0e199a00d03c8ab515d2393e6d4026c43215f2cecdbbe4be95663",
+    "noise_sha256": "f14ceb96cb1396839922eaff10df101cf502ba6d63bd54813ef00ad3b4cc06d0",
+    "geometry_sha256": "d6715119308eef839c075fdbceea594404f6d4b0ad40f1e7429c6a0236d95736"
+  },
+  {
+    "scene_id": 15,
+    "width_m": 1.497,
+    "contraction_m": 6.707,
+    "initial_vx_m_s": 0.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 557000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1457000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "90412ad0efa8731d1236bec3d0318defc88c31ede0cfcbca88efbeeffc2b9a54",
+    "noise_sha256": "bb9c778f7c41c3ff5c09331bcb6a8115b64bd6eca381f3b4ebc50e7113042cf2",
+    "geometry_sha256": "305061b28d240f2b7387f026d346b7a6e94594f1f804406669f3f21fc325d9c0"
+  },
+  {
+    "scene_id": 16,
+    "width_m": 1.091,
+    "contraction_m": 5.683,
+    "initial_vx_m_s": 1.0,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 558000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1458000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "a63687ebc0a1c6bd9bf3455b07b70e83e389abd419a8c092e42e6c81036e2c08",
+    "noise_sha256": "c6bee3913a36ebfac8c54d9886242d61b3dd57f3212a9789cd43fce2df9a18e2",
+    "geometry_sha256": "037ee45f0058700631d2c1cbf1ea708d8363289bc3d158ed9527ca11c8c3291f"
+  },
+  {
+    "scene_id": 17,
+    "width_m": 1.436,
+    "contraction_m": 4.938,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 559000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1459000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "c5baaecd2495d081895f93982aa685435c933cc222956bac2d7e796ec60f5414",
+    "noise_sha256": "0c8e2c803e9687aff128b58ab770734a1c57fbe49ede86da90178f89e690d2ea",
+    "geometry_sha256": "766d6b658dc78f29f59113b8d6d3ae77012d05a2a4895b3a80077755a9a1e198"
+  },
+  {
+    "scene_id": 18,
+    "width_m": 1.242,
+    "contraction_m": 5.888,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 560000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1460000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "97d712e5498503b49306153a107c062369d061f29efe547e36b4494771ad5d93",
+    "noise_sha256": "68e4a9b7fded020e6cf8e8d2958e16a392f60c5d74d3266eec092df129eb3a7f",
+    "geometry_sha256": "cf5ce7c417c52297ace01df552ae1525fa97db7a1905311447d502ed949e0163"
+  },
+  {
+    "scene_id": 19,
+    "width_m": 1.524,
+    "contraction_m": 6.866,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 561000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1461000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "dcdcae0d9de5f4abf104bb4a083f316808fafc10a934d1c392607405afe55a0a",
+    "noise_sha256": "ee27f2dbe9df6abe2d8c73ae1ae85627b755d2a106f27918b8e25b87c7b83051",
+    "geometry_sha256": "4dfe842f4bd245d7ed1a71c9336a9c231fc2e2163c241cea539184a03134f078"
+  },
+  {
+    "scene_id": 20,
+    "width_m": 1.191,
+    "contraction_m": 5.366,
+    "initial_vx_m_s": 1.0,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "risk_decoupled",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 562000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1462000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "9ab1e9468df607d4804227903a2b1ca13a45303cae450d229d24db2f63a6bc50",
+    "noise_sha256": "b93fa0722a5b49f891bc2c3e0b4a4061464dbf1bea6e2ffdc9b2576b4345c918",
+    "geometry_sha256": "438e3bfe4b8193c8c42eae21414d0ee6a40281e0e994c96c4813cd1b1dc6babf"
+  },
+  {
+    "scene_id": 21,
+    "width_m": 1.557,
+    "contraction_m": 4.916,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "risk_decoupled",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 563000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1463000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "036fce5b8aa7cfaa29d3eea9fae3cf4cb19ee1f7206b492d23470d1e02c56f16",
+    "noise_sha256": "ee0884353b15bd988565fb83695b5c94a85b05b38fe38bcf8c4df50d5449bf9a",
+    "geometry_sha256": "adeb2ec8c398bcd66fbe662d3bffe45d7487a2f14a9f26d36d28f4d6cb79bd07"
+  },
+  {
+    "scene_id": 22,
+    "width_m": 1.372,
+    "contraction_m": 4.285,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 564000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1464000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "82e10022580db1aaf5022218ca9f68517f00d60dd0f86284d059d9fc57b7f4c3",
+    "noise_sha256": "c5b30a96c1a3d5a542383eec1230f3ec46e73f5642a6e74f1f106117544fff7e",
+    "geometry_sha256": "28c01d23a7055bd2c7db0271439ce425fcc4f502b33391f1e16cf2cf0baa42d2"
+  },
+  {
+    "scene_id": 23,
+    "width_m": 1.347,
+    "contraction_m": 4.088,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 565000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1465000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "5b762cc59e89f63aeb74f822c2b971b3253bf841d32073b2de566cc10e8f524a",
+    "noise_sha256": "8308181bd3baae055b98226d15834aeceb4d0a742dcb9aab9555e035f008e07a",
+    "geometry_sha256": "1883d8f6b7110da5ed66920f6862c07543d134fdaa9e846f66de6e0a26176f65"
+  },
+  {
+    "scene_id": 24,
+    "width_m": 1.023,
+    "contraction_m": 4.344,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 566000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1466000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "19b3f479076aedcad79d0dacd4b6892ff8fd4f3dcd7750ae994f9a2161fddcb7",
+    "noise_sha256": "e0a028be43d1179301d0af173b70dc093ea3c35e5f363d609d0dfafdb85c615e",
+    "geometry_sha256": "6473598c8c001199ea7b3d3d1fcea00c152de110aa6926b7838e25a8c3032414"
+  },
+  {
+    "scene_id": 25,
+    "width_m": 1.166,
+    "contraction_m": 4.115,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 567000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1467000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "399271425420bf611074bd2f4bb27ecd6aa403da95252a982ab13b17f0c623a6",
+    "noise_sha256": "11115725b257960808823d3307e842d72685676163366c6f433934ee7a9568fa",
+    "geometry_sha256": "47d17e07849cef5ced9374b5b6fc889f040d2bba738b3910334deb9295aaebe1"
+  },
+  {
+    "scene_id": 26,
+    "width_m": 1.29,
+    "contraction_m": 6.283,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 568000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1468000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "15b1691a6fb3f2759dd76d500e0b3ccda566561ccb440433ad9e25f524d36833",
+    "noise_sha256": "ee7f8b1c80e88deeb5ed9baeb04aa0303a56760d466f3dc142d24f8bf7f02d6a",
+    "geometry_sha256": "d01e8a6dd0471f9323ac0628d9b7d6d7e201c3a94dd274209c27a2335b11163a"
+  },
+  {
+    "scene_id": 27,
+    "width_m": 1.018,
+    "contraction_m": 6.915,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 569000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1469000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "8e4d1273efd91f4cfa500987f71a2e3658a1b84b0d434463d393db7b6651c6a8",
+    "noise_sha256": "2ecec9f34a2e4a12e06a040c2a4e7f363ece717685522b54ce26a1eea801f114",
+    "geometry_sha256": "6d52e4dd64de648dc3cdda2daac57e9548fd4e98fa2cee8e7b0bda765dbbcd93"
+  },
+  {
+    "scene_id": 28,
+    "width_m": 1.06,
+    "contraction_m": 6.076,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 570000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1470000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "9a5d3210c52f4eebf0894658e6d6c85cddb413e165cdf2048614aaced3a2df19",
+    "noise_sha256": "8fe2ddba905b4719f2a9af7ce8b48a3cc642b3f572f7cc772a9767b381fdc7eb",
+    "geometry_sha256": "6aa40b22775afd2c9271c108fad32cc639ee88ff33ffda6ee0c745a82565f37c"
+  },
+  {
+    "scene_id": 29,
+    "width_m": 1.122,
+    "contraction_m": 5.099,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 571000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1471000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "8a7c851b4d16d33d12e5db4e51b9a5ed7e69b8a29309e3d1c86ed4d634480fdd",
+    "noise_sha256": "cc52a59a964835f99d44d29e27f5d828f4e04fd8f7cc741bf43ee382714434ce",
+    "geometry_sha256": "9a8cb44f25ec68f449442c1a714d34bc71b661ddd5b592fd78bf536832441887"
+  },
+  {
+    "scene_id": 30,
+    "width_m": 1.248,
+    "contraction_m": 5.875,
+    "initial_vx_m_s": 0.5,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 572000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1472000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "570de01f1617c9b18a9d0c1acc1f7a0a1b5df7c553b25b19445ac99a17f8e5b8",
+    "noise_sha256": "5d9f4781288b6dfdbf110b5b7c1c77ba191cd9c587239d2ddb3cc3e2bbe87962",
+    "geometry_sha256": "c1dd93788a4bcff338bfc8ec49daceb8d372869f4433329ed3c415f6b496d4f3"
+  },
+  {
+    "scene_id": 31,
+    "width_m": 1.183,
+    "contraction_m": 4.865,
+    "initial_vx_m_s": 1.0,
+    "noise": "medium",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 573000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1473000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "40a97dfab3cbedd199e44ebd5055e2a6de35e8dc7f87d91ba1cbf4698a628464",
+    "noise_sha256": "e87fee1a39a3bde52b30475ed3685b97e90d8f26d1d3f1177666802bf0f5ed67",
+    "geometry_sha256": "a4efbb9085bb7c97882d55a4778368d97840eb79f69feb5a2ea48fbb85ae85bd"
+  },
+  {
+    "scene_id": 32,
+    "width_m": 1.518,
+    "contraction_m": 4.599,
+    "initial_vx_m_s": 0.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 574000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1474000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "6b8ec0deae523e8f9698992318b1f19833a2dd9b4e3dbc1d6f688ab0f64d0bf4",
+    "noise_sha256": "73cea170bb6546a04abfafe01dd5f97b66057c9fece0ed0874119ac8de04ea7a",
+    "geometry_sha256": "112cc4cdf9ef9f7b789c487956c1bd22dd828e330f31b0ae97793f75f70f8fc4"
+  },
+  {
+    "scene_id": 33,
+    "width_m": 1.523,
+    "contraction_m": 4.767,
+    "initial_vx_m_s": 0.5,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 575000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1475000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "ab5221e4c56916a29a5384f72eef7a98c150bd17c243f902926836a72e30837f",
+    "noise_sha256": "6e5d49b30717efda59fe9a60a0441c17a521e1b9cfc580ac762ef278ae8a41b0",
+    "geometry_sha256": "a33f1cc5cda16c2cf55239ae3c4c0c2d87c986d9eaef4c7a88c7bbc1b28328d1"
+  },
+  {
+    "scene_id": 34,
+    "width_m": 1.393,
+    "contraction_m": 5.121,
+    "initial_vx_m_s": 0.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 576000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1476000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "e09adfa5b25b951652a24770d66a3e1cec2efee6cfb1ddcb4c0ae78c542fe43a",
+    "noise_sha256": "1b57b9c307e0646b8a54d11bc10e534af1cc1ebd00cccedc3445af79719e7ac6",
+    "geometry_sha256": "0a3c076e4cf6620f66f29b01b5c0c4ce293f79d216404a0fd2c3bc0002920d3a"
+  },
+  {
+    "scene_id": 35,
+    "width_m": 1.262,
+    "contraction_m": 5.221,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 577000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1477000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "9414c4a1e58e4930a5a53fdb40d7b3a03fe7be7f9e4f58b50de0d107a2625a8d",
+    "noise_sha256": "1c3ffea0171fa88f2b32d9f2e6150ecbb85e68f2678d73f6f348a2f20b36a772",
+    "geometry_sha256": "89bbb1b42cdb98fac8da0a009c2b8a77db51b8e6b51ab5fd9f0237eb7a9e755e"
+  },
+  {
+    "scene_id": 36,
+    "width_m": 1.304,
+    "contraction_m": 5.373,
+    "initial_vx_m_s": 1.0,
+    "noise": "none",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 578000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1478000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "61350311b36675f33d1e76e0e18865133b6d5737633a816a0e094941acd1789a",
+    "noise_sha256": "dcb25ddc5ac8f7a395790f2dd0c559240a2130bc14cce3b04ed2b97eebfd49b3",
+    "geometry_sha256": "1d2ff12fc30169cdc84f554a05404909c1c7d29f009230994eb8df932af09cd8"
+  },
+  {
+    "scene_id": 37,
+    "width_m": 1.487,
+    "contraction_m": 6.862,
+    "initial_vx_m_s": 0.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 579000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1479000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "808e2efb75da1894eb7c41cd63b6bb1890631259d61537f76ac77e8c5b83b86d",
+    "noise_sha256": "a4c839386950a556598d44cb86a2d2bc0909dfe3a56d902e98dd2b2d0c980156",
+    "geometry_sha256": "042ef6e0bdbd6ca0d51147f918a78358c5b6f8bddce76a96093cfb526dec3507"
+  },
+  {
+    "scene_id": 38,
+    "width_m": 1.23,
+    "contraction_m": 6.648,
+    "initial_vx_m_s": 1.0,
+    "noise": "low",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 580000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1480000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "e5391aa8a3c84668afee30d62070e111a7d05d00631c392365134fc0b055417b",
+    "noise_sha256": "1b1aa2035f02be629b7ef005711d38fa299352720a74aeda6f048f8e6b5d9b16",
+    "geometry_sha256": "5e51738d352bc18931c86668e19d5e4693d3c48f3998777b3dfa91e30ef7a19d"
+  },
+  {
+    "scene_id": 39,
+    "width_m": 1.412,
+    "contraction_m": 4.455,
+    "initial_vx_m_s": 0.0,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "risk_decoupled",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 581000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1481000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "461e2ef8b4340b9b0728e288b59cbdbef3e47867a11e74a748f11c26eaab3de5",
+    "noise_sha256": "a63a74ba71042d45715b52c3df7fa66fd5f020e2df2f05e713fe5d41ba3a3607",
+    "geometry_sha256": "36b2fad0cde88729cafc9b73c32214daac52e378aca8fe28040ce59c8fc83205"
+  },
+  {
+    "scene_id": 40,
+    "width_m": 1.158,
+    "contraction_m": 5.579,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "speed_only",
+      "fixed_ego_swarm",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 582000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1482000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "0d4e4574cebe7c0abbdb90de82eb0ed975727177f5662f672e40db38c36521f9",
+    "noise_sha256": "0a9b03beaa4ecf40b6de76cb2a349c261708ffa3880113ba0114809f10ccac19",
+    "geometry_sha256": "c96a32ccd45202e218f6990e9f73a20f4f46c5477e20691e14f372184c1cc3ab"
+  },
+  {
+    "scene_id": 41,
+    "width_m": 1.447,
+    "contraction_m": 6.42,
+    "initial_vx_m_s": 1.0,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "risk_decoupled",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 583000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1483000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "e04e0b4b0e8baacfe4cae6d781e17acb8566a82b1164f8e203634b18da7f13b6",
+    "noise_sha256": "6cea00d079a51b94d555efef73f697a74be18f5c38aa37524007121b863a64c8",
+    "geometry_sha256": "d9f62e25d4dd4cd0a1873595492713ebafe5196b916b778ad8f996e7f9737de1"
+  },
+  {
+    "scene_id": 42,
+    "width_m": 1.066,
+    "contraction_m": 5.985,
+    "initial_vx_m_s": 1.0,
+    "noise": "medium",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 584000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1484000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "b7cbd17a3a78c2c6f4314bee7deb51c50c0ae7c6d0fcd088e282eae0d6118c96",
+    "noise_sha256": "8148ace1be2822a94620d6b2859c5e3bb51bfdadad73e0e9e9c34a98e1aa6697",
+    "geometry_sha256": "02476869de5af417536ea47de09cb9451e78580d42a0a55eb953263f65ad5713"
+  },
+  {
+    "scene_id": 43,
+    "width_m": 1.586,
+    "contraction_m": 5.721,
+    "initial_vx_m_s": 0.5,
+    "noise": "none",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 585000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.0,
+    "velocity_sigma_m_s": 0.0,
+    "noise_seed": 1485000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "72400e7e36fcbba0b95fcc7013008940f42e7233ab808196a345c4e6babdefcc",
+    "noise_sha256": "fb770557cfc0065973e0c3a7d589e95dbd5323bc294ba60273bc6bc932c8c83a",
+    "geometry_sha256": "e7c95bdb295f3be5fb2a610c7e6befdd414253f000d15baa7803634ee1bd8ced"
+  },
+  {
+    "scene_id": 44,
+    "width_m": 1.469,
+    "contraction_m": 6.338,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 586000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1486000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "d9a36f6084314240ab9e36bf8323d5a8f0afb6a5716787515c391a8787ecd4b5",
+    "noise_sha256": "7fc25511e29df94b07f464565ff30d5cde258cb88d2092d15917b25de062e033",
+    "geometry_sha256": "c5637d31782e4100543c6134f3f7398a2d48a6eac5a5298d10f22c2f0c36a9d1"
+  },
+  {
+    "scene_id": 45,
+    "width_m": 1.214,
+    "contraction_m": 5.61,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "fixed_ego_swarm",
+      "speed_only",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 587000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1487000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "2cf23dfb49429442110c8164274a0913f40b410f2bca9632d87746b057ed60c6",
+    "noise_sha256": "9bb22f297bef400b8372630f3e5fba608e5feec825caa0ec95bbd1c0df7db946",
+    "geometry_sha256": "1676639c4c7a61ca9061130b57ef8d93c809b94efa1290321d1d486e442aec58"
+  },
+  {
+    "scene_id": 46,
+    "width_m": 1.329,
+    "contraction_m": 6.724,
+    "initial_vx_m_s": 1.0,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "risk_decoupled",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 588000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1488000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "db7e398412e346d92edb617007a597cce4878c7940d3ec15b81ff44ac299eb90",
+    "noise_sha256": "5915e2c50180a3bf948bc91c956d534e53cb984a31224a8feccbb3c1a00d9aa9",
+    "geometry_sha256": "0301a0a8722d5d8c4af5a578387ca85f0fbd1064a8b3abd526557d240c3ac56f"
+  },
+  {
+    "scene_id": 47,
+    "width_m": 1.426,
+    "contraction_m": 4.66,
+    "initial_vx_m_s": 0.0,
+    "noise": "medium",
+    "order": [
+      "risk_decoupled",
+      "fixed_ego_swarm",
+      "speed_only"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 589000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1489000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "09fb8fcbc81931b5feaf8fc057fd3577bf6175bd3cbe6150a5b6b36fdf9527e8",
+    "noise_sha256": "12bf2c58214d9fa96443da1825fa3a92d3d78e02527dcb3fbfe84fd85c512b0d",
+    "geometry_sha256": "4f1620105a21165a33f8748978dd6ef32e94b9249ffcbfc33095a210eed6ff2c"
+  },
+  {
+    "scene_id": 48,
+    "width_m": 1.105,
+    "contraction_m": 6.197,
+    "initial_vx_m_s": 0.5,
+    "noise": "low",
+    "order": [
+      "speed_only",
+      "fixed_ego_swarm",
+      "risk_decoupled"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 590000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1490000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "7f746a2dd66aaa05bcf6f2ac08fc4d821e401d8404a3b886645b43af38bb7cc6",
+    "noise_sha256": "5a71a1706afddee78f54a42c2eeec8ae65b3a5f82a6d2bd4d54ca54610296a6a",
+    "geometry_sha256": "0edeecd9cbe30db691d1f303ccb52eb6f67f8d423015882a672a899d95815c5b"
+  },
+  {
+    "scene_id": 49,
+    "width_m": 1.571,
+    "contraction_m": 5.435,
+    "initial_vx_m_s": 0.5,
+    "noise": "medium",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 591000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.035,
+    "velocity_sigma_m_s": 0.06,
+    "noise_seed": 1491000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "36c8901610e48acfb0e67d9c4a91d883f6cb0c10f43e47b634788945b1f62857",
+    "noise_sha256": "98a64fb5e3cb6998d3014a4ddcb1477d181e8181fc1d4663aa8a9526924d873f",
+    "geometry_sha256": "e3d4c3bdc93b0316d2d3c3c774f4301d94c20bbd22b2ec1fd80288fb451bf9be"
+  },
+  {
+    "scene_id": 50,
+    "width_m": 1.086,
+    "contraction_m": 6.558,
+    "initial_vx_m_s": 1.0,
+    "noise": "low",
+    "order": [
+      "risk_decoupled",
+      "speed_only",
+      "fixed_ego_swarm"
+    ],
+    "forest_gap_m": 1.2,
+    "route_margin_m": 0.1,
+    "forest_density": 20,
+    "seed": 592000,
+    "rejected_map_seeds": {
+      "20": []
+    },
+    "start": [
+      -15.0,
+      0.0,
+      0.1
+    ],
+    "goal": [
+      15.0,
+      0.0,
+      1.0
+    ],
+    "position_sigma_m": 0.015,
+    "velocity_sigma_m_s": 0.025,
+    "noise_seed": 1492000,
+    "noise_dt_s": 0.01,
+    "map_sha256": "941417f9c0e424cf03bd7d5d9721dd1c32818830a8e02fb82387916f62d3545a",
+    "noise_sha256": "2a69283c19faca3480e578449b518439f63c6af50cf73360e6e2d347cdb4a2c6",
+    "geometry_sha256": "1fb9eddb27e881eac40a060786a7ebeca4ec4b8efc5eac05605cadc6d3c48a5f"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "entrance_width_m": 3.0,
+  "throat_width_m": 1.0,
+  "half_length_m": 3.0,
+  "wall_outer_y_m": 12.0,
+  "wall_z_min_m": 0.0,
+  "wall_z_max_m": 2.5,
+  "resolution_m": 0.1,
+  "map_size_m": [
+    50.0,
+    25.0,
+    2.0
+  ],
+  "profile": "w(x)=gap/2+(1.5-gap/2)*abs(x)/3, -3<=x<=3",
+  "extra_obstacles": 0,
+  "seed": 1,
+  "note": "Single linear contraction to x=0, followed by its linear exit; historical funnel geometry. Symmetric inward wall faces."
+}

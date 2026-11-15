@@ -1,0 +1,13 @@
+/drone_0_quadrotor_simulator_so3:
+  ros__parameters:
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    quadrotor_name: quadrotor
+    rate/odom: 100.0
+    rate/simulation: 1000.0
+    simulator/init_state_x: -15.0
+    simulator/init_state_y: 0.0
+    simulator/init_state_z: 0.1
+    use_sim_time: false

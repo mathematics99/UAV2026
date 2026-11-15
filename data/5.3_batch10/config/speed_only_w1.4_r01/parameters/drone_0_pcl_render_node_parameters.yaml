@@ -1,0 +1,13 @@
+/drone_0_pcl_render_node:
+  ros__parameters:
+    estimation_rate: 30.0
+    map/x_size: 50.0
+    map/y_size: 25.0
+    map/z_size: 2.0
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    sensing_horizon: 5.0
+    sensing_rate: 30.0
+    use_sim_time: false

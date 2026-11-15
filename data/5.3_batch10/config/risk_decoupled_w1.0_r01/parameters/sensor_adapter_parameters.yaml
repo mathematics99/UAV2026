@@ -1,0 +1,11 @@
+/sensor_adapter:
+  ros__parameters:
+    input_cloud_topic: /drone_0_pcl_render_node/cloud
+    input_odom_topic: /drone_0_visual_slam/odom
+    output_cloud_topic: /uav/pointcloud
+    output_odom_topic: /uav/odom
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    use_sim_time: false

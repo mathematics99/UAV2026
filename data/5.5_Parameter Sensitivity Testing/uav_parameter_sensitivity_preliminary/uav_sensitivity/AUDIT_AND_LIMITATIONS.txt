@@ -1,0 +1,20 @@
+SENSITIVITY AUDIT — fixed-trajectory replay (NOT closed-loop flight)
+Input: risk_run_20260904_212411_timeseries.csv
+Usable samples: 1775; inferred risk-update events: 430
+Median inferred event interval: 0.0800 s
+Baseline reconstruction MAE: raw Rg=0.00000028; filtered Rbar=0.00076072; speed cap=0.00091282 m/s
+
+Weight scan: w_rho=0.20, w_b in [0.4, 0.475, 0.55, 0.625, 0.7], w_c=0.80-w_b; lambda=0.90.
+EMA scan: lambda in [0.7, 0.8, 0.9, 0.95], (w_rho,w_b,w_c)=(0.20,0.55,0.25).
+
+The 95th percentile of |delta Rbar| is measured at inferred risk-update events.
+Step response is a closed-form approximation for the EMA without slew limit,
+using the median inferred update interval; it is not measured flight latency.
+
+All risk signals, geometry, states and actual trajectories are held fixed. The
+speed limit is recalculated, but the UAV is NOT simulated again. No collision,
+flight duration, success rate, or safety improvement can be inferred.
+
+Nominal values are supported as an interpretable design compromise, NOT
+verified as mathematically optimal. Varying weights changes the risk score's
+meaning, so lower mean Rg cannot be interpreted as safer flight.

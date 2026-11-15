@@ -1,0 +1,8 @@
+/drone_0_traj_server:
+  ros__parameters:
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    traj_server/time_forward: 1.0
+    use_sim_time: false

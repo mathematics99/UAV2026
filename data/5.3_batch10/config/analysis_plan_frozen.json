@@ -1,0 +1,15 @@
+{
+  "freeze_stage": "before new batch; prior single-run pilot inspected",
+  "design": "five methods x two widths x ten repeats = 100 fresh flights; seed=1; independent processes; random order within ten blocks",
+  "scope": "repeatability conditional on deterministic map and initial state; no map/population generalization",
+  "primary_time": "source timestamp wall time: first command to first entry in 0.2m goal sphere; success also requires speed<0.2m/s and 1s settling",
+  "safety": "continuous wall prisms; conservative spherical body radius r=0.322m; swept segment audit",
+  "braking_demand": "b(v)=0.3v+v^2/4; all methods evaluated without legacy static term",
+  "margins": "m_c=d_center-b(v); m_b=d_center-r-b(v); negative isotropic clearance-demand diagnostic is NOT a collision prediction or directional braking guarantee",
+  "tracking": "J_track=integral(e^2 dt)=T*RMSE_timeweighted^2; units m^2 s; only valid reference coverage",
+  "exploratory_tradeoff": "J_SE=T/T0+integral(max(-m_b,0)dt)/(r*T0); T0=30m/(2m/s)=15s, r=0.322m; equal dimensionless coefficients, no tuning on new outcomes; successful flights only",
+  "reporting": "raw components retained, no sole winner based on composite; failed flights not assigned attractive finite score; score physical modeling heuristic, not safety guarantee",
+  "statistics": "mean and sample SD across flights; successful-flight denominators; median/IQR; exact binomial CI for success; paired block bootstrap mean differences (10000 draws, seed 1); Wilcoxon plus Holm across 16 comparisons for RMSE and center-negative fraction, four baselines x two widths x two outcomes; exploratory under fixed-map repeats",
+  "planning_time": "per-flight local rebound events; per-flight mean/p95 then aggregate across ten flights; pooled ECDF for description only, events not independent flight replicates",
+  "integrity": "no planner or risk code changes; original initialization protocol; no external/adapted algorithms mixed in; original sources/binaries hashed"
+}

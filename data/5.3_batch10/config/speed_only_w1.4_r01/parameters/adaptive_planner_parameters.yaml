@@ -1,0 +1,18 @@
+/adaptive_planner:
+  ros__parameters:
+    gate/enabled: true
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: reliable
+    safe/d_base: 0.5
+    safe/d_max: 0.5
+    smoothing/lambda: 0.9
+    smoothing/max_delta: 0.05
+    speed/v_high: 2.0
+    speed/v_low: 0.8
+    use_sim_time: false
+    weight/contraction_gain: 0.5
+    weight/gamma: 2.0
+    weight/lambda_max: 0.5
+    weight/lambda_min: 0.5

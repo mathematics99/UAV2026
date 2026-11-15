@@ -1,0 +1,6 @@
+﻿scene_region,events,success_rate,mean_planning_ms,p95_planning_ms,max_planning_ms
+forest_before,25,0.96,0.44152,1.0624,1.816
+contraction,3,1.0,0.14466666666666664,0.1493,0.15
+throat,5,1.0,0.30379999999999996,0.4748,0.517
+expansion,3,1.0,0.3913333333333333,0.6189,0.654
+forest_after,14,0.9285714285714286,0.3147857142857143,1.0512,1.137
